@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="billete-50-reverso1" size="0.155000 0.066237" />
+    <ImageTarget name="billete-100-reverso" size="0.155000 0.065825" />
+    <ImageTarget name="billete-500-reverso-1" size="0.155000 0.066069" />
+    <ImageTarget name="billete-50-reverso" size="0.155000 0.064747" />
+    <ImageTarget name="billete-50-anverso" size="0.155000 0.066149" />
+    <ImageTarget name="billete-200-reverso" size="0.155000 0.064583" />
+    <ImageTarget name="billete-200-anverso" size="0.155000 0.066238" />
+    <ImageTarget name="billete-500-anverso" size="0.155000 0.072549" />
+    <ImageTarget name="billete-100-anverso" size="0.155000 0.065754" />
+  </Tracking>
+</QCARConfig>
