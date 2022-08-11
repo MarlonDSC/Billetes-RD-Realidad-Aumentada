@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 480, y: -126.645}
-  m_SizeDelta: {x: 960, y: 794.351}
+  m_AnchoredPosition: {x: 480, y: -128.38}
+  m_SizeDelta: {x: 960, y: 823.249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36373164
 MonoBehaviour:
@@ -230,12 +230,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Elementos de seguridad
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -2964
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: 279
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: Marcas de seguridad notables a simple presentes en todos los billetes.
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -872,12 +880,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Siglas
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -2066
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -529.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Las siglas que abrevian el nombre del Banco Central de la Rep\xFAblica
+        Dominicana."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -1377,12 +1394,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Monumento a las Hermanas Mirabal
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -164
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -140
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Lugar de residencia de las hermanas Mirabal en sus \xFAltimos 10 meses
+        de vida. Ubicada en la provincia Salcedo, en un gigantesco jard\xEDn, guarda
+        una historia y un legado de estas mujeres."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto

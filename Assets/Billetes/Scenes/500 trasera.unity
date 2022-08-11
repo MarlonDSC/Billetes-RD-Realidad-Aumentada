@@ -131,12 +131,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Siglas
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -2245
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -600
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Las siglas que abrevian el nombre del Banco Central de la Rep\xFAblica
+        Dominicana."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -815,12 +824,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Banco Central
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -204
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -149
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
+        que se constituye como una entidad descentralizada y aut\xF3noma, y act\xFAa
+        como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -1119,175 +1138,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195504477}
   m_CullTransparentMesh: 1
---- !u!1001 &1311457974
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1389052143}
-    m_Modifications:
-    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: position.x
-      value: -731
-      objectReference: {fileID: 0}
-    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: position.y
-      value: 54.055
-      objectReference: {fileID: 0}
-    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: cuadroDeTexto
-      value: 
-      objectReference: {fileID: 1612186289}
-    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: width_height.x
-      value: 2727.38
-      objectReference: {fileID: 0}
-    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: width_height.y
-      value: 1155.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 2857670109883530907, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_TargetGraphic
-      value: 
-      objectReference: {fileID: 1311457976}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 36.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 12.89
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 130.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -103.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[0].x
-      value: -18.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[0].y
-      value: -6.445
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[1].x
-      value: 18.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[1].y
-      value: -6.445
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[2].x
-      value: 18.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[2].y
-      value: 6.445
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[3].x
-      value: -18.24
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719241, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Positions.Array.data[3].y
-      value: 6.445
-      objectReference: {fileID: 0}
-    - target: {fileID: 4592574661020719243, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-      propertyPath: m_Name
-      value: Auditorio
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
---- !u!224 &1311457975 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-  m_PrefabInstance: {fileID: 1311457974}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1311457976 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1977826363430483642, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
-  m_PrefabInstance: {fileID: 1311457974}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1370836978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1274,6 @@ RectTransform:
   m_Children:
   - {fileID: 75836299}
   - {fileID: 1016695750}
-  - {fileID: 1311457975}
   - {fileID: 1746621377}
   m_Father: {fileID: 1839483693}
   m_RootOrder: 1
@@ -1581,8 +1430,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 480, y: -126.64}
-  m_SizeDelta: {x: 960, y: 794.351}
+  m_AnchoredPosition: {x: 480, y: -128.38}
+  m_SizeDelta: {x: 960, y: 823.249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1621066139
 GameObject:
@@ -1727,12 +1576,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Elementos de seguridad
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -926
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -354
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: Marcas de seguridad notables a simple presentes en todos los billetes.
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto

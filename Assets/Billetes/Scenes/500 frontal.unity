@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 480, y: -126.645}
-  m_SizeDelta: {x: 960, y: 794.351}
+  m_AnchoredPosition: {x: 480, y: -128.38}
+  m_SizeDelta: {x: 960, y: 823.249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36373164
 MonoBehaviour:
@@ -231,7 +231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Escudo
+      value: Escudo Nacional
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
@@ -243,7 +243,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: informacion
-      value: "No s\xE9 que poner XD"
+      value: "El Escudo de Armas de la Rep\xFAblica Dominicana es uno de los s\xEDmbolos
+        patrios m\xE1s significativos para el pa\xEDs, ya que representa el Estado
+        Libre, Independiente y Soberano."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: volverButton
@@ -430,7 +432,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Forma para ciegos
+      value: "S\xEDmbolo para no videntes"
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
@@ -442,8 +444,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: informacion
-      value: Esta figura sirve para que las personas ciegas puedan identificar el
-        valor de cada billete, siendo una parte que puedes notar al tacto.
+      value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
+        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
+        no videntes."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: volverButton
@@ -633,7 +636,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Hola
+      value: Franjas Irisdescentes
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
@@ -645,7 +648,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: informacion
-      value: 123
+      value: Franja impresas en el billete con material irisdecente, que funcionan
+        como un elemento de seguridad.
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -814,12 +818,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Numeraci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -1831
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -224
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
+        horizontal en el lado izquierdo superior, al lado de la marca para no videntes,
+        y en vertical en el extremo derecho del billete."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -991,12 +1005,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Pedro Her\xEDquez Ure\xF1a"
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -1097
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -320
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Fue un gran estudioso de la literatura de nuestra lengua. Considerado
+        como una figura clave en el reconocimiento y asentamiento del campo de la
+        cr\xEDtica literaria latinoamericana."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -1148,7 +1172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719243, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_Name
-      value: Salome Urena
+      value: Pedro
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -2025,12 +2049,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Flor Nacional
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: 201
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: 214
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
+        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -2436,12 +2470,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "L\xE1mina Frontal del BC"
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -1810
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -543
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: Silueta de la parte delantera del Banco Central, impresa con tinta irisdescente,
+        prenseta en la sexta famila de billetes.
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -2615,12 +2658,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Firmas
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: 770.82
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: 412
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Firmas de seguridad presentes en cada billete, que corresponden al
+        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
+        de emisi\xF3n de dicho billete."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -2789,12 +2842,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 1389052143}
     m_Modifications:
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Salom\xE9 Ure\xF1a"
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.x
       value: -613.79
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: position.y
       value: -76
+      objectReference: {fileID: 0}
+    - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: informacion
+      value: "Escritora, edcadora y poetisa dominicana que logr\xF3 llamar la atenci\xF3n
+        de gran parte de Latinoam\xE9tica con sus obra; tambi\xE9n fue una innovadora
+        en la educaci\xF3n para las mujeres en su pa\xEDs."
       objectReference: {fileID: 0}
     - target: {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: cuadroDeTexto
@@ -2938,7 +3001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719243, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_Name
-      value: Chica
+      value: Salome
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
