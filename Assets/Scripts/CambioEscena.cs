@@ -43,7 +43,7 @@ public class CambioEscena : MonoBehaviour
 	}
 	void carga_billete500()
 	{
-		SceneManager.LoadScene("Billete_300");
+		SceneManager.LoadScene("Billete_500");
 	}
 	
 }
