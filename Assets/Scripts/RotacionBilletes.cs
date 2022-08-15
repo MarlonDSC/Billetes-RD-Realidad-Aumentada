@@ -1,85 +1,63 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class RotacionBilletes : MonoBehaviour
 {
-	[Header ("Caras de los billetes")]
 	public GameObject CaraFrontal;
 	public GameObject CaraTrasera;
-	
-	[Header ("Variables para animacion de giro")]
-	public bool  activarRotacion; //Sirve para conocer en cual dirrecion girar
-	public int	velocidadRotacion = 3;
-	
-	[Header ("Boton de Giro")]
-	public Button boton_reverse;
+	bool activarRotacion = false;
+	public regresarBillete btnVolver;
 	// Start is called before the first frame update
-	void Start()
-	{
-		
-		CaraTrasera.SetActive(false);
-		boton_reverse.onClick.AddListener(Activargiro);
-
+	void Start(){
+		btnVolver.billete = CaraFrontal.GetComponent<RectTransform>();
+		GetComponent<Button>().onClick.AddListener(() => StartCoroutine(rotador()));
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-		//Variables para capturar los ejes de los objetos(Billetes)
-		int	anguloFrontal = (int)CaraFrontal.transform.rotation.eulerAngles.y;
-		int	anguloTrasero = (int)CaraTrasera.transform.rotation.eulerAngles.y;
-		Debug.Log(anguloTrasero);
-		
-		//Giro Frontal
-		if (activarRotacion == true && anguloFrontal < 180)
-		{
-			CaraFrontal.transform.Rotate(0, velocidadRotacion,0);		
-		}
-		else if (activarRotacion == false && anguloFrontal > 0)
-		{
-			CaraFrontal.transform.Rotate(0, -velocidadRotacion,0);				
-		}
-		
-		//Giro de la cara Trasera
-		if (activarRotacion == true && anguloTrasero < 357)
-		{
-	
-			CaraTrasera.transform.Rotate(0, velocidadRotacion,0);		
-		}
-		else if (activarRotacion == false && anguloTrasero > 180)
-		{
-			CaraTrasera.transform.Rotate(0, -velocidadRotacion,0);				
-		}
-		
-		
-		if (anguloFrontal == 90)
-		{
+	IEnumerator rotador(){
+		GetComponent<Button>().interactable = false;
+		activarRotacion = !activarRotacion;
 
-			switch (activarRotacion)
-			{
-			case true:
-				CaraFrontal.SetActive(false);
-				CaraTrasera.SetActive(true);
-				break;
-			case false:
-				CaraTrasera.SetActive(false);
-				CaraFrontal.SetActive(true);
-				break;
+		int activador = activarRotacion ? 1 : 0;
+		int apagador = !activarRotacion ? 1 : 0;
+
+		GameObject[] billete = {CaraFrontal, CaraTrasera};
+		btnVolver.billete = billete[activador].GetComponent<RectTransform>();
+		foreach(GameObject lado in billete){
+			for(int i = 0; i < lado.transform.childCount; i += 1){
+				lado.transform.GetChild(i).GetComponent<Button>().interactable = false;
 			}
 		}
-	}
-	void Activargiro(){
-		
-		if (activarRotacion ==true)
-		{
-			activarRotacion = false;
-			
+
+		float segundo = 0f;
+		while(segundo < 1f){
+			segundo += Time.deltaTime;
+
+			if(segundo >= 0.5f && !billete[activador].activeSelf){
+				billete[activador].SetActive(true);
+			}
+			if(segundo >= 1f){
+				billete[activador].transform.eulerAngles = new Vector3(0f, 0f, 0f);
+			}else{
+				billete[activador].transform.eulerAngles += new Vector3(0f, 180f * Time.deltaTime, 0f);
+			}
+
+			if(segundo >= 0.5f && billete[apagador].activeSelf){
+				billete[apagador].SetActive(false);
+			}
+			if(segundo >= 1f){
+				billete[apagador].transform.eulerAngles = new Vector3(0f, 180f, 0f);
+			}else{
+				billete[apagador].transform.eulerAngles += new Vector3(0f, 180f * Time.deltaTime, 0f);
+			}
+
+			yield return null;
 		}
-		else{
-			activarRotacion = true;
+		GetComponent<Button>().interactable = true;
+		foreach(GameObject lado in billete){
+			for(int i = 0; i < lado.transform.childCount; i += 1){
+				lado.transform.GetChild(i).GetComponent<Button>().interactable = true;
+			}
 		}
-		
 	}
 }

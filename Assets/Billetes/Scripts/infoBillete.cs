@@ -11,10 +11,12 @@ public class infoBillete : MonoBehaviour
     [SerializeField] private Vector3 position;
     [SerializeField] private Vector2 width_height;
     public Animator cuadroDeTexto;
+    public Button btnRotar;
     void Start(){
         GetComponent<Button>().onClick.AddListener(() => mostrarInfo());
     }
     void mostrarInfo(){
+        btnRotar.interactable = false;
         //width_height
         Transform padre = transform.parent;
         for(int i = 0; i < padre.childCount; i+= 1){

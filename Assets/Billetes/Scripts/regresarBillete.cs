@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class regresarBillete : MonoBehaviour
 {
-    public RectTransform billete;
+    [System.NonSerialized] public RectTransform billete;
     public Animator cuadroDeTexto;
+    public Button btnRotar;
     void Start(){
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(regresar()));
     }
@@ -36,6 +37,6 @@ public class regresarBillete : MonoBehaviour
         }
 
         transform.parent.gameObject.SetActive(false);
-        yield return null;
+        btnRotar.interactable = true;
     }
 }
