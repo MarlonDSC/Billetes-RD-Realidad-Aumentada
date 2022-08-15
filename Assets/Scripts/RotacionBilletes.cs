@@ -30,15 +30,41 @@ public class RotacionBilletes : MonoBehaviour
 		//Variables para capturar los ejes de los objetos(Billetes)
 		int	anguloFrontal = (int)CaraFrontal.transform.rotation.eulerAngles.y;
 		int	anguloTrasero = (int)CaraTrasera.transform.rotation.eulerAngles.y;
-		Debug.Log(anguloTrasero);
+		//Debug.Log(anguloTrasero);
 		
 		//Giro Frontal
 		if (activarRotacion == true && anguloFrontal < 180)
 		{
-			CaraFrontal.transform.Rotate(0, velocidadRotacion,0);		
+			
+			//apagar los botones de la cara frontal al momento de girar
+			for(int i = 0; i < CaraFrontal.transform.childCount; i += 1){
+				CaraFrontal.	transform.GetChild(i).GetComponent<Button>().interactable = false;
+			}
+			
+			//encender los botones de la cara trasera al momento de girar
+			for(int i = 0; i < CaraTrasera.transform.childCount; i += 1){
+				CaraTrasera.	transform.GetChild(i).GetComponent<Button>().interactable = true;
+			}
+			
+			//Rotar el eje Y 
+			CaraFrontal.transform.Rotate(0, velocidadRotacion,0);
+			
+			
 		}
 		else if (activarRotacion == false && anguloFrontal > 0)
 		{
+
+			//apagar los botones de la cara trasera al momento de girar
+			for(int i = 0; i < CaraTrasera.transform.childCount; i += 1){
+   			CaraTrasera.transform.GetChild(i).GetComponent<Button>().interactable = false;
+			}
+			
+			//encender los botones de la cara frontal al momento de girar
+			for(int i = 0; i < CaraFrontal.transform.childCount; i += 1){
+				CaraFrontal.	transform.GetChild(i).GetComponent<Button>().interactable = true;
+			}
+			
+			//Rotar el eje Y de forma inversa
 			CaraFrontal.transform.Rotate(0, -velocidadRotacion,0);				
 		}
 		
@@ -46,7 +72,8 @@ public class RotacionBilletes : MonoBehaviour
 		if (activarRotacion == true && anguloTrasero < 357)
 		{
 	
-			CaraTrasera.transform.Rotate(0, velocidadRotacion,0);		
+			CaraTrasera.transform.Rotate(0, velocidadRotacion,0);
+			
 		}
 		else if (activarRotacion == false && anguloTrasero > 180)
 		{
@@ -62,6 +89,7 @@ public class RotacionBilletes : MonoBehaviour
 			case true:
 				CaraFrontal.SetActive(false);
 				CaraTrasera.SetActive(true);
+				
 				break;
 			case false:
 				CaraTrasera.SetActive(false);
