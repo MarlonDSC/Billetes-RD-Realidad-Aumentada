@@ -6,7 +6,7 @@ public class RotacionBilletes : MonoBehaviour
 {
 	public GameObject CaraFrontal;
 	public GameObject CaraTrasera;
-	bool activarRotacion = false;
+	bool activarRotacion = true;
 	public regresarBillete btnVolver;
 	// Start is called before the first frame update
 	void Start(){
@@ -18,8 +18,8 @@ public class RotacionBilletes : MonoBehaviour
 		GetComponent<Button>().interactable = false;
 		activarRotacion = !activarRotacion;
 
-		int activador = activarRotacion ? 1 : 0;
-		int apagador = !activarRotacion ? 1 : 0;
+		int activador = activarRotacion ? 0 : 1;
+		int apagador = !activarRotacion ? 0 : 1;
 
 		GameObject[] billete = {CaraFrontal, CaraTrasera};
 		btnVolver.billete = billete[activador].GetComponent<RectTransform>();

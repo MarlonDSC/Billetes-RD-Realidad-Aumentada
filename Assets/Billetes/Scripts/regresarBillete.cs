@@ -16,14 +16,14 @@ public class regresarBillete : MonoBehaviour
         cuadroDeTexto.Rebind();
         cuadroDeTexto.Play("Informacion de billete Reverse");
 
-        Vector3 posicionDelta = variables.billetePosition - billete.localPosition;
-        Vector2 sizeDelta = variables.billeteSize - billete.sizeDelta;
+        Vector3 posicionDelta = billete.GetComponent<zoomBillete>().posInicial - billete.localPosition;
+        Vector2 sizeDelta = billete.GetComponent<zoomBillete>().tamInicial - billete.sizeDelta;
         float segundo = 0f;
         while(segundo < 1f){
             segundo += Time.deltaTime;
             if(segundo >= 1f){
-                billete.localPosition = variables.billetePosition;
-                billete.sizeDelta = variables.billeteSize;
+                billete.localPosition = billete.GetComponent<zoomBillete>().posInicial;
+                billete.sizeDelta = billete.GetComponent<zoomBillete>().tamInicial;
             }else{
                 billete.localPosition += posicionDelta*Time.deltaTime;
                 billete.sizeDelta += sizeDelta*Time.deltaTime;

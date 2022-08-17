@@ -5,6 +5,13 @@ using UnityEngine.UI;
 
 public class zoomBillete : MonoBehaviour{
     public Button regresar;
+    [System.NonSerialized] public Vector3 posInicial;
+    [System.NonSerialized] public Vector2 tamInicial;
+    void Start(){
+        posInicial = GetComponent<RectTransform>().localPosition;
+        tamInicial = GetComponent<RectTransform>().sizeDelta;
+    }
+
     public IEnumerator zoom(Vector3 position, Vector2 width_height){
         regresar.interactable = false;
         float segundo = 0f;
