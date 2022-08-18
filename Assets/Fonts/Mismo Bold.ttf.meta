@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7bbc7d15756473a4b857f2b855f2546f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mismo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c34f3c403c658a54395c55dc5e33171e, type: 3}
+  - {fileID: 12800000, guid: 2d61447f7dfa1b84f9bfda0b05be13a9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
