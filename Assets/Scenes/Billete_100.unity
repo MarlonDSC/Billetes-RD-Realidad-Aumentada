@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2032,6 +2032,7 @@ GameObject:
   - component: {fileID: 836868818}
   - component: {fileID: 836868817}
   - component: {fileID: 836868816}
+  - component: {fileID: 836868820}
   m_Layer: 5
   m_Name: Inicio
   m_TagString: Untagged
@@ -2142,6 +2143,19 @@ RectTransform:
   m_AnchoredPosition: {x: -778.99994, y: -419.99994}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &836868820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836868815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreEscena: swipe
 --- !u!1 &861850020
 GameObject:
   m_ObjectHideFlags: 0
@@ -3591,51 +3605,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_PrefabInstance: {fileID: 1661522035}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1711968174
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1711968176}
-  - component: {fileID: 1711968177}
-  m_Layer: 0
-  m_Name: RotacionYescenas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1711968176
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711968174}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0005931854, z: 89.617096}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1711968177
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711968174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb3c1fd1dfec2bf4ca8a7e4747c1e726, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  botonVolverInicio: {fileID: 836868816}
 --- !u!1 &1839483689
 GameObject:
   m_ObjectHideFlags: 0

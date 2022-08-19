@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1111,6 +1111,7 @@ GameObject:
   - component: {fileID: 680800706}
   - component: {fileID: 680800708}
   - component: {fileID: 680800707}
+  - component: {fileID: 680800709}
   m_Layer: 5
   m_Name: AR
   m_TagString: Untagged
@@ -1176,6 +1177,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 680800705}
   m_CullTransparentMesh: 1
+--- !u!114 &680800709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680800705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreEscena: DetectorBilletes
 --- !u!1 &861850020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2029,51 +2043,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1195504477}
   m_CullTransparentMesh: 1
---- !u!1 &1324699469
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1324699471}
-  - component: {fileID: 1324699472}
-  m_Layer: 0
-  m_Name: RotacionYescenas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1324699471
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324699469}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0005931854, z: 89.617096}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1324699472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1324699469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb3c1fd1dfec2bf4ca8a7e4747c1e726, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  botonVolverInicio: {fileID: 2004403100}
 --- !u!1 &1370836978
 GameObject:
   m_ObjectHideFlags: 0
@@ -3636,6 +3605,7 @@ GameObject:
   - component: {fileID: 2004403102}
   - component: {fileID: 2004403101}
   - component: {fileID: 2004403100}
+  - component: {fileID: 2004403103}
   m_Layer: 5
   m_Name: Inicio
   m_TagString: Untagged
@@ -3745,6 +3715,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004403098}
   m_CullTransparentMesh: 1
+--- !u!114 &2004403103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004403098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreEscena: swipe
 --- !u!1001 &2106408167
 PrefabInstance:
   m_ObjectHideFlags: 0
