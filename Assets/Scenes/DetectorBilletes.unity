@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -561,7 +561,7 @@ GameObject:
   - component: {fileID: 783186714}
   - component: {fileID: 783186713}
   - component: {fileID: 783186712}
-  - component: {fileID: 783186711}
+  - component: {fileID: 783186715}
   m_Layer: 5
   m_Name: Boton-Atras
   m_TagString: Untagged
@@ -586,22 +586,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -909, y: 471}
-  m_SizeDelta: {x: 45.7275, y: 44.1996}
+  m_AnchoredPosition: {x: -830, y: 456.23627}
+  m_SizeDelta: {x: 114.6248, y: 73.727}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &783186711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783186709}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NombreEscena: swipe
 --- !u!114 &783186712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +632,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 783186713}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 783186715}
+        m_TargetAssemblyTypeName: BackScene, Assembly-CSharp
+        m_MethodName: ContinueGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &783186713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,6 +683,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783186709}
   m_CullTransparentMesh: 1
+--- !u!114 &783186715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783186709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a7f5429e96b5534285197a6a1536a91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &795585445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,10 +1373,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Coloca el billete frente a la c\xE1mara."
+  m_text: Coloca el billete frente a la camara.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 42bc1142a73ed6249af9170fade4ecbb, type: 2}
+  m_sharedMaterial: {fileID: 5759779538101759797, guid: 42bc1142a73ed6249af9170fade4ecbb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
