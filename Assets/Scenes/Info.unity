@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -210,8 +210,8 @@ GameObject:
   - component: {fileID: 119122259}
   - component: {fileID: 119122261}
   - component: {fileID: 119122260}
-  - component: {fileID: 119122262}
   - component: {fileID: 119122263}
+  - component: {fileID: 119122264}
   m_Layer: 5
   m_Name: Back
   m_TagString: Untagged
@@ -277,18 +277,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 119122258}
   m_CullTransparentMesh: 1
---- !u!114 &119122262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 119122258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a7f5429e96b5534285197a6a1536a91, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &119122263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,7 +321,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 119122262}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: BackScene, Assembly-CSharp
         m_MethodName: ContinueGame
         m_Mode: 1
@@ -345,6 +333,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &119122264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 119122258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreEscena: 
 --- !u!1 &160425290
 GameObject:
   m_ObjectHideFlags: 0
@@ -512,7 +513,7 @@ MonoBehaviour:
   titulo: {fileID: 665119933}
   descripcion: {fileID: 160425292}
   imagen: {fileID: 72128300}
-  boton: {fileID: 0}
+  boton: {fileID: 119122264}
 --- !u!4 &621277179
 Transform:
   m_ObjectHideFlags: 0

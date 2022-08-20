@@ -18,4 +18,7 @@ public class infoCarrier : MonoBehaviour{
             Destroy(gameObject);
         }
     }
+    public void destruir(){
+        Destroy(gameObject);
+    }
 }
