@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class cargaIniicial : MonoBehaviour
 {
+    public string scene;
     void Start(){
         StartCoroutine(accion());
     }
@@ -12,6 +13,6 @@ public class cargaIniicial : MonoBehaviour
         GetComponent<Animator>().Rebind();
         GetComponent<Animator>().Play("Pantalla de carga de inicio");
         yield return new WaitForSeconds(139f/60f);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(scene);
     }
 }
