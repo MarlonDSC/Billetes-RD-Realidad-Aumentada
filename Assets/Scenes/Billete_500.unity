@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -401,7 +401,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: elemento de seguridad
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Elementos de seguridad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &203314557 stripped
 RectTransform:
@@ -620,7 +629,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escudo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Escudo Nacional
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "El Escudo de Armas de la Rep\xFAblica Dominicana es uno de los s\xEDmbolos
+        patrios m\xE1s significativos para el pa\xEDs, ya que representa el Estado
+        Libre, Independiente y Soberano."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &259007647 stripped
 RectTransform:
@@ -857,7 +877,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "S\xEDmbolo para no videntes"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
+        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
+        no videntes."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &269973315 stripped
 RectTransform:
@@ -1153,7 +1184,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rayas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Franjas Irisdescentes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: Franja impresas en el billete con material irisdecente, que funcionan
+        como un elemento de seguridad.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &315644875 stripped
 RectTransform:
@@ -1349,7 +1390,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Numero de serie
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Numeraci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
+        horizontal en el lado izquierdo superior, al lado de la marca para no videntes,
+        y en vertical en el extremo derecho del billete."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &328072900 stripped
 RectTransform:
@@ -1367,6 +1419,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &719681915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 719681917}
+  - component: {fileID: 719681916}
+  m_Layer: 0
+  m_Name: infoCarrier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &719681916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719681915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadf1295997aeef488d28c91325c7d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &719681917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719681915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &753329817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1564,7 +1660,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pedro
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Pedro Her\xEDquez Ure\xF1a"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Fue un gran estudioso de la literatura de nuestra lengua. Considerado
+        como una figura clave en el reconocimiento y asentamiento del campo de la
+        cr\xEDtica literaria latinoamericana."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &753329818 stripped
 RectTransform:
@@ -2101,7 +2208,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banco Central
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Banco Central
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
+        que se constituye como una entidad descentralizada y aut\xF3noma, y act\xFAa
+        como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &950665241 stripped
 RectTransform:
@@ -2299,7 +2417,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: BCRD
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Siglas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Las siglas que abrevian el nombre del Banco Central de la Rep\xFAblica
+        Dominicana."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &956074615 stripped
 RectTransform:
@@ -3390,7 +3518,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: flor de bayahibe
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Flor Nacional
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
+        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1661522036 stripped
 RectTransform:
@@ -3912,7 +4051,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Conmemoraci\xF3n"
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "L\xE1mina Frontal del BC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: Silueta de la parte delantera del Banco Central, impresa con tinta irisdescente,
+        prenseta en la sexta famila de billetes.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1907994335 stripped
 RectTransform:
@@ -4121,7 +4270,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Firma
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Firmas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Firmas de seguridad presentes en cada billete, que corresponden al
+        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
+        de emisi\xF3n de dicho billete."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &2106408168 stripped
 RectTransform:
@@ -4452,5 +4612,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Salome
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Salom\xE9 Ure\xF1a"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Escritora, edcadora y poetisa dominicana que logr\xF3 llamar la atenci\xF3n
+        de gran parte de Latinoam\xE9tica con sus obra; tambi\xE9n fue una innovadora
+        en la educaci\xF3n para las mujeres en su pa\xEDs."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}

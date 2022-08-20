@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -401,7 +401,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Patria Mirabal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Fue una mecan\xF3grafa y activista dominicana, conocida por sus esfuerzos
+        en la lucha contra la dictadura que ten\xEDa sometido al pa\xEDs en ese momento,
+        apoyando principalmente a su hermana Minerva en dicha causa."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &26514258 stripped
 RectTransform:
@@ -835,7 +846,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Escudo
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Escudo Nacional
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "El Escudo de Armas de la Rep\xFAblica Dominicana es uno de los s\xEDmbolos
+        patrios m\xE1s significativos para el pa\xEDs, ya que representa el Estado
+        Libre, Independiente y Soberano."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &197475494 stripped
 RectTransform:
@@ -1046,7 +1068,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Museo Hermanas Mirabal
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Monumento a las Hermanas Mirabal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Lugar de residencia de las hermanas Mirabal en sus \xFAltimos 10 meses
+        de vida. Ubicada en la provincia Salcedo, en un gigantesco jard\xEDn, guarda
+        una historia y un legado de estas mujeres."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &255858564 stripped
 RectTransform:
@@ -1245,7 +1278,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flor de Bayahibe
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Flor Nacional
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
+        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &296918439 stripped
 RectTransform:
@@ -1580,7 +1624,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Commemoracion
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "L\xE1mina Frontal del BC"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: Silueta de la parte delantera del Banco Central, impresa con tinta irisdescente,
+        prenseta en la sexta famila de billetes.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &493846489 stripped
 RectTransform:
@@ -1779,7 +1833,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Numero de serie
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "Numeraci\xF3n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
+        horizontal en el lado izquierdo superior, al lado de la marca para no videntes,
+        y en vertical en el extremo derecho del billete."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &536231752 stripped
 RectTransform:
@@ -1978,7 +2043,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minerva
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Minerva Mirabal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Artista y activista dominicana que tuvo una destacada participaci\xF3n
+        en las reuniones que dieron origen al Movimiento Revolucionario 14 de junio,
+        con el que se queria poner fin a la dictadura de Trujillo."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &588690307 stripped
 RectTransform:
@@ -2177,7 +2253,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maria
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Maria Teresa Mirabal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Agrimensora y activista dominicana que estuvo en contra del r\xE9gimen
+        trujillista, apresada en varias ocasiones por su lucha y finalmente asesinada
+        junto a sus dos hermanas por orden del dictador."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &650921297 stripped
 RectTransform:
@@ -2843,7 +2930,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Forma para ciegos
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: "S\xEDmbolo para no videntes"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
+        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
+        no videntes."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1066438933 stripped
 RectTransform:
@@ -3186,7 +3284,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Firma
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Firmas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Firmas de seguridad presentes en cada billete, que corresponden al
+        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
+        de emisi\xF3n de dicho billete."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1259058924 stripped
 RectTransform:
@@ -3727,7 +3836,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: BCRD
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Siglas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: "Las siglas que abrevian el nombre del Banco Central de la Rep\xFAblica
+        Dominicana."
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1815466698 stripped
 RectTransform:
@@ -4030,7 +4149,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rayas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Franjas Irisdescentes
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: Franja impresas en el billete con material irisdecente, que funcionan
+        como un elemento de seguridad.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1851692668 stripped
 RectTransform:
@@ -4362,7 +4491,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Formas de seguridad
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo
+      value: Elementos de seguridad
+      objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: descripcion
+      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
 --- !u!224 &1934613325 stripped
 RectTransform:
@@ -4380,3 +4518,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &2140269925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2140269927}
+  - component: {fileID: 2140269926}
+  m_Layer: 0
+  m_Name: infoCarrier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2140269926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140269925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadf1295997aeef488d28c91325c7d13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2140269927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140269925}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

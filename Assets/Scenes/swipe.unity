@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Horizontal: 1
   m_Vertical: 0
   m_MovementType: 1
-  m_Elasticity: 0.1
+  m_Elasticity: 0.05
   m_Inertia: 1
   m_DecelerationRate: 0.135
   m_ScrollSensitivity: 5
@@ -1593,8 +1593,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 500
-    m_Right: 500
+    m_Left: 300
+    m_Right: 267
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 3
@@ -1637,6 +1637,7 @@ MonoBehaviour:
   - {r: 0.35686275, g: 0.4745098, b: 0.5137255, a: 1}
   scrollbar: {fileID: 1351888701}
   imageContent: {fileID: 754688929}
+  expandVelocity: 0.32
 --- !u!1 &1134491751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2078,7 +2079,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 621524892}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.3352721
+  m_Size: 0.380342
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

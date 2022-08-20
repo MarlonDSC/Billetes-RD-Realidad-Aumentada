@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1977826363430483642}
   - component: {fileID: 2857670109883530907}
   - component: {fileID: -1276940061450189788}
+  - component: {fileID: 8622342099907124904}
   m_Layer: 5
   m_Name: "Cuadro de selecci\xF3n"
   m_TagString: Untagged
@@ -92,10 +93,10 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 4
   m_Positions:
-  - {x: -6.2580075, y: -9.090586, z: -6}
-  - {x: 5.512323, y: -9.090586, z: -6}
-  - {x: 5.512323, y: 8.074024, z: -6}
-  - {x: -6.2580075, y: 8.074024, z: -6}
+  - {x: -6.676, y: -6.58, z: 0}
+  - {x: 6.676, y: -6.58, z: 0}
+  - {x: 6.676, y: 6.58, z: 0}
+  - {x: -6.676, y: 6.58, z: 0}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 5
@@ -233,7 +234,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 1977826363430483642}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
@@ -255,3 +256,18 @@ MonoBehaviour:
   width_height: {x: 0, y: 0}
   cuadroDeTexto: {fileID: 0}
   btnRotar: {fileID: 0}
+--- !u!114 &8622342099907124904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4592574661020719243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7851c64d21df1854e8078208b9a3a09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  titulo: 
+  descripcion: 
+  imagen: {fileID: 0}
