@@ -9,6 +9,7 @@ public class infoCarrier : MonoBehaviour{
     [NonSerialized] public string descripcion;
     [NonSerialized] public Sprite imagen;
     [NonSerialized] public string lastScene;
+    [NonSerialized] public bool billeteFace = true;
     // Start is called before the first frame update
     void Start(){
         if(existoInfoCarrier == null){

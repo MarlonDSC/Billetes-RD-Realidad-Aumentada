@@ -6,17 +6,26 @@ public class RotacionBilletes : MonoBehaviour
 {
 	public GameObject CaraFrontal;
 	public GameObject CaraTrasera;
-	bool activarRotacion = true;
+	bool activarRotacion;
 	public regresarBillete btnVolver;
 	// Start is called before the first frame update
 	void Start(){
 		btnVolver.billete = CaraFrontal.GetComponent<RectTransform>();
 		GetComponent<Button>().onClick.AddListener(() => StartCoroutine(rotador()));
+		activarRotacion = GameObject.Find("infoCarrier").GetComponent<infoCarrier>().billeteFace;
+		int activador = activarRotacion ? 0 : 1;
+		int apagador = !activarRotacion ? 0 : 1;
+		GameObject[] billete = {CaraFrontal, CaraTrasera};
+		billete[activador].SetActive(true);
+		billete[apagador].SetActive(false);
+		billete[activador].transform.eulerAngles = new Vector3(0f, 0f, 0f);
+		billete[apagador].transform.eulerAngles = new Vector3(0f, 180f, 0f);
 	}
 
 	IEnumerator rotador(){
 		GetComponent<Button>().interactable = false;
 		activarRotacion = !activarRotacion;
+		GameObject.Find("infoCarrier").GetComponent<infoCarrier>().billeteFace = activarRotacion;
 
 		int activador = activarRotacion ? 0 : 1;
 		int apagador = !activarRotacion ? 0 : 1;
