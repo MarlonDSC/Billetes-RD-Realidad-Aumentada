@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4226327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -429,6 +429,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: a66a3b1823d38424aad16c81ec6d64f2, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Patria Mirabal
@@ -767,6 +771,10 @@ PrefabInstance:
       value: Escudo
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 73bcfc9ec13e5c64ea0c832323f81ee2, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Escudo Nacional
       objectReference: {fileID: 0}
@@ -1017,6 +1025,10 @@ PrefabInstance:
       value: Museo Hermanas Mirabal
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 20f82e3998374a24594e8591a020be53, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Monumento a las Hermanas Mirabal
       objectReference: {fileID: 0}
@@ -1255,6 +1267,10 @@ PrefabInstance:
       value: Flor de Bayahibe
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 74696789a75e8e442a11c595f1586b31, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Flor Nacional
       objectReference: {fileID: 0}
@@ -1491,6 +1507,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Commemoracion
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 0269df5768db483408ee82ec40923374, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "L\xE1mina Frontal del BC"
@@ -1876,6 +1896,10 @@ PrefabInstance:
       value: Numero de serie
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: c11775a5f2f7fc545a72e63dfd4ca32f, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "Numeraci\xF3n"
       objectReference: {fileID: 0}
@@ -2114,6 +2138,10 @@ PrefabInstance:
       value: Minerva
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: f6d269daa4146f442940b78b5282b684, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Minerva Mirabal
       objectReference: {fileID: 0}
@@ -2351,6 +2379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maria
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: eb57ce1856e6c7c40ba885d43a86a508, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Maria Teresa Mirabal
@@ -3156,6 +3188,10 @@ PrefabInstance:
       value: Forma para ciegos
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: a73e5904e515bfa4fa94e539302133c3, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "S\xEDmbolo para no videntes"
       objectReference: {fileID: 0}
@@ -3538,6 +3574,10 @@ PrefabInstance:
       value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 99a75b830d9879440926a978af440ee2, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Firmas
       objectReference: {fileID: 0}
@@ -3687,7 +3727,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1389052143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4255,6 +4295,10 @@ PrefabInstance:
       value: BCRD
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 207770c70141dd74b9f3560483af0fe5, type: 3}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Siglas
       objectReference: {fileID: 0}
@@ -4597,6 +4641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rayas
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 9ffec999900cfce4eb7bb46c95f1b21f, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Franjas Irisdescentes
@@ -4967,6 +5015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Formas de seguridad
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: imagen
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e8d7369a7a35ad4787de39d82b5ae70, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Elementos de seguridad
