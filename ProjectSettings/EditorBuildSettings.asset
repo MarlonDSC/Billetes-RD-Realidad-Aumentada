@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StartOff.unity
     guid: 2f876d32e580aaf48a0eeedd777a5055
   - enabled: 1
-    path: Assets/Scenes/swipe.unity
+    path: Assets/Scenes/swipe2.unity
     guid: 1730b9c6c7abb7c4b8aa3b31a8875bdb
   - enabled: 1
     path: Assets/Scenes/DetectorBilletes.unity
