@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ff36df2222ef0824392d7e2e2acd387b
+guid: 180e4644ed264734fad1d6d8dfd3e004
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable:
   - first:
-      74: 2997326147491121795
-    second: Window Armature|ArmatureAction.001
+      74: 7714223952693480407
+    second: Book_cover|Book_coverAction
   externalObjects: {}
   materials:
     materialImportMode: 2
