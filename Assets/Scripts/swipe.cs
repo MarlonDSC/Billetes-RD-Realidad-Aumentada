@@ -63,16 +63,28 @@ public class swipe : MonoBehaviour
         {
             if (scroll_pos < pos[i] + (distance / 2) && scroll_pos > pos[i] - (distance / 2))
             {
-                transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1f, 1f), expandVelocity);
-	            imageContent.transform.GetChild(i).localScale = Vector2.Lerp(imageContent.transform.GetChild(i).localScale, new Vector2(1.2f, 1.2f), expandVelocity);
+                transform.GetChild(i).localScale = Vector2.Lerp(transform.GetChild(i).localScale, new Vector2(1f, 1f), expandVelocity*Time.deltaTime);
+                if(transform.GetChild(i).GetComponent<Image>().color.r < 1f){
+                    transform.GetChild(i).GetComponent<Image>().color += Color.white*Time.deltaTime*expandVelocity;
+                    if(transform.GetChild(i).GetComponent<Image>().color.r < 1f){
+                        transform.GetChild(i).GetComponent<Image>().color = Color.white;
+                    }
+                }
+                imageContent.transform.GetChild(i).localScale = Vector2.Lerp(imageContent.transform.GetChild(i).localScale, new Vector2(1.2f, 1.2f), expandVelocity*Time.deltaTime);
                 imageContent.transform.GetChild(i).GetComponent<Image>().color = colors[1];
                 for (int j = 0; j < pos.Length; j++)
                 {
                     if (j != i)
                     {
                         imageContent.transform.GetChild(j).GetComponent<Image>().color = colors[0];
-                        imageContent.transform.GetChild(j).localScale = Vector2.Lerp(imageContent.transform.GetChild(j).localScale, new Vector2(0.8f, 0.8f), expandVelocity);
-                        transform.GetChild(j).localScale = Vector2.Lerp(transform.GetChild(j).localScale, new Vector2(0.8f, 0.8f), expandVelocity);
+                        imageContent.transform.GetChild(j).localScale = Vector2.Lerp(imageContent.transform.GetChild(j).localScale, new Vector2(0.8f, 0.8f), expandVelocity*Time.deltaTime);
+                        if(transform.GetChild(j).GetComponent<Image>().color.r > 159f/255f){
+                            transform.GetChild(j).GetComponent<Image>().color -= new Color(159f/255f, 159f/255f, 159f/255f, 1f) * Time.deltaTime* expandVelocity;
+                            if(transform.GetChild(j).GetComponent<Image>().color.r < 159f/255f){
+                                transform.GetChild(j).GetComponent<Image>().color = new Color(159f/255f, 159f/255f, 159f/255f, 1f);
+                            }
+                        }
+                        transform.GetChild(j).localScale = Vector2.Lerp(transform.GetChild(j).localScale, new Vector2(0.8f, 0.8f), expandVelocity*Time.deltaTime);
                     }
                 }
             }

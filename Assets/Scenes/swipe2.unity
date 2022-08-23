@@ -1637,7 +1637,7 @@ MonoBehaviour:
   - {r: 0.35686275, g: 0.4745098, b: 0.5137255, a: 1}
   scrollbar: {fileID: 1351888701}
   imageContent: {fileID: 754688929}
-  expandVelocity: 0.32
+  expandVelocity: 7
 --- !u!1 &1134491751
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,7 +1946,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1085150833}
-        m_TargetAssemblyTypeName: 
+        m_TargetAssemblyTypeName: swipe, Assembly-CSharp
         m_MethodName: WhichBtnClicked
         m_Mode: 2
         m_Arguments:
