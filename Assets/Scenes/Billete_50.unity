@@ -4037,7 +4037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NombreEscena: swipe
+  NombreEscena: Scroll_Snap
 --- !u!1001 &2106408167
 PrefabInstance:
   m_ObjectHideFlags: 0
