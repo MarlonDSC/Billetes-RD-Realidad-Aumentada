@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1407,8 +1407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6818128f36888a4bb12fd60d92d52b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  billete: {fileID: 970488419}
   cuadroDeTexto: {fileID: 1424497552}
+  btnRotar: {fileID: 0}
 --- !u!114 &657667811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1543,8 +1543,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6818128f36888a4bb12fd60d92d52b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  billete: {fileID: 1389052143}
   cuadroDeTexto: {fileID: 36373166}
+  btnRotar: {fileID: 0}
 --- !u!114 &861850023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2134,6 +2134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -2278,9 +2279,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CaraFrontal: {fileID: 1389052142}
   CaraTrasera: {fileID: 970488418}
-  activarRotacion: 0
-  velocidadRotacion: 3
-  boton_reverse: {fileID: 1719293327}
+  btnVolver: {fileID: 0}
+  btnVolver2: {fileID: 0}
+  titulo: {fileID: 0}
+  btnAR: {fileID: 0}
 --- !u!4 &1324699471
 Transform:
   m_ObjectHideFlags: 0
