@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4226327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -430,6 +430,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: a66a3b1823d38424aad16c81ec6d64f2, type: 3}
@@ -437,6 +441,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Patria Mirabal
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Fue una mecan\xF3grafa y activista dominicana, conocida por sus esfuerzos
@@ -771,6 +787,10 @@ PrefabInstance:
       value: Escudo
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 73bcfc9ec13e5c64ea0c832323f81ee2, type: 3}
@@ -778,6 +798,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Escudo Nacional
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "El Escudo de Armas de la Rep\xFAblica Dominicana es uno de los s\xEDmbolos
@@ -1025,6 +1057,10 @@ PrefabInstance:
       value: Museo Hermanas Mirabal
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 20f82e3998374a24594e8591a020be53, type: 3}
@@ -1032,6 +1068,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Monumento a las Hermanas Mirabal
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Lugar de residencia de las hermanas Mirabal en sus \xFAltimos 10 meses
@@ -1267,6 +1315,10 @@ PrefabInstance:
       value: Flor de Bayahibe
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 74696789a75e8e442a11c595f1586b31, type: 3}
@@ -1274,6 +1326,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Flor Nacional
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
@@ -1508,6 +1572,10 @@ PrefabInstance:
       value: Commemoracion
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 0269df5768db483408ee82ec40923374, type: 3}
@@ -1515,6 +1583,18 @@ PrefabInstance:
       propertyPath: titulo
       value: "L\xE1mina Frontal del BC"
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: Silueta de la parte delantera del Banco Central, impresa con tinta irisdescente,
@@ -1551,7 +1631,8 @@ GameObject:
   - component: {fileID: 518246938}
   - component: {fileID: 518246937}
   - component: {fileID: 518246936}
-  - component: {fileID: 518246935}
+  - component: {fileID: 518246940}
+  - component: {fileID: 518246939}
   m_Layer: 5
   m_Name: Inicio
   m_TagString: Untagged
@@ -1579,19 +1660,6 @@ RectTransform:
   m_AnchoredPosition: {x: 167.12, y: 146.54999}
   m_SizeDelta: {x: 127.75, y: 88.92999}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &518246935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 518246933}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NombreEscena: Scroll_Snap
 --- !u!114 &518246936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1635,19 +1703,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 518246937}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2140269926}
-        m_TargetAssemblyTypeName: infoCarrier, Assembly-CSharp
-        m_MethodName: destruir
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &518246937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1686,6 +1742,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 518246933}
   m_CullTransparentMesh: 1
+--- !u!95 &518246939
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518246933}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &518246940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 518246933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e2c5e49dff2984c906a56a4a8a5d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreEscena: Scroll_Snap
 --- !u!1001 &536231751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1896,6 +1985,10 @@ PrefabInstance:
       value: Numero de serie
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: c11775a5f2f7fc545a72e63dfd4ca32f, type: 3}
@@ -1903,6 +1996,18 @@ PrefabInstance:
       propertyPath: titulo
       value: "Numeraci\xF3n"
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
@@ -2138,6 +2243,10 @@ PrefabInstance:
       value: Minerva
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: f6d269daa4146f442940b78b5282b684, type: 3}
@@ -2145,6 +2254,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Minerva Mirabal
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Artista y activista dominicana que tuvo una destacada participaci\xF3n
@@ -2380,6 +2501,10 @@ PrefabInstance:
       value: Maria
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: eb57ce1856e6c7c40ba885d43a86a508, type: 3}
@@ -2387,6 +2512,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Maria Teresa Mirabal
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Agrimensora y activista dominicana que estuvo en contra del r\xE9gimen
@@ -2423,6 +2560,7 @@ GameObject:
   - component: {fileID: 719720648}
   - component: {fileID: 719720650}
   - component: {fileID: 719720649}
+  - component: {fileID: 719720651}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -2488,6 +2626,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719720647}
   m_CullTransparentMesh: 1
+--- !u!95 &719720651
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719720647}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &861850020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2638,6 +2796,7 @@ GameObject:
   - component: {fileID: 933207256}
   - component: {fileID: 933207255}
   - component: {fileID: 933207254}
+  - component: {fileID: 933207259}
   m_Layer: 5
   m_Name: AR
   m_TagString: Untagged
@@ -2784,6 +2943,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 933207252}
   m_CullTransparentMesh: 1
+--- !u!95 &933207259
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 933207252}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &948298084
 GameObject:
   m_ObjectHideFlags: 0
@@ -3188,6 +3367,10 @@ PrefabInstance:
       value: Forma para ciegos
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: a73e5904e515bfa4fa94e539302133c3, type: 3}
@@ -3195,6 +3378,18 @@ PrefabInstance:
       propertyPath: titulo
       value: "S\xEDmbolo para no videntes"
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
@@ -3574,6 +3769,10 @@ PrefabInstance:
       value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 99a75b830d9879440926a978af440ee2, type: 3}
@@ -3581,6 +3780,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Firmas
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Firmas de seguridad presentes en cada billete, que corresponden al
@@ -3727,7 +3938,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1389052143
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3822,6 +4033,7 @@ GameObject:
   - component: {fileID: 1417018376}
   - component: {fileID: 1417018375}
   - component: {fileID: 1417018374}
+  - component: {fileID: 1417018378}
   m_Layer: 5
   m_Name: BotonRotar
   m_TagString: Untagged
@@ -3864,6 +4076,9 @@ MonoBehaviour:
   CaraFrontal: {fileID: 1389052142}
   CaraTrasera: {fileID: 4226326}
   btnVolver: {fileID: 861850022}
+  btnVolver2: {fileID: 518246939}
+  titulo: {fileID: 719720651}
+  btnAR: {fileID: 933207259}
 --- !u!114 &1417018375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3946,6 +4161,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417018372}
   m_CullTransparentMesh: 1
+--- !u!95 &1417018378
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417018372}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1467457321
 GameObject:
   m_ObjectHideFlags: 0
@@ -4295,6 +4530,10 @@ PrefabInstance:
       value: BCRD
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 207770c70141dd74b9f3560483af0fe5, type: 3}
@@ -4302,6 +4541,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Siglas
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Las siglas que abrevian el nombre del Banco Central de la Rep\xFAblica
@@ -4642,6 +4893,10 @@ PrefabInstance:
       value: Rayas
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 9ffec999900cfce4eb7bb46c95f1b21f, type: 3}
@@ -4649,6 +4904,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Franjas Irisdescentes
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: Franja impresas en el billete con material irisdecente, que funcionan
@@ -5016,6 +5283,10 @@ PrefabInstance:
       value: Formas de seguridad
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 933207259}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 2e8d7369a7a35ad4787de39d82b5ae70, type: 3}
@@ -5023,6 +5294,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Elementos de seguridad
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 719720651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1417018378}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 518246939}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: Marcas de seguridad notables a simple presentes en todos los billetes.

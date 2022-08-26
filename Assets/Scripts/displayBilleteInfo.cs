@@ -7,7 +7,7 @@ public class displayBilleteInfo : MonoBehaviour
     public Text titulo;
     public Text descripcion;
     public Image imagen;
-    public CambioEscenas boton;
+    public infoScreenBackButton boton;
     void Start(){
         infoCarrier openChest = GameObject.Find("infoCarrier").GetComponent<infoCarrier>();
         titulo.text = openChest.titulo;

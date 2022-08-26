@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class CambioEscenas : MonoBehaviour
+public class btnInicioBillete : MonoBehaviour
 {
 	public string NombreEscena;
 
@@ -13,6 +13,8 @@ public class CambioEscenas : MonoBehaviour
 	}
     
 	void cargarEscena(){
+        GameObject chest = GameObject.Find("infoCarrier");
+        Destroy(chest);
 		SceneManager.LoadScene(NombreEscena);
 	}
 }

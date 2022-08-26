@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -348,6 +348,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: -1354721017, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
@@ -355,6 +359,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Catedral Primada de America
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -720,6 +736,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: -1294820811, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
@@ -727,6 +747,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Escudo Nacional
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -1019,6 +1051,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: -1549988905, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
@@ -1026,6 +1062,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Smmbolo para no videntes
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -1270,6 +1318,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 779120463, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
@@ -1277,6 +1329,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Numeracion
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -1330,6 +1394,7 @@ GameObject:
   - component: {fileID: 680800707}
   - component: {fileID: 680800709}
   - component: {fileID: 680800710}
+  - component: {fileID: 680800711}
   m_Layer: 5
   m_Name: AR
   m_TagString: Untagged
@@ -1452,6 +1517,26 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &680800711
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680800705}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &861850020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1809,6 +1894,10 @@ PrefabInstance:
       value: BCRD
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: 3d824ace2ea21ac449652ee7c5c0dec2, type: 3}
@@ -1816,6 +1905,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Siglas
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -2874,6 +2975,10 @@ PrefabInstance:
       value: Elementos de seguridad
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: b1c200d650b03ae4baf1f9fd468b630e, type: 3}
@@ -2881,6 +2986,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Elementos de seguridad
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -2919,6 +3036,7 @@ GameObject:
   - component: {fileID: 1601540648}
   - component: {fileID: 1601540650}
   - component: {fileID: 1601540649}
+  - component: {fileID: 1601540651}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -2984,6 +3102,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601540647}
   m_CullTransparentMesh: 1
+--- !u!95 &1601540651
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601540647}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1661522035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3218,6 +3356,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: -1527610133, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
@@ -3225,6 +3367,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Flor Nacional
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -3267,6 +3421,7 @@ GameObject:
   - component: {fileID: 1719293328}
   - component: {fileID: 1719293327}
   - component: {fileID: 1719293331}
+  - component: {fileID: 1719293332}
   m_Layer: 5
   m_Name: BotonRotar
   m_TagString: Untagged
@@ -3391,6 +3546,29 @@ MonoBehaviour:
   CaraFrontal: {fileID: 1389052142}
   CaraTrasera: {fileID: 970488418}
   btnVolver: {fileID: 861850022}
+  btnVolver2: {fileID: 2004403104}
+  titulo: {fileID: 1601540651}
+  btnAR: {fileID: 680800711}
+--- !u!95 &1719293332
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719293326}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1754490749
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3613,6 +3791,10 @@ PrefabInstance:
       value: basilica
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 21300000, guid: c3922b49676a9454bb6ea061411b7347, type: 3}
@@ -3620,6 +3802,18 @@ PrefabInstance:
       propertyPath: titulo
       value: "Bas\xEDlica de Hig\xFCey"
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
@@ -3903,7 +4097,8 @@ GameObject:
   - component: {fileID: 2004403102}
   - component: {fileID: 2004403101}
   - component: {fileID: 2004403100}
-  - component: {fileID: 2004403103}
+  - component: {fileID: 2004403104}
+  - component: {fileID: 2004403105}
   m_Layer: 5
   m_Name: Inicio
   m_TagString: Untagged
@@ -3974,19 +4169,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2004403101}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1340951254}
-        m_TargetAssemblyTypeName: infoCarrier, Assembly-CSharp
-        m_MethodName: destruir
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2004403101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4025,7 +4208,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004403098}
   m_CullTransparentMesh: 1
---- !u!114 &2004403103
+--- !u!95 &2004403104
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004403098}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2004403105
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4034,7 +4237,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2004403098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 97e2c5e49dff2984c906a56a4a8a5d62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   NombreEscena: Scroll_Snap
@@ -4272,6 +4475,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnAR
+      value: 
+      objectReference: {fileID: 680800711}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
       objectReference: {fileID: 1309997823, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
@@ -4279,6 +4486,18 @@ PrefabInstance:
       propertyPath: titulo
       value: Firmas
       objectReference: {fileID: 0}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: titulo2
+      value: 
+      objectReference: {fileID: 1601540651}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnRotar
+      value: 
+      objectReference: {fileID: 1719293332}
+    - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
+      propertyPath: btnVolver
+      value: 
+      objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: lastScene
       value: Billete_50
