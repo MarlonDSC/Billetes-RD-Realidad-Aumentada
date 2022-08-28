@@ -4,31 +4,46 @@ using UnityEngine.UI;
 
 public class RotacionBilletes : MonoBehaviour
 {
-	public GameObject CaraFrontal;
-	public GameObject CaraTrasera;
+	public GameObject[] carasDelanteras;
+	public GameObject[] carasTraseras;
+	private GameObject caraDelantera;
+	private GameObject caraTrasera;
 	bool activarRotacion;
-	public regresarBillete btnVolver;
-	public Animator btnVolver2, titulo, btnAR;
+	public Animator btnVolver, titulo, btnAR;
 	private infoCarrier openChest;
+	private int billeteUsar;
 	// Start is called before the first frame update
 	void Start(){
-		btnVolver.billete = CaraFrontal.GetComponent<RectTransform>();
 		GetComponent<Button>().onClick.AddListener(() => StartCoroutine(rotador()));
+
 		openChest = GameObject.Find("infoCarrier").GetComponent<infoCarrier>();
+		billeteUsar = GameObject.Find("billeteActual").GetComponent<billeteActual>().billete;
+
 		activarRotacion = openChest.billeteFace;
 		int activador = activarRotacion ? 0 : 1;
 		int apagador = !activarRotacion ? 0 : 1;
-		GameObject[] billete = {CaraFrontal, CaraTrasera};
+
+		caraDelantera = carasDelanteras[billeteUsar];
+		caraTrasera = carasTraseras[billeteUsar];
+
+		for(int i = 0; i < carasDelanteras.Length; i += 1){
+			if(i != billeteUsar){
+				Destroy(carasDelanteras[i]);
+				Destroy(carasTraseras[i]);
+			}
+		}
+
+		GameObject[] billete = {caraDelantera, caraTrasera};
 		billete[activador].SetActive(true);
 		billete[apagador].SetActive(false);
 
 		if(openChest.regreso){
-			Animator[] animations = {btnVolver2, titulo, btnAR, GetComponent<Animator>()};
+			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
-			btnVolver2.Play("btnVolverback");
+			btnVolver.Play("btnVolverback");
 			titulo.Play("titleback");
 			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
@@ -43,7 +58,7 @@ public class RotacionBilletes : MonoBehaviour
 	}
 
 	IEnumerator regreso(int lado){
-		GameObject[] billete = {CaraFrontal, CaraTrasera};
+		GameObject[] billete = {caraDelantera, caraTrasera};
 		float segundos = 0f;
 		while(segundos < 0.5f){
 			segundos += Time.deltaTime;
@@ -65,8 +80,7 @@ public class RotacionBilletes : MonoBehaviour
 		int activador = activarRotacion ? 0 : 1;
 		int apagador = !activarRotacion ? 0 : 1;
 
-		GameObject[] billete = {CaraFrontal, CaraTrasera};
-		btnVolver.billete = billete[activador].GetComponent<RectTransform>();
+		GameObject[] billete = {caraDelantera, caraTrasera};
 		foreach(GameObject lado in billete){
 			for(int i = 0; i < lado.transform.childCount; i += 1){
 				lado.transform.GetChild(i).GetComponent<Button>().interactable = false;

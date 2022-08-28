@@ -25,7 +25,7 @@ public class billeteInfo : MonoBehaviour
                 padre.GetChild(i).gameObject.SetActive(false);
             }
         }
-        GetComponent<LineRenderer>().sortingOrder = -1;
+        GetComponent<Image>().color *= new Color(1f, 1f, 1f, 0f);
 
         chest.titulo = titulo;
         chest.descripcion = descripcion;
