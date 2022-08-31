@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 727175451}
   - component: {fileID: 727175453}
   - component: {fileID: 727175454}
-  - component: {fileID: 727175455}
+  - component: {fileID: 727175456}
   m_Layer: 5
   m_Name: Billete_50
   m_TagString: Untagged
@@ -513,7 +513,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -532,7 +532,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &727175455
+--- !u!114 &727175456
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -541,10 +541,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 727175449}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NombreEscena: Billetes
+  btnNext: {fileID: 1113322749}
+  btnBack: {fileID: 1616672551}
+  scroll: {fileID: 1692890478}
+  titulo: {fileID: 428314401}
+  linea: {fileID: 1609108164}
+  scene: Billetes
   numBillete: 0
 --- !u!1 &878392718
 GameObject:
@@ -583,7 +588,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.754234, y: -394.1031}
+  m_AnchoredPosition: {x: 69.75, y: -394.1031}
   m_SizeDelta: {x: 470.9982, y: 11.7938}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &878392720
@@ -978,7 +983,7 @@ Camera:
   near clip plane: 0.01
   far clip plane: 10000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
@@ -1023,7 +1028,7 @@ GameObject:
   - component: {fileID: 1581996894}
   - component: {fileID: 1581996896}
   - component: {fileID: 1581996897}
-  - component: {fileID: 1581996898}
+  - component: {fileID: 1581996899}
   m_Layer: 5
   m_Name: Billete_500
   m_TagString: Untagged
@@ -1126,7 +1131,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1145,7 +1150,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1581996898
+--- !u!114 &1581996899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1154,10 +1159,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1581996892}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NombreEscena: Billetes
+  btnNext: {fileID: 1113322749}
+  btnBack: {fileID: 1616672551}
+  scroll: {fileID: 1692890478}
+  titulo: {fileID: 428314401}
+  linea: {fileID: 1609108164}
+  scene: Billetes
   numBillete: 3
 --- !u!1 &1609108162
 GameObject:
@@ -1398,7 +1408,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.00024414062, y: 17.390862}
+  m_AnchoredPosition: {x: 0, y: 17.39087}
   m_SizeDelta: {x: 34.7819, y: 38.2599}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1692890477
@@ -1752,7 +1762,7 @@ GameObject:
   - component: {fileID: 1810570724}
   - component: {fileID: 1810570726}
   - component: {fileID: 1810570727}
-  - component: {fileID: 1810570728}
+  - component: {fileID: 1810570729}
   m_Layer: 5
   m_Name: Billete_100
   m_TagString: Untagged
@@ -1855,7 +1865,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1874,7 +1884,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1810570728
+--- !u!114 &1810570729
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1883,10 +1893,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1810570722}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NombreEscena: Billetes
+  btnNext: {fileID: 1113322749}
+  btnBack: {fileID: 1616672551}
+  scroll: {fileID: 1692890478}
+  titulo: {fileID: 428314401}
+  linea: {fileID: 1609108164}
+  scene: Billetes
   numBillete: 1
 --- !u!1 &1862512050
 GameObject:
@@ -2042,7 +2057,7 @@ GameObject:
   - component: {fileID: 1886938742}
   - component: {fileID: 1886938744}
   - component: {fileID: 1886938745}
-  - component: {fileID: 1886938746}
+  - component: {fileID: 1886938747}
   m_Layer: 5
   m_Name: Billete_200
   m_TagString: Untagged
@@ -2145,7 +2160,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 1, g: 1, b: 1, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2164,7 +2179,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1886938746
+--- !u!114 &1886938747
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2173,8 +2188,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886938740}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ccafd0dccf1c6642a450e1434e374c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NombreEscena: Billetes
+  btnNext: {fileID: 1113322749}
+  btnBack: {fileID: 1616672551}
+  scroll: {fileID: 1692890478}
+  titulo: {fileID: 428314401}
+  linea: {fileID: 1609108164}
+  scene: Billetes
   numBillete: 2
