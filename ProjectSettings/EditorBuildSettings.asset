@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/PantallaCarga.unity
+    guid: 478c8b97cb31b5542a02d7912f76f39c
+  - enabled: 1
     path: Assets/Scenes/StartAndScroll.unity
     guid: b2014ac562b3e9945ba0d8b3c219bc35
   - enabled: 1
