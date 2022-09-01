@@ -9,6 +9,7 @@ public class scrollToBillete : MonoBehaviour
     public GameObject btnNext, btnBack;
     public ScrollRect scroll;
     public Image titulo, linea;
+    public Scrollbar barraScroll;
     [SerializeField] private string scene;
     [SerializeField] private int numBillete;
 
@@ -27,6 +28,7 @@ public class scrollToBillete : MonoBehaviour
         chest.billete = numBillete;
         chest.size = GetComponent<RectTransform>().sizeDelta;
         chest.position = transform.position;
+        chest.scrollBar = barraScroll.value;
 
         float tiempo = 0f;
         while(tiempo < 0.5f){

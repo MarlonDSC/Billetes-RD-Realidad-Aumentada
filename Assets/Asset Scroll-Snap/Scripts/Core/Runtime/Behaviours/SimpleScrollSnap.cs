@@ -25,7 +25,7 @@ namespace DanielLochner.Assets.SimpleScrollSnap
         [SerializeField] private bool useInfiniteScrolling = false;
         [SerializeField] private float infiniteScrollingSpacing = 0.25f;
         [SerializeField] private bool useOcclusionCulling = false;
-        [SerializeField] private int startingPanel = 0;
+        [SerializeField] public int startingPanel = 0;
 
         // Navigation Settings
         [SerializeField] private bool useSwipeGestures = true;

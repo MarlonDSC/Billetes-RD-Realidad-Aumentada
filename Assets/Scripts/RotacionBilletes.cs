@@ -2,6 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using System;
 
 public class RotacionBilletes : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class RotacionBilletes : MonoBehaviour
 	public GameObject[] carasTraseras;
 	private GameObject caraDelantera;
 	private GameObject caraTrasera;
-	bool activarRotacion;
+	[NonSerialized] public bool activarRotacion;
 	public Animator btnVolver, titulo, btnAR;
 	private infoCarrier openChest;
 	// Start is called before the first frame update

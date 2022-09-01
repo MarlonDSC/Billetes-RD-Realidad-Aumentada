@@ -1,12 +1,14 @@
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class billeteActual : MonoBehaviour
 {
-    [NonSerialized] public int billete;
+    [NonSerialized] public int billete = -1;
     [NonSerialized] public Vector2 size;
     [NonSerialized] public Vector3 position;
-    public static billeteActual existoBilleteActual;
+    [NonSerialized] public static billeteActual existoBilleteActual;
+    [NonSerialized] public float scrollBar = 0;
     void Start(){
         if(existoBilleteActual == null){
             existoBilleteActual = this;

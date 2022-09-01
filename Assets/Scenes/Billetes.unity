@@ -13261,6 +13261,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NombreEscena: Scroll_Snap
+  btnRotacion: {fileID: 1719293331}
 --- !u!1001 &2018561458
 PrefabInstance:
   m_ObjectHideFlags: 0

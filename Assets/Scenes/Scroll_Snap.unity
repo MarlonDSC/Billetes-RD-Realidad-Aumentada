@@ -549,6 +549,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   titulo: {fileID: 428314401}
   linea: {fileID: 1609108164}
+  barraScroll: {fileID: 878392720}
   scene: Billetes
   numBillete: 0
 --- !u!1 &878392718
@@ -563,6 +564,7 @@ GameObject:
   - component: {fileID: 878392722}
   - component: {fileID: 878392721}
   - component: {fileID: 878392720}
+  - component: {fileID: 878392723}
   m_Layer: 5
   m_Name: Scrollbar
   m_TagString: Untagged
@@ -678,6 +680,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878392718}
   m_CullTransparentMesh: 1
+--- !u!114 &878392723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878392718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d137183ecebb4f962fe2eab822bae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnNext: {fileID: 1113322749}
+  btnBack: {fileID: 1616672551}
+  titulo: {fileID: 428314401}
+  linea: {fileID: 1609108164}
+  scrolSnap: {fileID: 1692890477}
+  billetesContainer: {fileID: 895522788}
 --- !u!1 &895522787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,6 +1187,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   titulo: {fileID: 428314401}
   linea: {fileID: 1609108164}
+  barraScroll: {fileID: 878392720}
   scene: Billetes
   numBillete: 3
 --- !u!1 &1609108162
@@ -1901,6 +1922,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   titulo: {fileID: 428314401}
   linea: {fileID: 1609108164}
+  barraScroll: {fileID: 878392720}
   scene: Billetes
   numBillete: 1
 --- !u!1 &1862512050
@@ -2196,5 +2218,6 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   titulo: {fileID: 428314401}
   linea: {fileID: 1609108164}
+  barraScroll: {fileID: 878392720}
   scene: Billetes
   numBillete: 2
