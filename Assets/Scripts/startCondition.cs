@@ -6,13 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class startCondition : MonoBehaviour
 {
+	public Animator animacionLogo;
 	public GameObject ScreenPop;
 	public GameObject CanvasInfo;
 	public Button Next;
 	public Button YES;
 	public Button NOT;
 	public int infoScreen;
-	
+	public GameObject animacion;
 	
     // Start is called before the first frame update
     
@@ -20,6 +21,16 @@ public class startCondition : MonoBehaviour
 	void Awake()
 	{
 		LoadData();
+	}
+	
+	// Update is called every frame, if the MonoBehaviour is enabled.
+	void Update()
+	{
+		Debug.Log(animacionLogo.GetCurrentAnimatorStateInfo(0).normalizedTime);
+		if (animacion.active == false && infoScreen == 0)
+		{
+			SceneManager.LoadScene("Scroll_Snap");
+		}
 	}
 	void Start()
 	{
