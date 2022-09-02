@@ -13,6 +13,8 @@ public class btnInicioBillete : MonoBehaviour
 	}
     
 	IEnumerator cargarEscena(){
+		var scene = SceneManager.LoadSceneAsync(NombreEscena);
+		scene.allowSceneActivation = false;
 		billeteActual billeteUsar = GameObject.Find("billeteActual").GetComponent<billeteActual>();
 		GameObject caraDelantera = null;
 		GameObject caraTrasera = null;
@@ -90,6 +92,6 @@ public class btnInicioBillete : MonoBehaviour
 
         GameObject chest = GameObject.Find("infoCarrier");
         Destroy(chest);
-		SceneManager.LoadScene(NombreEscena);
+		scene.allowSceneActivation = true;
 	}
 }

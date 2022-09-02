@@ -17,6 +17,8 @@ public class scrollToBillete : MonoBehaviour
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(accion()));
     }
     IEnumerator accion(){
+        var sceneLoad = SceneManager.LoadSceneAsync(scene);
+		sceneLoad.allowSceneActivation = false;
         Transform padre = transform.parent;
         for(int i = 0; i < padre.childCount; i += 1){
             padre.GetChild(i).GetComponent<Button>().interactable = false;
@@ -52,6 +54,6 @@ public class scrollToBillete : MonoBehaviour
             yield return null;
         }
         
-        SceneManager.LoadScene(scene);
+        sceneLoad.allowSceneActivation = true;
     }
 }

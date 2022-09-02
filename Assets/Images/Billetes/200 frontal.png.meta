@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 177b5d37aeb33dc4e8a516b936f834fe
+guid: 4a53b51e15c00594cacdf0171e45d526
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,22 +128,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ciegos
+      name: Forma para ciegos
       rect:
         serializedVersion: 2
-        x: 33
-        y: 400
-        width: 73
-        height: 72
+        x: 28
+        y: 281
+        width: 56
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c1280e0ddd95745b14657893bb5a2d
-      internalID: -1549988905
+      spriteID: 3542d3c89dc1c1d4ca451f480022cebd
+      internalID: -159545870
       vertices: []
       indices: 
       edges: []
@@ -152,61 +152,82 @@ TextureImporter:
       name: Escudo
       rect:
         serializedVersion: 2
-        x: 290
-        y: 302
-        width: 116
-        height: 122
+        x: 204
+        y: 202
+        width: 79
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04eb5fd4163f4a341a084053920ee7a9
-      internalID: -1294820811
+      spriteID: cc03279610396d34883e6ba779608546
+      internalID: 1924412650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Flor de Bayahibe
+      name: Rayas
       rect:
         serializedVersion: 2
-        x: 319
-        y: 118
-        width: 176
-        height: 147
+        x: 343
+        y: 46
+        width: 26
+        height: 327
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2c8c6dedcffaf540a7e938121b4e913
-      internalID: -1527610133
+      spriteID: b53a757bca183be4fa0c2ce0208e6cd4
+      internalID: 609168602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Catedral
+      name: Numeros
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
-        width: 656
-        height: 403
+        x: 837
+        y: 120
+        width: 22
+        height: 209
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a1380189cc19b645a9b7a9cdc8f88f5
-      internalID: -1354721017
+      spriteID: 523b56660655d9547a3c33bb6fe7f6b1
+      internalID: 1221669076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flor de bayahibe
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 52
+        width: 129
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c875f91aef0912f448a0aa0d792d85ee
+      internalID: 181846897
       vertices: []
       indices: 
       edges: []
@@ -215,61 +236,124 @@ TextureImporter:
       name: Firma
       rect:
         serializedVersion: 2
-        x: 33
-        y: 60
-        width: 285
-        height: 75
+        x: 29
+        y: 51
+        width: 192
+        height: 38
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 306af9aa696a0e3419a7a787382e5b4f
-      internalID: 1309997823
+      spriteID: 8e0b809b155f5614f92626293d976254
+      internalID: 2119379649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Numero de serie
+      name: Patria
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 155
-        width: 50
-        height: 332
+        x: 372
+        y: 102
+        width: 137
+        height: 182
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb60df5d2351073489c2db21279f0236
-      internalID: 779120463
+      spriteID: 1a34f8d72bcabfe4aa3c41380ba14ce5
+      internalID: -756532395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Billete completo
+      name: Minerva
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 191
+        width: 166
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291d3441247fc1641872c5239f531975
+      internalID: -1740188532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Maria
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 110
+        width: 131
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5606177a73c67884ebc651954cf52884
+      internalID: -1472615836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Conmemoracion
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 258
+        width: 125
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0873a902c93fa3408ee4df3bd63b89c
+      internalID: -2143128462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Billete
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1285
-        height: 557
+        y: 9
+        width: 883
+        height: 372
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89198f4b8bec9264b9317aaa2ef76deb
-      internalID: 48322237
+      spriteID: 111cc26fceff9ae4d9dfa8390a12c3df
+      internalID: 1730316224
       vertices: []
       indices: 
       edges: []
@@ -285,13 +369,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Billete completo: 48322237
-      Numero de serie: 779120463
-      Flor de Bayahibe: -1527610133
-      Escudo: -1294820811
-      Firma: 1309997823
-      Ciegos: -1549988905
-      Catedral: -1354721017
+      Flor de bayahibe: 181846897
+      Numeros: 1221669076
+      Forma para ciegos: -159545870
+      Minerva: -1740188532
+      Rayas: 609168602
+      Conmemoracion: -2143128462
+      Patria: -756532395
+      Maria: -1472615836
+      Escudo: 1924412650
+      Firma: 2119379649
+      Billete: 1730316224
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

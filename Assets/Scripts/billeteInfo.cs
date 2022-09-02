@@ -19,6 +19,9 @@ public class billeteInfo : MonoBehaviour
     }
 
     IEnumerator accion(){
+        var scene = SceneManager.LoadSceneAsync("Info");
+        scene.allowSceneActivation = false;
+
         Transform padre = transform.parent;
         for(int i = 0; i < padre.childCount; i+= 1){
             if(i != transform.GetSiblingIndex()){
@@ -53,6 +56,6 @@ public class billeteInfo : MonoBehaviour
             yield return null;
         }
 
-        SceneManager.LoadScene("Info");
+        scene.allowSceneActivation = true;
     }
 }
