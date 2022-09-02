@@ -462,7 +462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
+  m_Sprite: {fileID: 500054833, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3876,7 +3876,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 0ea90cdc5fbacd142bd912387e2ac70d, type: 3}
+      objectReference: {fileID: 1556053109, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Escudo Nacional
@@ -9381,7 +9381,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 760741d98fa53954a8ae9c1040fd6975, type: 3}
+      objectReference: {fileID: -1677670048, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Firmas
@@ -10148,7 +10148,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 485138ee334538c4f8d8a7b3242044cf, type: 3}
+      objectReference: {fileID: -454556489, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "Pedro Her\xEDquez Ure\xF1a"
@@ -10812,7 +10812,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: fa795cbb0890372458ca07627d65cb13, type: 3}
+      objectReference: {fileID: 1954189860, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "L\xE1mina Frontal del BC"
@@ -14109,7 +14109,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 4b7236e5dc3db6544b362511f11a4070, type: 3}
+      objectReference: {fileID: -228609877, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "Numeraci\xF3n"
@@ -14850,7 +14850,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: b37a7d1a33e808f44a57bd3a46592b1c, type: 3}
+      objectReference: {fileID: -1841369119, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Franjas Irisdescentes
@@ -16475,7 +16475,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 342d3120f7343c54a8ed05d3a47eae41, type: 3}
+      objectReference: {fileID: 618614655, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "S\xEDmbolo para no videntes"
@@ -17719,7 +17719,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 60e037ec3a1319d4498d8e6e2ce8e93d, type: 3}
+      objectReference: {fileID: 2102717376, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: "Salome Ure\xF1a"
@@ -19239,7 +19239,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: imagen
       value: 
-      objectReference: {fileID: 21300000, guid: 344e90b746997184a980ee9af196f941, type: 3}
+      objectReference: {fileID: -1299189428, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
       value: Flor Nacional
