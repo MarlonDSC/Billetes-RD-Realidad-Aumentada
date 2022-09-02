@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -821,27 +821,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.71568924
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.6115338
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.71568924
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.6115338
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 13.8
+      value: 13.799999
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 16.877
+      value: 16.876999
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -869,11 +869,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 252.46
+      value: -2.5399933
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 56.438
+      value: 0.43800354
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1472,7 +1472,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      value: Marcas de seguridad notables a simple vista, presentes en todos los
+        billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -1723,7 +1724,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Franja impresas en el billete con material irisdecente, que funcionan
+      value: Franja impresa en el billete con material irisdecente, que funcionan
         como un elemento de seguridad.
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -2250,9 +2251,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: El Escudo de Armas de la Republica Dominicana es uno de los simbolos
-        patrios mas significativos para el pais, ya que representa el Estado Libre,
-        Independiente y Soberano.
+      value: "El Escudo de Armas de la Rep\xFAblica Dominicana es uno de los s\xEDmbolos
+        patrios m\xE1s significativos para el pa\xEDs, ya que representa el Estado
+        Libre, Independiente y Soberano."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -2549,8 +2550,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos simbolos
-        para hacer mas f\xE1cil la tarea de identificar cada billetes a las personas
+      value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
+        para hacer mas f\xE1cil la tarea de identificar cada billete a las personas
         no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -2647,23 +2648,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.81900007
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.70514274
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.81900007
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.70514274
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 13.13
+      value: 13.130005
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2695,11 +2696,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 383.8
+      value: 5.799988
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 103.7
+      value: 0.69999695
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2898,19 +2899,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.67422307
+      value: 0.94324315
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.66200006
+      value: 0.312
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.67422307
+      value: 0.94324315
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.66200006
+      value: 0.312
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
@@ -2946,11 +2947,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 312
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -173
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3042,7 +3043,8 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      value: Marcas de seguridad notables a simple vista, presentes en todos los
+        billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -3302,9 +3304,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: El numero de identificacion de cada billete se dispone de forma horizontal
-        en el lado izquierdo superior, al lado de la marca para no videntes, y en
-        vertical en el extremo derecho del billete.
+      value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
+        horizontal en el lado izquierdo superior, al lado de la marca para no videntes,
+        y en vertical en el extremo derecho del billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -4002,23 +4004,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.8364662
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.7092425
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.8364662
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.7092425
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 15.13
+      value: 15.130001
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4050,11 +4052,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 398.71
+      value: 0.70999146
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 109.82
+      value: 4.8199997
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4247,27 +4249,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.87264913
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.71500003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.87264913
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.71500003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 15.69
+      value: 15.690002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 18.56
+      value: 18.559998
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4295,11 +4297,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 424.85
+      value: -17.149994
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 123.7
+      value: 15.699997
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4497,27 +4499,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.2703108
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.6076669
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.2703108
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.6076669
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 11.58
+      value: 11.580002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 11.79
+      value: 11.790001
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4545,11 +4547,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -268.8
+      value: 3.2000122
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 56.02
+      value: 2.0200005
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4761,7 +4763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.41277698
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
@@ -4769,7 +4771,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.41277698
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
@@ -4777,7 +4779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 60.91
+      value: 60.910004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -4809,7 +4811,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -105.74
+      value: -2.7399979
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5157,7 +5159,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      value: Marcas de seguridad notables a simple vista presentes en todos los billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -5427,7 +5429,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "Es un lugar con un significado simb\xF3lico, ya que fue donde Mella
         dispar\xF3 el trabucazo y se iz\xF3 la bandera nacional por primera vez,
-        actos que dieron inicio a la independencia dominicana."
+        actos que dieron inicio a la independencia Dominicana."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -5518,7 +5520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.4088647
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
@@ -5526,7 +5528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.4088647
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
@@ -5566,7 +5568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -109.3
+      value: -1.300003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -5670,7 +5672,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Franja impresas en el billete con material irisdecente, que funcionan
+      value: Franja impresa en el billete con material irisdecente, que funcionan
         como un elemento de seguridad.
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -5733,8 +5735,8 @@ RectTransform:
   - {fileID: 1654008127}
   - {fileID: 1315705181}
   - {fileID: 1244250467}
-  - {fileID: 541877892}
   - {fileID: 1835542473}
+  - {fileID: 541877892}
   m_Father: {fileID: 1839483693}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8098,7 +8100,8 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      value: Marcas de seguridad notables a simple vista, presentes en todos los
+        billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -10334,19 +10337,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.27400002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.6533591
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.27400002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.6533591
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
@@ -10382,11 +10385,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -269.67
+      value: -1.670044
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 75.46
+      value: -1.5400009
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11082,8 +11085,8 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
-        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
-        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
+        Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
+        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -11176,19 +11179,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.30577695
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.314
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.30577695
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.314
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
@@ -11224,11 +11227,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -226
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -92.2
+      value: 0.80000305
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11502,23 +11505,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.13522305
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.14500001
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.13522305
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.14500001
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 29.49
+      value: 29.489998
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -11550,11 +11553,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -420.97
+      value: 11.030029
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -174.15
+      value: 3.850006
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11898,7 +11901,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
-        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
         por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -12047,19 +12050,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.514
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.46800002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.514
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.46800002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
@@ -12095,11 +12098,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 15.16
+      value: -1.8400002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -14.613
+      value: 1.387001
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12626,23 +12629,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.934
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.337
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.934
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.337
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 12.02
+      value: 12.020004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -12674,11 +12677,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 510
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -77
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13382,23 +13385,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.60660154
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.528
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.60660154
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.528
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 38.24
+      value: 38.240005
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -13430,11 +13433,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 124.68
+      value: -1.3200073
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 18.55
+      value: 4.549999
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13510,7 +13513,7 @@ PrefabInstance:
       objectReference: {fileID: -1617306102, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "Salome Ure\xF1a"
+      value: "Salom\xE9 Ure\xF1a"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -13714,23 +13717,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.056
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.77500004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.056
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.77500004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 6.7
+      value: 6.700001
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -13762,11 +13765,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -532.1
+      value: -7.0999756
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 138.9
+      value: 0.8999939
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14130,7 +14133,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
         horizontal en el lado izquierdo superior, al lado de la marca para no videntes,
-        y en vertical en el extremo derecho del billete."
+        y en vertical en el extremo derecho del billete. "
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -14382,7 +14385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Franja impresas en el billete con material irisdecente, que funcionan
+      value: Franja impresa en el billete con material irisdecente, que funcionan
         como un elemento de seguridad.
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -14869,7 +14872,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Franja impresas en el billete con material irisdecente, que funcionan
+      value: Franja impresa en el billete con material irisdecente, que funcionan
         como un elemento de seguridad.
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -15303,23 +15306,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.31168923
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.34600002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.31168923
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.34600002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 11.71
+      value: 11.709999
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -15351,11 +15354,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -225.44
+      value: -2.4400024
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -73.44
+      value: 3.5599976
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15731,7 +15734,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
+        para hacer m\xE1s f\xE1cil la tarea de identificar cada billete a las personas
         no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -15836,19 +15839,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.1433108
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.163
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.1433108
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.163
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
@@ -15856,7 +15859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 6.15
+      value: 6.1499996
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15884,11 +15887,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -420.97
+      value: 1.0300293
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -163.3
+      value: 5.700012
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16083,23 +16086,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.955777
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.56600004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.955777
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.56600004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 4.42
+      value: 4.419998
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -16131,11 +16134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 540.92
+      value: 0.9199829
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 41
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -16495,7 +16498,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
+        para hacer m\xE1s f\xE1cil la tarea de identificar cada billete a las personas
         no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -16608,27 +16611,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.03484461
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.74700004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.03484461
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.74700004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 5.12
+      value: 6.119995
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 7.71
+      value: 7.709999
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16656,11 +16659,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -549.51
+      value: -0.010009766
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 121.38
+      value: -2.6200104
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17042,9 +17045,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "La rosa de Bayahibe es una especie de cactus endemica de la Rep\xFAblica
-        Dominicana. Su habitat natural son los bosques secos tropicales y subtropicales
-        por la costa sureste de la isla, cerca del poblado de Bayahibe."
+      value: "La rosa de Bayahibe es una especie de cactus end\xE9mica de la Rep\xFAblica
+        Dominicana. Su habitat natural son los bosques secos, tropicales y subtropicales
+        por la costa sureste de la isla, cerca del poblado de Bayahibe"
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -17722,7 +17725,7 @@ PrefabInstance:
       objectReference: {fileID: 2102717376, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "Salome Ure\xF1a"
+      value: "Salom\xE9 Ure\xF1a"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -17739,7 +17742,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Escritora, edcadora y poetisa dominicana que logr\xF3 llamar la atenci\xF3n
-        de gran parte de Latinoam\xE9tica con sus obra; tambi\xE9n fue una innovadora
+        de gran parte de Latinoam\xE9rica con sus obras; tambi\xE9n fue una innovadora
         en la educaci\xF3n para las mujeres en su pa\xEDs."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -17837,23 +17840,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.3564662
+      value: 0.4103108
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.47200003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.3564662
+      value: 0.4103108
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.47200003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 62.77
+      value: 62.770004
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -17885,11 +17888,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 85.86
+      value: 21.86
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.24
+      value: 12.76
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18083,27 +18086,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0.9554662
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0.5
+      value: 0.528
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0.9554662
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.5
+      value: 0.528
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 4.76
+      value: 4.760002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_SizeDelta.y
@@ -18135,11 +18138,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 536.4
+      value: -2.5999756
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 26.6
+      value: 12.599998
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19259,7 +19262,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
-        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
         por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -19598,7 +19601,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "Firmas de seguridad presentes en cada billete, que corresponden al
         ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emision de dicho billete."
+        de emisi\xF3n de dicho billete.."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
