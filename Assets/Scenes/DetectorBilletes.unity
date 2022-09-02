@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4440226, g: 0.49316192, b: 0.5722312, a: 1}
+  m_IndirectSpecularColor: {r: 0.44402295, g: 0.4931627, b: 0.5722325, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6111,7 +6111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844312983916051160}
   m_Layer: 0
-  m_Name: auditorio
+  m_Name: Sala de Reuniones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7069,7 +7069,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356568992751591522}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.0075, y: 0.0792, z: -0.040799975}
+  m_LocalPosition: {x: 0.0075, y: 0.0792, z: -0.0437}
   m_LocalScale: {x: 0.03, y: 0.03, z: 0.03}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10490,7 +10490,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12143,7 +12143,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12243,7 +12243,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12525,7 +12525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16071,7 +16071,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17743,7 +17743,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20664,7 +20664,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22649,7 +22649,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 3780671244086486322, guid: 9c9c9eb61a5558b4c81a20c39e09d0b3, type: 3}
+  - {fileID: 2100000, guid: 8f78a7b24e43c19459233d23d818522f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
