@@ -131,12 +131,12 @@ TextureImporter:
       name: Forma para ciegos
       rect:
         serializedVersion: 2
-        x: 28
-        y: 281
-        width: 56
-        height: 34
+        x: 87
+        y: 1087
+        width: 232
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,12 +152,12 @@ TextureImporter:
       name: Escudo
       rect:
         serializedVersion: 2
-        x: 204
-        y: 202
-        width: 79
-        height: 82
+        x: 828
+        y: 796
+        width: 355
+        height: 352
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: Rayas
       rect:
         serializedVersion: 2
-        x: 343
-        y: 46
-        width: 26
-        height: 327
+        x: 1280
+        y: 52
+        width: 119
+        height: 1378
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: Numeros
       rect:
         serializedVersion: 2
-        x: 837
-        y: 120
-        width: 22
-        height: 209
+        x: 3471
+        y: 407
+        width: 138
+        height: 909
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: Flor de bayahibe
       rect:
         serializedVersion: 2
-        x: 225
-        y: 52
-        width: 129
-        height: 118
+        x: 921
+        y: 165
+        width: 549
+        height: 522
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: Firma
       rect:
         serializedVersion: 2
-        x: 29
-        y: 51
-        width: 192
-        height: 38
+        x: 87
+        y: 94
+        width: 839
+        height: 197
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: Patria
       rect:
         serializedVersion: 2
-        x: 372
-        y: 102
-        width: 137
-        height: 182
+        x: 1504
+        y: 356
+        width: 532
+        height: 704
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: Minerva
       rect:
         serializedVersion: 2
-        x: 480
-        y: 191
-        width: 166
-        height: 163
+        x: 1924
+        y: 698
+        width: 637
+        height: 622
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,12 +299,12 @@ TextureImporter:
       name: Maria
       rect:
         serializedVersion: 2
-        x: 637
-        y: 110
-        width: 131
-        height: 168
+        x: 2495
+        y: 381
+        width: 486
+        height: 643
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: Conmemoracion
       rect:
         serializedVersion: 2
-        x: 689
-        y: 258
-        width: 125
-        height: 101
+        x: 2955
+        y: 874
+        width: 452
+        height: 498
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -342,11 +342,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 9
-        width: 883
-        height: 372
+        y: 0
+        width: 3673
+        height: 1528
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

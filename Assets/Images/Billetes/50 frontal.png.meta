@@ -131,10 +131,10 @@ TextureImporter:
       name: Ciegos
       rect:
         serializedVersion: 2
-        x: 33
-        y: 400
-        width: 73
-        height: 72
+        x: 81
+        y: 1109
+        width: 201
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: Escudo
       rect:
         serializedVersion: 2
-        x: 290
-        y: 302
-        width: 116
-        height: 122
+        x: 833
+        y: 847
+        width: 354
+        height: 351
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: Flor de Bayahibe
       rect:
         serializedVersion: 2
-        x: 319
-        y: 118
-        width: 176
-        height: 147
+        x: 905
+        y: 215
+        width: 569
+        height: 521
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Catedral
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
-        width: 656
-        height: 403
+        x: 1336
+        y: 145
+        width: 1752
+        height: 1165
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: Firma
       rect:
         serializedVersion: 2
-        x: 33
-        y: 60
-        width: 285
-        height: 75
+        x: 72
+        y: 131
+        width: 843
+        height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: Numero de serie
       rect:
         serializedVersion: 2
-        x: 1191
-        y: 155
-        width: 50
-        height: 332
+        x: 3480
+        y: 449
+        width: 122
+        height: 923
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,9 +258,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 1271
-        height: 547
+        y: 0
+        width: 3662
+        height: 1584
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,6 +270,27 @@ TextureImporter:
       bones: []
       spriteID: 89198f4b8bec9264b9317aaa2ef76deb
       internalID: 48322237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Conmemoraci\xF3n"
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 885
+        width: 439
+        height: 487
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff145d779a253648a7b37bf794412ec
+      internalID: 1610628486
       vertices: []
       indices: 
       edges: []
@@ -287,6 +308,7 @@ TextureImporter:
     nameFileIdTable:
       Numero de serie: 779120463
       Flor de Bayahibe: -1527610133
+      "Conmemoraci\xF3n": 1610628486
       Escudo: -1294820811
       Firma: 1309997823
       Billete: 48322237

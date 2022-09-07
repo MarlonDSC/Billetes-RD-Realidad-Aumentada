@@ -131,10 +131,10 @@ TextureImporter:
       name: Escudo
       rect:
         serializedVersion: 2
-        x: 201
-        y: 201
-        width: 79
-        height: 79
+        x: 804
+        y: 808
+        width: 374
+        height: 374
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,10 +152,10 @@ TextureImporter:
       name: Forma para ciegos
       rect:
         serializedVersion: 2
-        x: 23
-        y: 273
-        width: 53
-        height: 28
+        x: 63
+        y: 1143
+        width: 236
+        height: 96
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,10 +173,10 @@ TextureImporter:
       name: Flor de bayahibe
       rect:
         serializedVersion: 2
-        x: 221
-        y: 48
-        width: 127
-        height: 122
+        x: 912
+        y: 191
+        width: 555
+        height: 524
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +194,10 @@ TextureImporter:
       name: Rayas
       rect:
         serializedVersion: 2
-        x: 313
-        y: 35
-        width: 29
-        height: 288
+        x: 1426
+        y: 94
+        width: 150
+        height: 1284
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,10 +215,10 @@ TextureImporter:
       name: "Salom\xE9"
       rect:
         serializedVersion: 2
-        x: 378
-        y: 100
-        width: 148
-        height: 189
+        x: 1562
+        y: 377
+        width: 673
+        height: 821
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +236,10 @@ TextureImporter:
       name: Pedro
       rect:
         serializedVersion: 2
-        x: 538
-        y: 152
-        width: 145
-        height: 180
+        x: 2230
+        y: 601
+        width: 639
+        height: 806
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +257,10 @@ TextureImporter:
       name: Conmemoracion
       rect:
         serializedVersion: 2
-        x: 690
-        y: 221
-        width: 100
-        height: 111
+        x: 2880
+        y: 907
+        width: 435
+        height: 496
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,10 +278,10 @@ TextureImporter:
       name: Numeros
       rect:
         serializedVersion: 2
-        x: 823
-        y: 107
-        width: 29
-        height: 213
+        x: 3439
+        y: 437
+        width: 149
+        height: 875
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,10 +299,10 @@ TextureImporter:
       name: Firma
       rect:
         serializedVersion: 2
-        x: 25
-        y: 43
-        width: 196
-        height: 36
+        x: 92
+        y: 106
+        width: 857
+        height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,12 +320,12 @@ TextureImporter:
       name: Billete
       rect:
         serializedVersion: 2
-        x: 4
-        y: 9
-        width: 871
-        height: 369
+        x: 0
+        y: 0
+        width: 3686
+        height: 1569
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

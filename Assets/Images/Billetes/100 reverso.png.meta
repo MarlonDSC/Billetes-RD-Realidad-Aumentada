@@ -119,12 +119,12 @@ TextureImporter:
       name: Puerta del conde
       rect:
         serializedVersion: 2
-        x: 78
-        y: 37
-        width: 272
-        height: 136
+        x: 580
+        y: 257
+        width: 1983
+        height: 1045
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -140,12 +140,12 @@ TextureImporter:
       name: BCRD
       rect:
         serializedVersion: 2
-        x: 383
-        y: 139
-        width: 53
-        height: 23
+        x: 2882
+        y: 1034
+        width: 376
+        height: 150
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -161,12 +161,12 @@ TextureImporter:
       name: Seguridad
       rect:
         serializedVersion: 2
-        x: 444
-        y: 35
-        width: 51
-        height: 73
+        x: 3289
+        y: 273
+        width: 408
+        height: 517
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,10 +184,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 495
-        height: 212
+        width: 3706
+        height: 1571
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
