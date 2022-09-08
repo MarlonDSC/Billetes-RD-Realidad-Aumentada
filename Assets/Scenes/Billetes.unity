@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -619,7 +619,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3.42
+      value: -3.4199982
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -957,7 +957,7 @@ PrefabInstance:
       objectReference: {fileID: 1408207708, guid: 0000c78218764f74594434d9c93db666, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "Pedro Her\xEDquez Ure\xF1a"
+      value: "Jos\xE9 Rufino Reyes Siancas"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -973,9 +973,10 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Fue un gran estudioso de la literatura de nuestra lengua. Considerado
-        como una figura clave en el reconocimiento y asentamiento del campo de la
-        cr\xEDtica literaria latinoamericana."
+      value: "Jos\xE9 Rufino Reyes y Siancas (1836-1905) fue un m\xFAsico y compositor
+        dominicano conocido por escribir la m\xFAsica del Himno Nacional Dominicano.
+        Tambi\xE9n escribi\xF3 vales, marchas y m\xFAsica religiosa. Naci\xF3 el
+        15 de noviembre de 1836 en Santo Domingo. "
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -3797,7 +3798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.3888
+      value: 1.3888016
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4891,7 +4892,7 @@ PrefabInstance:
       objectReference: {fileID: 221698485, guid: 2d8541c25d6e91442b4d4c14c54cbd63, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Banco Central
+      value: Teatro Nacional
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -4907,9 +4908,10 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
-        que se constituye como una entidad descentralizada y aut\xF3noma, y act\xFAa
-        como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
+      value: "El Teatro Nacional Eduardo Brito es parte del complejo Plaza de la
+        Cultura, ubicado en Santo Domingo, Rep\xFAblica Dominicana. El teatro abri\xF3
+        sus puertas el 16 de agosto de 1973 y es la pieza central del complejo. Est\xE1
+        rodeado de varios museos e instituciones culturales."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -5315,7 +5317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 7.45
+      value: 7.449997
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -6405,7 +6407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 11.15
+      value: 11.150002
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -6727,11 +6729,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -48.9
+      value: -48.899994
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.27
+      value: 3.2700005
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7496,7 +7498,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -20.922
+      value: -20.921997
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -9816,11 +9818,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -8.4
+      value: -8.399994
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -11.8
+      value: -11.800003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -12178,7 +12180,7 @@ PrefabInstance:
       objectReference: {fileID: 72978655, guid: 0000c78218764f74594434d9c93db666, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "Salome Ure\xF1a"
+      value: emilio prud` homme
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -12194,9 +12196,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Escritora, edcadora y poetisa dominicana que logr\xF3 llamar la atenci\xF3n
-        de gran parte de Latinoam\xE9tica con sus obra; tambi\xE9n fue una innovadora
-        en la educaci\xF3n para las mujeres en su pa\xEDs."
+      value: Emilio Prud'Homme y Maduro (20 de agosto de 1856 - 21 de julio de 1932),
+        fue un abogado dominicano. Fue el autor y compositor de las letras del Himno
+        Nacional Dominicano.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -12422,11 +12424,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.78
+      value: -1.7799988
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.19
+      value: 3.1900024
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13183,7 +13185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -16.7
+      value: -16.699982
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -13513,7 +13515,7 @@ PrefabInstance:
       objectReference: {fileID: -1617306102, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "Salom\xE9 Ure\xF1a"
+      value: Palacio Nacional
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -13529,9 +13531,10 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Escritora, edcadora y poetisa dominicana que logr\xF3 llamar la atenci\xF3n
-        de gran parte de Latinoam\xE9tica con sus obra; tambi\xE9n fue una innovadora
-        en la educaci\xF3n para las mujeres en su pa\xEDs."
+      value: "El Palacio Nacional de la Rep\xFAblica Dominicana es el lugar de trabajo
+        del Presidente de la Rep\xFAblica y sede del Poder Ejecutivo de ese pa\xEDs.
+        Es una de las obras m\xE1s emblem\xE1ticas del pa\xEDs donde se encuentran,
+        adem\xE1s, las oficinas del Vicepresidente de la Rep\xFAblica Dominicana. "
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -14277,7 +14280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -23.8
+      value: -23.800003
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -14776,7 +14779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.3452
+      value: 3.3451996
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -17988,9 +17991,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
-        que se constituye como una entidad descentralizada y aut\xF3noma, y act\xFAa
-        como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
+      value: "El Alc\xE1zar de Col\xF3n o Palacio Virreinal de Don Diego Col\xF3n
+        es un palacio de inicios del siglo XVI, ubicado en la Plaza de Espa\xF1a
+        en la Ciudad Colonial de Santo Domingo (Rep\xFAblica Dominicana)."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -18755,7 +18758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 22.1
+      value: 22.100006
       objectReference: {fileID: 0}
     - target: {fileID: 4592574661020719240, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: m_AnchoredPosition.y
