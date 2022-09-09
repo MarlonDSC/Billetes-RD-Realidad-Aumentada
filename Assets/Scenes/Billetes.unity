@@ -353,7 +353,7 @@ PrefabInstance:
       objectReference: {fileID: -1354721017, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Catedral Primada de America
+      value: "Catedral Primada de Am\xE9rica"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -2531,7 +2531,7 @@ PrefabInstance:
       objectReference: {fileID: -1549988905, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Smmbolo para no videntes
+      value: "S\xEDmbolo para no videntes"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -3285,7 +3285,7 @@ PrefabInstance:
       objectReference: {fileID: 779120463, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Numeracion
+      value: "Numeraci\xF3n"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
