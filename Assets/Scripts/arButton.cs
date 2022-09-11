@@ -20,7 +20,7 @@ public class arButton : MonoBehaviour
 		GameObject caraTrasera = btnRotacion.caraTrasera;
 
         infoCarrier chest = GameObject.Find("infoCarrier").GetComponent<infoCarrier>();
-        chest.position = caraDelantera.activeSelf ? caraDelantera.transform.position : caraTrasera.transform.position;
+        chest.position = caraDelantera.activeSelf ? caraDelantera.transform.localPosition : caraTrasera.transform.localPosition;
 
         Animator[] animations = {btnVolver, btnRotar, titulo, btnAR};
         foreach(Animator animacion in animations){

@@ -63,6 +63,15 @@ public class RotacionBilletes : MonoBehaviour
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, 0f, 0f);
 			StartCoroutine(venida(activador, billeteUsar.size, billeteUsar.position));
+		}else if(openChest.regreso == 2){
+			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
+			foreach(Animator animacion in animations){
+				animacion.Rebind();
+			}
+			btnVolver.Play("btnARback");
+			titulo.Play("titleback");
+			btnAR.Play("btnARback");
+			GetComponent<Animator>().Play("btnARback");
 		}
 
 		billete[apagador].transform.eulerAngles = new Vector3(0f, 180f, 0f);

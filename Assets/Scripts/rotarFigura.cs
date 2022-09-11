@@ -35,9 +35,11 @@ public class rotarFigura : MonoBehaviour
                 mousePositionXPrevFrame = Input.mousePosition.x;
                 mousePositionYPrevFrame = Input.mousePosition.y;
             }
+
             float deltaMousePositionX = mousePositionXPrevFrame - Input.mousePosition.x;
             float deltaMousePositionY = Input.mousePosition.y - mousePositionYPrevFrame;
             gameObject.transform.Rotate(deltaMousePositionY*rotationSpeed, deltaMousePositionX*rotationSpeed, 0, Space.World);
+
             mousePositionXPrevFrame = Input.mousePosition.x;
             mousePositionYPrevFrame = Input.mousePosition.y;
         }else if (Input.GetMouseButton(1)){

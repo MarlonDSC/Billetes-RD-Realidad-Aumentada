@@ -373,8 +373,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Es una catedral y bas\xEDlica menor dedicada a Santa Maria de la Encarnaci\xF3n
-        que se encuentra en la Ciudad Colonial de Santo Domingo."
+      value: "Es una catedral y bas\xEDlica menor dedicada a Santa Maria de la Encarnaci\xF3n.
+        Se encuentra en la Ciudad Colonial de Santo Domingo."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -973,10 +973,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Jos\xE9 Rufino Reyes y Siancas (1836-1905) fue un m\xFAsico y compositor
-        dominicano conocido por escribir la m\xFAsica del Himno Nacional Dominicano.
-        Tambi\xE9n escribi\xF3 vales, marchas y m\xFAsica religiosa. Naci\xF3 el
-        15 de noviembre de 1836 en Santo Domingo. "
+      value: "Jos\xE9 Rufino Reyes y Siancas fue un m\xFAsico y compositor Dominicano
+        conocido por escribir la m\xFAsica del Himno Nacional Dominicano. Tambi\xE9n
+        escribi\xF3 vales, marchas y m\xFAsica religiosa."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -1473,8 +1472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple vista, presentes en todos los
-        billetes.
+      value: Marcas de seguridad notables a simple vista presentes en todos los billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -1979,7 +1977,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
-        que se constituye como una entidad descentralizada y aut\xF3noma, y act\xFAa
+        que se constituye como una entidad descentralizada y aut\xF3noma. Act\xFAa
         como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -2552,8 +2550,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer mas f\xE1cil la tarea de identificar cada billete a las personas
-        no videntes."
+        para facilitar la identificaci\xF3n de los billetes a las personas no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -3044,8 +3041,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple vista, presentes en todos los
-        billetes.
+      value: Marcas de seguridad notables a simple vista presentes en todos los billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -4141,7 +4137,7 @@ PrefabInstance:
       objectReference: {fileID: -1824762421, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "L\xE1mina Frontal del BC"
+      value: "L\xE1mina Frontal del Banco Central"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -4386,7 +4382,7 @@ PrefabInstance:
       objectReference: {fileID: 669196060, guid: 0000c78218764f74594434d9c93db666, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "L\xE1mina Frontal del BC"
+      value: "L\xE1mina Frontal del Banco Central"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -4909,9 +4905,9 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "El Teatro Nacional Eduardo Brito es parte del complejo Plaza de la
-        Cultura, ubicado en Santo Domingo, Rep\xFAblica Dominicana. El teatro abri\xF3
-        sus puertas el 16 de agosto de 1973 y es la pieza central del complejo. Est\xE1
-        rodeado de varios museos e instituciones culturales."
+        Cultura, ubicado en Santo Domingo. El teatro abri\xF3 sus puertas el 16 de
+        agosto de 1973 y es la pieza central del complejo. Est\xE1 rodeado de varios
+        museos e instituciones culturales."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -5429,9 +5425,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Es un lugar con un significado simb\xF3lico, ya que fue donde Mella
-        dispar\xF3 el trabucazo y se iz\xF3 la bandera nacional por primera vez,
-        actos que dieron inicio a la independencia Dominicana."
+      value: "Es un lugar con un significado simb\xF3lico para nuestra historia,
+        siendo el lugar donde Mella dispar\xF3 el trabucazo y se iz\xF3 la bandera
+        nacional por primera vez, actos que dieron inicio a la independencia Dominicana."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -7092,9 +7088,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Fue una mecan\xF3grafa y activista dominicana, conocida por sus esfuerzos
-        en la lucha contra la dictadura que ten\xEDa sometido al pa\xEDs en ese momento,
-        apoyando principalmente a su hermana Minerva en dicha causa."
+      value: "Fue una mecan\xF3grafa y activista Dominicana, conocida por sus esfuerzos
+        en la lucha contra la dictadura en la que estaba sometido al pa\xEDs, siempre
+        apoyando a su hermana Minerva en dicha causa."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -7333,7 +7329,7 @@ PrefabInstance:
       objectReference: {fileID: 1205385347, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "L\xE1mina Frontal del BC"
+      value: "L\xE1mina Frontal del Banco Central"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -7601,7 +7597,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "Profesor, militar, pol\xEDtico y activista liberal dominicano. Se destac\xF3
         por haber sido el presidente y fundador de la Sociedad La Trinitaria. Es
-        la principal figura de patriotismo dominicano."
+        la principal figura del patriotismo dominicano."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -8107,8 +8103,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple vista, presentes en todos los
-        billetes.
+      value: Marcas de seguridad notables a simple vista presentes en todos los billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -8704,8 +8699,8 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Artista y activista dominicana que tuvo una destacada participaci\xF3n
-        en las reuniones que dieron origen al Movimiento Revolucionario 14 de junio,
+      value: "Artista y activista Dominicana que tuvo una destacada participaci\xF3n
+        en las reuniones que dieron origen al Movimiento Revolucionario 14 de Junio,
         con el que se queria poner fin a la dictadura de Trujillo."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -8946,7 +8941,7 @@ PrefabInstance:
       objectReference: {fileID: 1672459625, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Firmas
+      value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -8966,9 +8961,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Firmas de seguridad presentes en cada billete, que corresponden al
-        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emisi\xF3n de dicho billete."
+      value: "Firmas de seguridad presentes en cada billete. Corresponden al ministro
+        de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+        de dicho billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -9394,7 +9389,7 @@ PrefabInstance:
       objectReference: {fileID: -1677670048, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Firmas
+      value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -9410,9 +9405,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Firmas de seguridad presentes en cada billete, que corresponden al
-        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emisi\xF3n de dicho billete."
+      value: "Firmas de seguridad presentes en cada billete. Corresponden al ministro
+        de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+        de dicho billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -9666,7 +9661,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "Lugar de residencia de las hermanas Mirabal en sus \xFAltimos 10 meses
-        de vida. Ubicada en la provincia Salcedo, en un gigantesco jard\xEDn, guarda
+        de vida. Ubicado en la provincia Salcedo, en un gigantesco jard\xEDn. Guarda
         una historia y un legado de estas mujeres."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -9903,7 +9898,7 @@ PrefabInstance:
       objectReference: {fileID: 2119379649, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Firmas
+      value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -9919,9 +9914,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Firmas de seguridad presentes en cada billete, que corresponden al
-        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emisi\xF3n de dicho billete."
+      value: "Firmas de seguridad presentes en cada billete. Corresponden al ministro
+        de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+        de dicho billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -10825,7 +10820,7 @@ PrefabInstance:
       objectReference: {fileID: 1954189860, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "L\xE1mina Frontal del BC"
+      value: "L\xE1mina Frontal del Banco Central"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -11093,7 +11088,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
         Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
-        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe"
+        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -11339,7 +11334,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
-        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
         por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -11648,7 +11643,7 @@ PrefabInstance:
       objectReference: {fileID: -1711566253, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Firmas
+      value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -11664,9 +11659,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Firmas de seguridad presentes en cada billete, que corresponden al
-        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emisi\xF3n de dicho billete."
+      value: "Firmas de seguridad presentes en cada billete. Corresponden al ministro
+        de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+        de dicho billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -12185,7 +12180,7 @@ PrefabInstance:
       objectReference: {fileID: 72978655, guid: 0000c78218764f74594434d9c93db666, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: emilio prud` homme
+      value: Emilio Prud'Homme
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -12201,9 +12196,8 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Emilio Prud'Homme y Maduro (20 de agosto de 1856 - 21 de julio de 1932),
-        fue un abogado dominicano. Fue el autor y compositor de las letras del Himno
-        Nacional Dominicano.
+      value: Emilio Prud'Homme y Maduro fue un abogado Dominicano. Fue el autor y
+        compositor de las letras del Himno Nacional Dominicano.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -12780,7 +12774,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      value: Marcas de seguridad notables a simple vista presentes en todos los billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -13032,8 +13026,8 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Agrimensora y activista dominicana que estuvo en contra del r\xE9gimen
-        trujillista, apresada en varias ocasiones por su lucha y finalmente asesinada
+      value: "Agrimensora y activista Dominicana que estuvo en contra del r\xE9gimen
+        trujillista. Fue apresada en varias ocasiones por su lucha y finalmente asesinada
         junto a sus dos hermanas por orden del dictador."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -13287,8 +13281,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
-        no videntes."
+        para facilitar la identificaci\xF3n de los billetes a las personas no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -13536,10 +13529,10 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "El Palacio Nacional de la Rep\xFAblica Dominicana es el lugar de trabajo
-        del Presidente de la Rep\xFAblica y sede del Poder Ejecutivo de ese pa\xEDs.
-        Es una de las obras m\xE1s emblem\xE1ticas del pa\xEDs donde se encuentran,
-        adem\xE1s, las oficinas del Vicepresidente de la Rep\xFAblica Dominicana. "
+      value: "El Palacio Nacional es el lugar de trabajo del Presidente de la Rep\xFAblica
+        y sede del Poder Ejecutivo del pa\xEDs. Es una de las obras m\xE1s emblem\xE1ticas
+        donde se encuentran, adem\xE1s, las oficinas del Vicepresidente de la Rep\xFAblica
+        Dominicana."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -13890,8 +13883,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
-        no videntes."
+        para facilitar la identificaci\xF3n de los billetes a las personas no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -14145,7 +14137,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de forma
         horizontal en el lado izquierdo superior, al lado de la marca para no videntes,
-        y en vertical en el extremo derecho del billete. "
+        y en vertical en el extremo derecho del billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -14641,7 +14633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: Marcas de seguridad notables a simple presentes en todos los billetes.
+      value: Marcas de seguridad notables a simple vista presentes en todos los billetes.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -15471,7 +15463,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
-        Dominicana. Su h\xE1bitat natural son los bosques secos tropicales y subtropicales
+        Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
         por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -15746,8 +15738,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billete a las personas
-        no videntes."
+        para facilitar la identificaci\xF3n de los billetes a las personas no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -15987,7 +15978,7 @@ PrefabInstance:
       objectReference: {fileID: -1958398653, guid: 0000c78218764f74594434d9c93db666, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Firmas
+      value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -16003,9 +15994,9 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Firmas de seguridad presentes en cada billete, que corresponden al
-        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emisi\xF3n de dicho billete."
+      value: "Firmas de seguridad presentes en cada billete. Corresponden al ministro
+        de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+        de dicho billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -16510,8 +16501,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billete a las personas
-        no videntes."
+        para facilitar la identificaci\xF3n de los billetes a las personas no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -16788,8 +16778,7 @@ PrefabInstance:
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
       value: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos s\xEDmbolos
-        para hacer m\xE1s f\xE1cil la tarea de identificar cada billetes a las personas
-        no videntes."
+        para facilitar la identificaci\xF3n de los billetes a las personas no videntes."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -17057,9 +17046,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "La rosa de Bayahibe es una especie de cactus end\xE9mica de la Rep\xFAblica
-        Dominicana. Su habitat natural son los bosques secos, tropicales y subtropicales
-        por la costa sureste de la isla, cerca del poblado de Bayahibe"
+      value: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de la Rep\xFAblica
+        Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales y subtropicales
+        por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -17503,9 +17492,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "La Bas\xEDlica Catedral Nuestra Se\xF1ora de la Altagracia es un santuario
-        cat\xF3lico de Salvale\xF3n de Hig\xFCey. Es uno de los santuarios m\xE1s
-        concurridos del Caribe."
+      value: "La Bas\xEDlica Catedral de Nuestra Se\xF1ora de la Altagracia es un
+        santuario cat\xF3lico de Salvale\xF3n de Hig\xFCey. Es uno de los santuarios
+        m\xE1s concurridos del Caribe."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -17753,7 +17742,7 @@ PrefabInstance:
       objectReference: {fileID: 2004403104}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Escritora, edcadora y poetisa dominicana que logr\xF3 llamar la atenci\xF3n
+      value: "Escritora, educadora y poetisa Dominicana que logr\xF3 llamar la atenci\xF3n
         de gran parte de Latinoam\xE9rica con sus obras; tambi\xE9n fue una innovadora
         en la educaci\xF3n para las mujeres en su pa\xEDs."
       objectReference: {fileID: 0}
@@ -17998,7 +17987,7 @@ PrefabInstance:
       propertyPath: descripcion
       value: "El Alc\xE1zar de Col\xF3n o Palacio Virreinal de Don Diego Col\xF3n
         es un palacio de inicios del siglo XVI, ubicado en la Plaza de Espa\xF1a
-        en la Ciudad Colonial de Santo Domingo (Rep\xFAblica Dominicana)."
+        en la Ciudad Colonial de Santo Domingo."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
@@ -18843,7 +18832,7 @@ PrefabInstance:
       objectReference: {fileID: -2143128462, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: "L\xE1mina Frontal del BC"
+      value: "L\xE1mina Frontal del Banco Central"
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -19591,7 +19580,7 @@ PrefabInstance:
       objectReference: {fileID: 1309997823, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo
-      value: Firmas
+      value: Firma
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: titulo2
@@ -19611,9 +19600,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8622342099907124904, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
       propertyPath: descripcion
-      value: "Firmas de seguridad presentes en cada billete, que corresponden al
-        ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
-        de emisi\xF3n de dicho billete.."
+      value: "Firmas de seguridad presentes en cada billete. Corresponden al ministro
+        de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+        de dicho billete."
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -1276940061450189788, guid: abb59b1080cec5c429c3159b1386e8ad, type: 3}
