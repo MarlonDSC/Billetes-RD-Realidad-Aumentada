@@ -34,7 +34,7 @@ public class billeteInfo : MonoBehaviour
         chest.descripcion = descripcion;
         chest.imagen = imagen;
         chest.lastScene = gameObject.scene.name;
-        chest.regreso = true;
+        chest.regreso = 1;
 
         Animator[] animations = {btnVolver, btnRotar, titulo2, btnAR};
         foreach(Animator animacion in animations){

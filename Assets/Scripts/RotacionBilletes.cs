@@ -8,8 +8,7 @@ public class RotacionBilletes : MonoBehaviour
 {
 	public GameObject[] carasDelanteras;
 	public GameObject[] carasTraseras;
-	private GameObject caraDelantera;
-	private GameObject caraTrasera;
+	[NonSerialized] public GameObject caraDelantera, caraTrasera;
 	[NonSerialized] public bool activarRotacion;
 	public Animator btnVolver, titulo, btnAR;
 	private infoCarrier openChest;
@@ -38,7 +37,7 @@ public class RotacionBilletes : MonoBehaviour
 		billete[activador].SetActive(true);
 		billete[apagador].SetActive(false);
 
-		if(openChest.regreso){
+		if(openChest.regreso == 1){
 			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
@@ -51,7 +50,7 @@ public class RotacionBilletes : MonoBehaviour
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, -90f, 0f);
 			StartCoroutine(regreso(activador));
-		}else{
+		}else if(openChest.regreso == 0){
 			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();

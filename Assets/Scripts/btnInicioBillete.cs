@@ -16,20 +16,8 @@ public class btnInicioBillete : MonoBehaviour
 		var scene = SceneManager.LoadSceneAsync(NombreEscena);
 		scene.allowSceneActivation = false;
 		billeteActual billeteUsar = GameObject.Find("billeteActual").GetComponent<billeteActual>();
-		GameObject caraDelantera = null;
-		GameObject caraTrasera = null;
-		foreach(GameObject cara in btnRotacion.carasDelanteras){
-			if(cara != null){
-				caraDelantera = cara;
-				break;
-			}
-		}
-		foreach(GameObject cara in btnRotacion.carasTraseras){
-			if(cara != null){
-				caraTrasera = cara;
-				break;
-			}
-		}
+		GameObject caraDelantera = btnRotacion.caraDelantera;
+		GameObject caraTrasera = btnRotacion.caraTrasera;
 
 		GameObject[] billete = {caraDelantera, caraTrasera};
 		foreach(GameObject lado in billete){
