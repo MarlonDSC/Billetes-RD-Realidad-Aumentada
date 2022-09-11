@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class billeteInfo : MonoBehaviour
 {
     [SerializeField] private string titulo;
-    [SerializeField] private string descripcion;
+    [TextArea] [SerializeField] private string descripcion;
     [SerializeField] private Sprite imagen;
     private infoCarrier chest;
 
