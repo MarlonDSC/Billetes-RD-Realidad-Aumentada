@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class billeteInfo : MonoBehaviour
 {
+    public TMP_Text DescriptionTXT;
     [SerializeField] private string titulo;
     [TextArea] [SerializeField] private string descripcion;
     [SerializeField] private Sprite imagen;
@@ -14,13 +16,15 @@ public class billeteInfo : MonoBehaviour
     public Animator btnVolver, btnRotar, titulo2, btnAR;
     // Start is called before the first frame update
     void Start(){
+        descripcion = DescriptionTXT.text;
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(accion()));
         chest = GameObject.Find("infoCarrier").GetComponent<infoCarrier>();
     }
 
     IEnumerator accion(){
         var scene = SceneManager.LoadSceneAsync("Info");
-        scene.allowSceneActivation = false;
+   
+       scene.allowSceneActivation = false;
 
         Transform padre = transform.parent;
         for(int i = 0; i < padre.childCount; i+= 1){
