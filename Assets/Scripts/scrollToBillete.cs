@@ -8,7 +8,7 @@ public class scrollToBillete : MonoBehaviour
 {
     public GameObject btnNext, btnBack;
     public ScrollRect scroll;
-    public Image titulo, linea;
+    public Image linea;
     public Scrollbar barraScroll;
     [SerializeField] private string scene;
     [SerializeField] private int numBillete;
@@ -45,10 +45,10 @@ public class scrollToBillete : MonoBehaviour
                 }
             }
             if(tiempo < 0.5f){
-                titulo.color += new Color(0f, 0f, 0f, -1f*Time.deltaTime*2f);
+               
                 linea.color += new Color(0f, 0f, 0f, -1f*Time.deltaTime*2f);
             }else{
-                titulo.color = new Color(0f, 0f, 0f, 0f);
+               
                 linea.color = new Color(0f, 0f, 0f, 0f);
             }
             yield return null;

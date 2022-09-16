@@ -10,16 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
-  m_Name: Localization-String-Tables-French (fr)
+  m_Name: "Localization-String-Tables-Espa\xF1ol"
   m_EditorClassIdentifier: 
-  m_GroupName: Localization-String-Tables-French (fr)
+  m_GroupName: "Localization-String-Tables-Espa\xF1ol"
   m_Data:
     m_SerializedData: []
-  m_GUID: 462499b99bdd4d244a264e4f2324c5f6
-  m_SerializeEntries: []
+  m_GUID: a1707fccd35650741bc57bece39443d6
+  m_SerializeEntries:
+  - m_GUID: 735d81afc4ac9794c89bb0a6c41be3f3
+    m_Address: ChageLanguage_es
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-es
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 63051dfc33903f44daa05daf3fa133ce, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 49a2482c8fae8e24ca4d8fdea84383c7, type: 2}
-    - {fileID: 11400000, guid: 71e71b4a9a68ff24c95efac2f04086e1, type: 2}
+    - {fileID: 11400000, guid: b22bd669b9bcccd4690da86aef9ea344, type: 2}
+    - {fileID: 11400000, guid: 261ebb477cbbf6b489d978fdb2af532e, type: 2}

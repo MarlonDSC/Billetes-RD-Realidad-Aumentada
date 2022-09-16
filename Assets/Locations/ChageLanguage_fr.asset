@@ -34,6 +34,269 @@ MonoBehaviour:
       R\xE9publique dominicaine."
     m_Metadata:
       m_Items: []
+  - m_Id: 387512367296512
+    m_Localized: "S\xC9LECTIONNER UN BILLET"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399556529336320
+    m_Localized: "Dans la 5e famille de billets (2002-2013), ces symboles ont \xE9t\xE9
+      inclus pour faciliter l'identification des billets par les personnes aveugles."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399594802360320
+    m_Localized: "Les armoiries de la R\xE9publique dominicaine sont l'un des symboles
+      patriotiques les plus importants du pays, car elles repr\xE9sentent l'\xC9tat
+      libre, ind\xE9pendant et souverain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399629862547456
+    m_Localized: "La rose Bayahibe est une esp\xE8ce de cactus end\xE9mique de la
+      R\xE9publique Dominicaine. Son habitat naturel est constitu\xE9 par les for\xEAts
+      s\xE8ches, tropicales et subtropicales le long de la c\xF4te sud-est de l'\xEEle,
+      pr\xE8s de la ville de Bayahibe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399683486724096
+    m_Localized: "Signature de s\xE9curit\xE9 pr\xE9sente sur chaque ticket. Ils
+      correspondent au Ministre des Finances et au Gouverneur de la Banque Centrale
+      en vigueur l'ann\xE9e d'\xE9mission dudit billet."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399712897183744
+    m_Localized: "Le num\xE9ro d'identification de chaque ticket est dispos\xE9 horizontalement
+      sur le c\xF4t\xE9 sup\xE9rieur gauche, \xE0 c\xF4t\xE9 de la marque pour les
+      aveugles, et verticalement sur l'extr\xE9mit\xE9 droite du ticket."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399755200933888
+    m_Localized: "C'est une cath\xE9drale et une basilique mineure d\xE9di\xE9e \xE0
+      Santa Maria de la Encarnaci\xF3n. Il est situ\xE9 dans la ville coloniale de
+      Saint-Domingue."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400968634052608
+    m_Localized: "C'est un lieu avec une signification symbolique pour notre histoire,
+      \xE9tant le lieu o\xF9 Mella a tir\xE9 le trabucazo et o\xF9 le drapeau national
+      a \xE9t\xE9 hiss\xE9 pour la premi\xE8re fois, actes qui ont commenc\xE9 l'ind\xE9pendance
+      dominicaine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401145629487104
+    m_Localized: "Silhouette de la partie recto de la Banque Centrale, imprim\xE9e
+      \xE0 l'encre iris\xE9e, imprim\xE9e sur la sixi\xE8me famille de billets."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401277401935872
+    m_Localized: "Professeur dominicain, militaire, homme politique et militant lib\xE9ral.
+      Il se distingue pour avoir \xE9t\xE9 le pr\xE9sident et fondateur de la Soci\xE9t\xE9
+      La Trinitaria. Il est la principale figure du patriotisme dominicain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401292199440384
+    m_Localized: "Avocat, homme politique, militant et \xE9galement strat\xE8ge de
+      la guerre dominicaine, prenant le commandement du combat apr\xE8s l'absence
+      de Duarte. Ind\xE9pendance proclam\xE9e le 27 f\xE9vrier 1844."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401311384186880
+    m_Localized: "Homme politique et militaire dominicain, \xE9galement membre du
+      mouvement ind\xE9pendantiste, connu pour avoir tir\xE9 le trabucazo dans la
+      nuit du 27 f\xE9vrier 1844 \xE0 la Puerta del Conde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402922877726720
+    m_Localized: "Lieu de r\xE9sidence des s\u0153urs Mirabal dans leurs 10 derniers
+      mois de vie. Situ\xE9 dans la province de Salcedo, dans un gigantesque jardin.
+      Gardez une histoire et un h\xE9ritage de ces femmes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403052859207680
+    m_Localized: "Elle \xE9tait une dactylographe et militante dominicaine, connue
+      pour ses efforts dans la lutte contre la dictature \xE0 laquelle le pays \xE9tait
+      soumis, soutenant toujours sa s\u0153ur Minerva dans cette cause."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403257197309952
+    m_Localized: "Artiste et militant dominicain qui a eu une participation remarquable
+      aux r\xE9unions qui ont donn\xE9 naissance au Mouvement r\xE9volutionnaire
+      du 14 juin, avec lequel ils ont voulu mettre fin \xE0 la dictature de Trujillo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403394434936832
+    m_Localized: "Arpenteur et militant dominicain qui \xE9tait contre le r\xE9gime
+      de Trujillo. Elle a \xE9t\xE9 emprisonn\xE9e \xE0 plusieurs reprises pour son
+      combat et a finalement \xE9t\xE9 assassin\xE9e avec ses deux s\u0153urs sur
+      ordre du dictateur."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403727198433280
+    m_Localized: "Principale institution financi\xE8re de la R\xE9publique dominicaine,
+      qui est constitu\xE9e comme une entit\xE9 d\xE9centralis\xE9e et autonome.
+      Il agit en tant qu'entit\xE9 d'\xE9mission et d'ex\xE9cution de la politique
+      mon\xE9taire et de change."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404039338536960
+    m_Localized: "\xC9crivain, \xE9ducatrice et po\xE8te dominicaine qui a r\xE9ussi
+      \xE0 attirer l'attention d'une grande partie de l'Am\xE9rique latine avec ses
+      \u0153uvres; elle \xE9tait aussi une innovatrice dans l'\xE9ducation des femmes
+      de son pays."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404110662676480
+    m_Localized: "C'\xE9tait un grand \xE9rudit de la litt\xE9rature de notre langue.
+      Consid\xE9r\xE9 comme une figure cl\xE9 dans la reconnaissance et l'\xE9tablissement
+      du champ de la critique litt\xE9raire latino-am\xE9ricaine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444594407845888
+    m_Localized: "Le Th\xE9\xE2tre National Eduardo Brito fait partie du complexe
+      Plaza de la Cultura, situ\xE9 \xE0 Saint-Domingue. Le th\xE9\xE2tre a ouvert
+      ses portes le 16 ao\xFBt 1973 et est la pi\xE8ce ma\xEEtresse du complexe.
+      Il est entour\xE9 de divers mus\xE9es et institutions culturelles."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444558894673920
+    m_Localized: "L'Alc\xE1zar de Col\xF3n ou palais vice-royal de Don Diego Col\xF3n
+      est un palais du d\xE9but du XVIe si\xE8cle, situ\xE9 sur la Plaza de Espa\xF1a
+      dans la ville coloniale de Saint-Domingue."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447947707756544
+    m_Localized: "Le Palais National est le lieu de travail du Pr\xE9sident de la
+      R\xE9publique et le si\xE8ge du Pouvoir Ex\xE9cutif du pays. C'est l'une des
+      \u0153uvres les plus embl\xE9matiques o\xF9 se trouvent \xE9galement les bureaux
+      du vice-pr\xE9sident de la R\xE9publique dominicaine."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448334871375872
+    m_Localized: "Bande imprim\xE9e sur la visi\xE8re avec un mat\xE9riau iris\xE9,
+      qui fonctionne comme un \xE9l\xE9ment de s\xE9curit\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448613163446272
+    m_Localized: "Jos\xE9 Rufino Reyes y Siancas \xE9tait un musicien et compositeur
+      dominicain connu pour avoir \xE9crit la musique de l'hymne national dominicain.
+      Il a \xE9galement \xE9crit des bons, des marches et de la musique religieuse."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448583362916352
+    m_Localized: "Emilio Prud'Homme y Maduro \xE9tait un avocat dominicain. Il \xE9tait
+      l'auteur et le compositeur des paroles de l'hymne national dominicain."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451454812794880
+    m_Localized: "S\xC9LECTIONNEZ UN \xC9L\xC9MENT"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488729500168192
+    m_Localized: "Pedro Her\xEDquez Ure\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488842008178688
+    m_Localized: Alcazar de Colon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488943078322176
+    m_Localized: Palais national
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489279847378944
+    m_Localized: "Th\xE9\xE2tre national"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489409241657344
+    m_Localized: Emilio Prud'Homme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489449486004224
+    m_Localized: "Jos\xE9 Rufino Reyes Siancas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488633182171136
+    m_Localized: "Salom\xE9 Ure\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488561044336640
+    m_Localized: Banque centrale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488375786123264
+    m_Localized: Maria Teresa Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488335738908672
+    m_Localized: Minerva Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488300829716480
+    m_Localized: Patria Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488154196848640
+    m_Localized: "Monument aux S\u0153urs Mirabal"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488040946446336
+    m_Localized: "Ram\xF3n Mat\xEDas Mella Castillo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487995564077056
+    m_Localized: "Francisco del Rosario S\xE1nchez"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487956691267584
+    m_Localized: "Juan Pablo Duarte y D\xEDez"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487895542509568
+    m_Localized: Feuille avant Colombie-Britannique
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487738574876672
+    m_Localized: "Rayures iris\xE9es"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486889748410368
+    m_Localized: Porte du comte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486888204906496
+    m_Localized: "Premi\xE8re cath\xE9drale d'Am\xE9rique"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486886871117824
+    m_Localized: "Num\xE9ration"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486885520551936
+    m_Localized: Signature
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486884216123392
+    m_Localized: Fleur nationale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486882186080256
+    m_Localized: "Embl\xE8me national"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486815559561216
+    m_Localized: Symbole pour les aveugles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486643429519360
+    m_Localized: Basilique de Higuey
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486546507542528
+    m_Localized: "\xC9l\xE9ments de s\xE9curit\xE9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486453331079168
+    m_Localized: Acronyme
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

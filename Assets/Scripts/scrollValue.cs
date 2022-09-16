@@ -15,7 +15,7 @@ public class scrollValue : MonoBehaviour
         if(regreso.billete > -1){
             btnNext.SetActive(false);
             btnBack.SetActive(false);
-            titulo.color = Color.clear;
+            //titulo.color = Color.clear;
             linea.color = Color.clear;
             scrolSnap.startingPanel = regreso.billete;
             for(int i = 0; i < billetesContainer.childCount; i += 1){
@@ -34,10 +34,10 @@ public class scrollValue : MonoBehaviour
         while(tiempo < 0.5f){
             tiempo += Time.deltaTime;
             if(tiempo < 0.5f){
-                titulo.color += Color.white * (Time.deltaTime/0.5f);
+                //titulo.color += Color.white * (Time.deltaTime/0.5f);
                 linea.color += Color.white * (Time.deltaTime/0.5f);
             }else{
-                titulo.color = Color.white;
+                //titulo.color = Color.white;
                 linea.color = Color.white;
             }
             for(int i = 0; i < billetesContainer.childCount; i += 1){

@@ -8,6 +8,7 @@ using TMPro;
 public class billeteInfo : MonoBehaviour
 {
     public TMP_Text DescriptionTXT;
+    public TMP_Text TituloTXT;
     [SerializeField] private string titulo;
     [TextArea] [SerializeField] private string descripcion;
     [SerializeField] private Sprite imagen;
@@ -17,6 +18,7 @@ public class billeteInfo : MonoBehaviour
     // Start is called before the first frame update
     void Start(){
         descripcion = DescriptionTXT.text;
+        titulo = TituloTXT.text;
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(accion()));
         chest = GameObject.Find("infoCarrier").GetComponent<infoCarrier>();
     }

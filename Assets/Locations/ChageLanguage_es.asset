@@ -34,6 +34,264 @@ MonoBehaviour:
       Dominicana."
     m_Metadata:
       m_Items: []
+  - m_Id: 387512367296512
+    m_Localized: SELECCIONA UN BILLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399556529336320
+    m_Localized: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos
+      s\xEDmbolos para facilitar la identificaci\xF3n de los billetes a las personas
+      no videntes."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399594802360320
+    m_Localized: "El Escudo de Armas de la Rep\xFAblica Dominicana es uno de los
+      s\xEDmbolos patrios m\xE1s significativos para el pa\xEDs, ya que representa
+      el Estado Libre, Independiente y Soberano."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399629862547456
+    m_Localized: "La rosa de Bayah\xEDbe es una especie de cactus end\xE9mica de
+      la Rep\xFAblica Dominicana. Su h\xE1bitat natural son los bosques secos, tropicales
+      y subtropicales por la costa sureste de la isla, cerca del poblado de Bayah\xEDbe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399683486724096
+    m_Localized: "Firma de seguridad presentes en cada billete. Corresponden al ministro
+      de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
+      de dicho billete."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399712897183744
+    m_Localized: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de
+      forma horizontal en el lado izquierdo superior, al lado de la marca para no
+      videntes, y en vertical en el extremo derecho del billete."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399755200933888
+    m_Localized: "Es una catedral y bas\xEDlica menor dedicada a Santa Maria de la
+      Encarnaci\xF3n. Se encuentra en la Ciudad Colonial de Santo Domingo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400968634052608
+    m_Localized: "Es un lugar con un significado simb\xF3lico para nuestra historia,
+      siendo el lugar donde Mella dispar\xF3 el trabucazo y se iz\xF3 la bandera
+      nacional por primera vez, actos que dieron inicio a la independencia Dominicana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401145629487104
+    m_Localized: Silueta de la parte delantera del Banco Central, impresa con tinta
+      irisdescente, prenseta en la sexta famila de billetes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401277401935872
+    m_Localized: "Profesor, militar, pol\xEDtico y activista liberal dominicano.
+      Se destac\xF3 por haber sido el presidente y fundador de la Sociedad La Trinitaria.
+      Es la principal figura del patriotismo dominicano."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401292199440384
+    m_Localized: "Abogado, pol\xEDtico, activista y tambi\xE9n un estratega de la
+      guerra dominicana, tomando el mando de la lucha tras la ausencia de Duarte.
+      Proclam\xF3 la independencia del 27 de febrero de 1844."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401311384186880
+    m_Localized: "Pol\xEDtico y militar dominicano, tambi\xE9n miembro del movimiento
+      independentista siendo conocido por haber disparado el trabucazo de la noche
+      del 27 de febrero de 1844 en la Puerta del Conde."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402922877726720
+    m_Localized: "Lugar de residencia de las hermanas Mirabal en sus \xFAltimos 10
+      meses de vida. Ubicado en la provincia Salcedo, en un gigantesco jard\xEDn.
+      Guarda una historia y un legado de estas mujeres."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403052859207680
+    m_Localized: "Fue una mecan\xF3grafa y activista Dominicana, conocida por sus
+      esfuerzos en la lucha contra la dictadura en la que estaba sometido al pa\xEDs,
+      siempre apoyando a su hermana Minerva en dicha causa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403257197309952
+    m_Localized: "Artista y activista Dominicana que tuvo una destacada participaci\xF3n
+      en las reuniones que dieron origen al Movimiento Revolucionario 14 de Junio,
+      con el que se queria poner fin a la dictadura de Trujillo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403394434936832
+    m_Localized: "Agrimensora y activista Dominicana que estuvo en contra del r\xE9gimen
+      trujillista. Fue apresada en varias ocasiones por su lucha y finalmente asesinada
+      junto a sus dos hermanas por orden del dictador."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403727198433280
+    m_Localized: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
+      que se constituye como una entidad descentralizada y aut\xF3noma. Act\xFAa
+      como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404039338536960
+    m_Localized: "Escritora, educadora y poetisa Dominicana que logr\xF3 llamar la
+      atenci\xF3n de gran parte de Latinoam\xE9rica con sus obras; tambi\xE9n fue
+      una innovadora en la educaci\xF3n para las mujeres en su pa\xEDs."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404110662676480
+    m_Localized: "Fue un gran estudioso de la literatura de nuestra lengua. Considerado
+      como una figura clave en el reconocimiento y asentamiento del campo de la cr\xEDtica
+      literaria latinoamericana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444594407845888
+    m_Localized: "El Teatro Nacional Eduardo Brito es parte del complejo Plaza de
+      la Cultura, ubicado en Santo Domingo. El teatro abri\xF3 sus puertas el 16
+      de agosto de 1973 y es la pieza central del complejo. Est\xE1 rodeado de varios
+      museos e instituciones culturales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444558894673920
+    m_Localized: "El Alc\xE1zar de Col\xF3n o Palacio Virreinal de Don Diego Col\xF3n
+      es un palacio de inicios del siglo XVI, ubicado en la Plaza de Espa\xF1a en
+      la Ciudad Colonial de Santo Domingo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447947707756544
+    m_Localized: "El Palacio Nacional es el lugar de trabajo del Presidente de la
+      Rep\xFAblica y sede del Poder Ejecutivo del pa\xEDs. Es una de las obras m\xE1s
+      emblem\xE1ticas donde se encuentran, adem\xE1s, las oficinas del Vicepresidente
+      de la Rep\xFAblica Dominicana."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448334871375872
+    m_Localized: Franja impresa en el billete con material irisdecente, que funcionan
+      como un elemento de seguridad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448613163446272
+    m_Localized: "Jos\xE9 Rufino Reyes y Siancas fue un m\xFAsico y compositor Dominicano
+      conocido por escribir la m\xFAsica del Himno Nacional Dominicano. Tambi\xE9n
+      escribi\xF3 vales, marchas y m\xFAsica religiosa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448583362916352
+    m_Localized: Emilio Prud'Homme y Maduro fue un abogado Dominicano. Fue el autor
+      y compositor de las letras del Himno Nacional Dominicano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451454812794880
+    m_Localized: SELECCIONA UN  ELEMENTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488729500168192
+    m_Localized: "Pedro Her\xEDquez Ure\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488842008178688
+    m_Localized: "Alc\xE1zar de Col\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488943078322176
+    m_Localized: Palacio Nacional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489279847378944
+    m_Localized: Teatro Naciona
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489409241657344
+    m_Localized: Emilio Prud'Homme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489449486004224
+    m_Localized: "Jos\xE9 Rufino Reyes Siancas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488633182171136
+    m_Localized: "Salom\xE9 Ure\xF1a"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488561044336640
+    m_Localized: Banco Central
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488375786123264
+    m_Localized: Maria Teresa Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488335738908672
+    m_Localized: Minerva Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488300829716480
+    m_Localized: Patria Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488154196848640
+    m_Localized: Monumento a las Hermanas Mirabal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488040946446336
+    m_Localized: "Ram\xF3n Mat\xEDas Mella Castillo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487995564077056
+    m_Localized: "Francisco del Rosario S\xE1nchez"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487956691267584
+    m_Localized: "Juan Pablo Duarte y D\xEDez"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487895542509568
+    m_Localized: "L\xE1mina Frontal del BC"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487738574876672
+    m_Localized: Franjas Irisdiscentes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486889748410368
+    m_Localized: Puerta del Conde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486888204906496
+    m_Localized: "Catedral Primada de Am\xE9rica"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486886871117824
+    m_Localized: "Numeraci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486885520551936
+    m_Localized: Firma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486884216123392
+    m_Localized: Flor Nacional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486882186080256
+    m_Localized: Escudo Nacional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486815559561216
+    m_Localized: "S\xEDmbolo para no videntes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486643429519360
+    m_Localized: "Bas\xEDlica de Hig\xFCey"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486546507542528
+    m_Localized: Elementos de seguridad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486453331079168
+    m_Localized: Siglas
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
