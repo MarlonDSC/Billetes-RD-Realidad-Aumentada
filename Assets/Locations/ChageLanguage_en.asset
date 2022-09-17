@@ -290,6 +290,46 @@ MonoBehaviour:
     m_Localized: Acronym
     m_Metadata:
       m_Items: []
+  - m_Id: 829357220147200
+    m_Localized: LEARN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829787631235072
+    m_Localized: Learn the security methods used by Dominican bills to prevent counterfeiting
+      and to verify their legitimacy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829924160024576
+    m_Localized: FIND OUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830136102400000
+    m_Localized: Find out the story behind each of your daily bills and why their
+      symbols, letters and textures are like.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830366508101632
+    m_Localized: VISIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830461278400512
+    m_Localized: Visit the history of each banknote of the Dominican Republic to
+      learn the story behind each of these important elements of our culture.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832370001293312
+    m_Localized: Do you want to see the introduction when you open the application
+      again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832687862427648
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832703112916992
+    m_Localized: Nope
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

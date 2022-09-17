@@ -26,7 +26,7 @@ public class startCondition : MonoBehaviour
 	// Update is called every frame, if the MonoBehaviour is enabled.
 	void Update()
 	{
-		Debug.Log(animacionLogo.GetCurrentAnimatorStateInfo(0).normalizedTime);
+		//Debug.Log(animacionLogo.GetCurrentAnimatorStateInfo(0).normalizedTime);
 		if (animacion.active == false && infoScreen == 0)
 		{
 			SceneManager.LoadScene("Scroll_Snap");
@@ -49,7 +49,7 @@ public class startCondition : MonoBehaviour
 	    
 	    
     }
-   
+
 	void SaveData(int data){
 		PlayerPrefs.SetInt("Data_Screen", data);
 		CanvasInfo.SetActive(false);

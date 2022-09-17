@@ -297,6 +297,48 @@ MonoBehaviour:
     m_Localized: Acronyme
     m_Metadata:
       m_Items: []
+  - m_Id: 829357220147200
+    m_Localized: APPRENDRE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829787631235072
+    m_Localized: "Apprenez les m\xE9thodes de s\xE9curit\xE9 utilis\xE9es par les
+      billets dominicains pour pr\xE9venir la contrefa\xE7on et v\xE9rifier leur
+      l\xE9gitimit\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829924160024576
+    m_Localized: TROUVER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830136102400000
+    m_Localized: "D\xE9couvrez l'histoire derri\xE8re chacune de vos factures quotidiennes
+      et pourquoi leurs symboles, lettres et textures sont similaires."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830366508101632
+    m_Localized: VISITE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830461278400512
+    m_Localized: "Visitez l'histoire de chaque billet de banque de la R\xE9publique
+      dominicaine pour d\xE9couvrir l'histoire derri\xE8re chacun de ces \xE9l\xE9ments
+      importants de notre culture."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832370001293312
+    m_Localized: "\xBFVoulez-vous voir l'introduction lorsque vous ouvrez \xE0 nouveau
+      l'application\_?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832687862427648
+    m_Localized: Oui
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832703112916992
+    m_Localized: Non
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

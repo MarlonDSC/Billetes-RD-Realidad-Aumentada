@@ -292,6 +292,46 @@ MonoBehaviour:
     m_Localized: Siglas
     m_Metadata:
       m_Items: []
+  - m_Id: 829357220147200
+    m_Localized: APRENDE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829787631235072
+    m_Localized: "Aprende los m\xE9todos de seguridad que emplean los billetes Dominicanos
+      para evitar falsificaciones y para verificar su legitimidad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829924160024576
+    m_Localized: ENTERATE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830136102400000
+    m_Localized: "Ent\xE9rate de la historia detr\xE1s de cada uno de tus billetes
+      de uso diario y el porqu\xE9 de c\xF3mo son sus s\xEDmbolos, letras y texturas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830366508101632
+    m_Localized: VISITA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830461278400512
+    m_Localized: "Visita la historia de cada billete de la rep\xFAblica dominicana
+      para Conocer la historia detr\xE1s de cada uno de estos elementos tan importantes
+      de nuestra cultura."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832370001293312
+    m_Localized: "\xBFQuieres ver la introducci\xF3n al abrir nuevamente la aplicaci\xF3n?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832687862427648
+    m_Localized: "S\xED"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832703112916992
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
