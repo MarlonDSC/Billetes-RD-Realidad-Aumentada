@@ -22,6 +22,7 @@ public class luckAndUnluck : MonoBehaviour
     private void Start()
     {
         botonLock.onClick.AddListener(apagarEncenderImageTargets);
+        botonUnlock.onClick.AddListener(apagarEncenderImageTargets);
     }
 
 
@@ -29,6 +30,7 @@ public class luckAndUnluck : MonoBehaviour
 
     void apagarEncenderImageTargets()
     {
+        
         for (var i = 0; i < imageTargets.Length; i++)
         {
             if (imageTargets[i].activeSelf)imageTargets[i].SetActive(false);
@@ -36,11 +38,18 @@ public class luckAndUnluck : MonoBehaviour
             else imageTargets[i].SetActive(true);
         }
 
+        if (botonLock.gameObject.activeSelf) botonLock.gameObject.SetActive(false);
+        else botonLock.gameObject.SetActive(true);
+
+        if (botonUnlock.gameObject.activeSelf) botonUnlock.gameObject.SetActive(false);
+        else botonUnlock.gameObject.SetActive(true);
+        
+        
 
     }
 
 
-    void instanciarPrefab()
+   public void instanciarPrefab()
     {
         prefabInstanciado = Instantiate(prefab);
 
