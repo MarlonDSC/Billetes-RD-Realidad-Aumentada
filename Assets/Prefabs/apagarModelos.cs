@@ -10,10 +10,7 @@ public class apagarModelos : MonoBehaviour
     GameObject objetoVacio;
     private void Start()
     {
-        apagarTodosExepto(objetoVacio);
-
-        
-       
+        apagarTodosExepto(objetoVacio);  
     }
     
     

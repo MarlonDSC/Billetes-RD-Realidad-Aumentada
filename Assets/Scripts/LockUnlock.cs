@@ -25,7 +25,7 @@ public class LockUnlock : MonoBehaviour
         RotationModel = prefab.transform.rotation;
         if (Estado == true)
         {
-            Boton.onClick.AddListener(delegate { CrearPrefab(prefab); });
+            Boton.onClick.AddListener(delegate { CrearPrefab(); });
         }
         else
         {
@@ -40,12 +40,12 @@ public class LockUnlock : MonoBehaviour
         
     }
 
-    public void CrearPrefab(GameObject miPrefab)
+    public void CrearPrefab()
     {
-        Debug.Log("rotation: " + miPrefab.transform.rotation);
-        Debug.Log("position: "+ miPrefab.transform.position);
+        Debug.Log("rotation: " + prefab.transform.rotation);
+        Debug.Log("position: "+ prefab.transform.position);
 
-        newObject = Instantiate(miPrefab);
+        newObject = Instantiate(prefab);
         
         newObject.transform.parent = Empty.transform;
 
@@ -53,8 +53,8 @@ public class LockUnlock : MonoBehaviour
         Empty.transform.position = ImageTarget.transform.position; 
         Empty.transform.rotation = ImageTarget.transform.rotation;
 
-        newObject.transform.position = miPrefab.transform.position;
-        newObject.transform.rotation = miPrefab.transform.rotation;
+        newObject.transform.position = prefab.transform.position;
+        newObject.transform.rotation = prefab.transform.rotation;
 
 
         Empty.transform.parent = ArCamera.transform;
