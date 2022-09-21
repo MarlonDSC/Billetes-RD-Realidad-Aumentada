@@ -20,11 +20,12 @@ public class LockUnlock : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         PositonModel = prefab.transform.position;
         RotationModel = prefab.transform.rotation;
         if (Estado == true)
         {
-            Boton.onClick.AddListener(delegate { CrearPrefab(); });
+            Boton.onClick.AddListener(delegate { CrearPrefab(prefab); });
         }
         else
         {
@@ -39,12 +40,12 @@ public class LockUnlock : MonoBehaviour
         
     }
 
-    public void CrearPrefab()
+    public void CrearPrefab(GameObject miPrefab)
     {
-        Debug.Log("rotation: " + prefab.transform.rotation);
-        Debug.Log("position: "+prefab.transform.position);
+        Debug.Log("rotation: " + miPrefab.transform.rotation);
+        Debug.Log("position: "+ miPrefab.transform.position);
 
-        newObject = Instantiate(prefab);
+        newObject = Instantiate(miPrefab);
         
         newObject.transform.parent = Empty.transform;
 
@@ -52,8 +53,8 @@ public class LockUnlock : MonoBehaviour
         Empty.transform.position = ImageTarget.transform.position; 
         Empty.transform.rotation = ImageTarget.transform.rotation;
 
-        newObject.transform.position = prefab.transform.position;
-        newObject.transform.rotation = prefab.transform.rotation;
+        newObject.transform.position = miPrefab.transform.position;
+        newObject.transform.rotation = miPrefab.transform.rotation;
 
 
         Empty.transform.parent = ArCamera.transform;

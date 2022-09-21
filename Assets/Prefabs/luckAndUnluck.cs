@@ -15,20 +15,29 @@ public class luckAndUnluck : MonoBehaviour
     public GameObject imageTarget;
 
 
-    private Vector3 PositonModel;
-    private Quaternion RotationModel;
-    private bool Estado = true;
+    private Vector3 positonModel;
+    private Quaternion rotationModel;
+    private bool estado = true;
 
     private void Start()
     {
+        //rotationModel = prefab.transform.rotation;
+        //positonModel = prefab.transform.position;
+
+
         botonLock.onClick.AddListener(apagarEncenderImageTargets);
+        //botonLock.onClick.AddListener(delegate { instanciarPrefab(prefab); });
+
+
         botonUnlock.onClick.AddListener(apagarEncenderImageTargets);
+        //botonUnlock.onClick.AddListener(destruirPrefab);
+
+
+
+
     }
 
-
-
-
-    void apagarEncenderImageTargets()
+   public void apagarEncenderImageTargets()
     {
         
         for (var i = 0; i < imageTargets.Length; i++)
@@ -43,15 +52,13 @@ public class luckAndUnluck : MonoBehaviour
 
         if (botonUnlock.gameObject.activeSelf) botonUnlock.gameObject.SetActive(false);
         else botonUnlock.gameObject.SetActive(true);
-        
-        
 
     }
 
 
-   public void instanciarPrefab()
+   public void instanciarPrefab(GameObject miPrefab)
     {
-        prefabInstanciado = Instantiate(prefab);
+        prefabInstanciado = Instantiate(miPrefab);
 
         prefabInstanciado.transform.parent = emptyPadre.transform;
 
@@ -59,22 +66,22 @@ public class luckAndUnluck : MonoBehaviour
         emptyPadre.transform.rotation = imageTarget.transform.rotation;
 
 
-        prefabInstanciado.transform.position = prefab.transform.position;
-        prefabInstanciado.transform.rotation = prefab.transform.rotation;
+        prefabInstanciado.transform.position = miPrefab.transform.position;
+        prefabInstanciado.transform.rotation = miPrefab.transform.rotation;
 
         emptyPadre.transform.parent = arCamera.transform;
 
         imageTarget.SetActive(false);
-        Estado = false;
+        estado = false;
 
 
     }
 
 
-    public void DestruirPrefab()
+    public void destruirPrefab()
     {
         Destroy(prefabInstanciado);
-        Estado = true;
+        estado = true;
 
     }
 
