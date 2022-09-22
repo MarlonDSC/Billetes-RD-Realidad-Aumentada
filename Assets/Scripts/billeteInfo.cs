@@ -14,7 +14,7 @@ public class billeteInfo : MonoBehaviour
     [SerializeField] private Sprite imagen;
     private infoCarrier chest;
 
-    public Animator btnVolver, btnRotar, titulo2, btnAR;
+    public Animator btnVolver, btnRotar, btnAR;
     // Start is called before the first frame update
     void Start(){
         descripcion = DescriptionTXT.text;
@@ -24,6 +24,8 @@ public class billeteInfo : MonoBehaviour
     }
 
     IEnumerator accion(){
+        Text screenTitle = btnRotar.GetComponent<RotacionBilletes>().titulo;
+        string txtTitulo = screenTitle.text;
         var scene = SceneManager.LoadSceneAsync("Info");
    
        scene.allowSceneActivation = false;
@@ -42,13 +44,12 @@ public class billeteInfo : MonoBehaviour
         chest.lastScene = gameObject.scene.name;
         chest.regreso = true;
 
-        Animator[] animations = {btnVolver, btnRotar, titulo2, btnAR};
+        Animator[] animations = {btnVolver, btnRotar, btnAR};
         foreach(Animator animacion in animations){
             animacion.Rebind();
         }
         btnVolver.Play("btnVolver");
         btnRotar.Play("btnAR");
-        titulo2.Play("title");
         btnAR.Play("btnAR");
 
         float segundos = 0f;
@@ -56,7 +57,9 @@ public class billeteInfo : MonoBehaviour
             segundos += Time.deltaTime;
             if(segundos >= 0.5f){
                 padre.eulerAngles = new Vector3(0f, 90f, 0f);
+                screenTitle.text = "";
             }else{
+                screenTitle.text = txtTitulo.Substring(0, txtTitulo.Length - (int)((float)txtTitulo.Length * segundos/0.5f));
                 padre.eulerAngles += new Vector3(0f, 90f*Time.deltaTime*2f, 0f);
             }
             yield return null;

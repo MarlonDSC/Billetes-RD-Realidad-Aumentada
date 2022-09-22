@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -22068,8 +22068,8 @@ MonoBehaviour:
   - {fileID: 406554599}
   - {fileID: 2054947029}
   btnVolver: {fileID: 2004403104}
-  titulo: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
+  titulo: {fileID: 938982675}
 --- !u!95 &1719293332
 Animator:
   serializedVersion: 4
@@ -27788,6 +27788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NombreEscena: Scroll_Snap
   btnRotacion: {fileID: 1719293331}
+  titulo: {fileID: 938982675}
 --- !u!1 &2033287290
 GameObject:
   m_ObjectHideFlags: 0

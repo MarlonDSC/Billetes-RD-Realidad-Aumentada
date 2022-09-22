@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -637,6 +637,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   linea: {fileID: 1609108164}
   barraScroll: {fileID: 878392720}
+  titulo: {fileID: 428314403}
   scene: Billetes
   numBillete: 4
 --- !u!114 &403494507
@@ -1257,6 +1258,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   linea: {fileID: 1609108164}
   barraScroll: {fileID: 878392720}
+  titulo: {fileID: 428314403}
   scene: Billetes
   numBillete: 0
 --- !u!1 &744602770
@@ -1670,10 +1672,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   btnNext: {fileID: 1113322749}
   btnBack: {fileID: 1616672551}
-  titulo: {fileID: 744602772}
   linea: {fileID: 1609108164}
   scrolSnap: {fileID: 1692890477}
   billetesContainer: {fileID: 895522788}
+  titulo: {fileID: 428314403}
 --- !u!1 &895522787
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,6 +1912,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   linea: {fileID: 1609108164}
   barraScroll: {fileID: 878392720}
+  titulo: {fileID: 428314403}
   scene: Billetes
   numBillete: 5
 --- !u!114 &1060152264
@@ -2673,6 +2676,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   linea: {fileID: 1609108164}
   barraScroll: {fileID: 878392720}
+  titulo: {fileID: 428314403}
   scene: Billetes
   numBillete: 3
 --- !u!1 &1609108162
@@ -3833,6 +3837,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   linea: {fileID: 1609108164}
   barraScroll: {fileID: 878392720}
+  titulo: {fileID: 428314403}
   scene: Billetes
   numBillete: 1
 --- !u!1 &1826395687
@@ -4284,6 +4289,7 @@ MonoBehaviour:
   scroll: {fileID: 1692890478}
   linea: {fileID: 1609108164}
   barraScroll: {fileID: 878392720}
+  titulo: {fileID: 428314403}
   scene: Billetes
   numBillete: 2
 --- !u!1 &1896298174
