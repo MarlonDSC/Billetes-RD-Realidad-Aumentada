@@ -9,10 +9,9 @@ public class luckAndUnluck : MonoBehaviour
     public GameObject emptyPadre;
     public Button botonLock, botonUnlock;
 
-    public GameObject prefab, prefabInstanciado;
+    public GameObject prefab;
 
-    public GameObject [] imageTargets;
-
+    GameObject prefabInstanciado;
 
     private bool estado = true;
 
@@ -21,8 +20,22 @@ public class luckAndUnluck : MonoBehaviour
         //rotationModel = prefab.transform.rotation;
         //positonModel = prefab.transform.position;
 
+        if(estado)
+        {
+            estado = false;
 
        botonUnlock.onClick.AddListener(delegate { instanciarPrefab(this.prefab); });
+        }
+        else
+        {
+
+       botonUnlock.onClick.AddListener(destruirPrefab);
+
+        }
+
+
+        botonLock.onClick.AddListener(destruirPrefab);
+
         //botonLock.onClick.AddListener(apagarEncenderImageTargets);
 
 
@@ -35,23 +48,23 @@ public class luckAndUnluck : MonoBehaviour
 
   
 
-   public void apagarEncenderImageTargets()
-    {
+   //public void apagarEncenderImageTargets()
+   // {
         
-        //for (var i = 0; i < imageTargets.Length; i++)
-        //{
-        //    if (imageTargets[i].activeSelf)imageTargets[i].SetActive(false);
+   //     //for (var i = 0; i < imageTargets.Length; i++)
+   //     //{
+   //     //    if (imageTargets[i].activeSelf)imageTargets[i].SetActive(false);
 
-        //    else imageTargets[i].SetActive(true);
-        //}
+   //     //    else imageTargets[i].SetActive(true);
+   //     //}
 
-        if (botonLock.gameObject.activeSelf) botonLock.gameObject.SetActive(false);
-        else botonLock.gameObject.SetActive(true);
+   //     if (botonLock.gameObject.activeSelf) botonLock.gameObject.SetActive(false);
+   //     else botonLock.gameObject.SetActive(true);
 
-        if (botonUnlock.gameObject.activeSelf) botonUnlock.gameObject.SetActive(false);
-        else botonUnlock.gameObject.SetActive(true);
+   //     if (botonUnlock.gameObject.activeSelf) botonUnlock.gameObject.SetActive(false);
+   //     else botonUnlock.gameObject.SetActive(true);
 
-    }
+   // }
 
 
    public void instanciarPrefab(GameObject miPrefab)
@@ -62,11 +75,10 @@ public class luckAndUnluck : MonoBehaviour
         Debug.Log(miPrefab.name);
         Debug.Log("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 
-
         prefabInstanciado.transform.parent = emptyPadre.transform;
 
-        //prefabInstanciado.transform.position = miPrefab.transform.position;
-        //prefabInstanciado.transform.rotation = miPrefab.transform.rotation;
+        prefabInstanciado.transform.position = miPrefab.transform.position;
+        prefabInstanciado.transform.rotation = miPrefab.transform.rotation;
 
         emptyPadre.transform.parent = arCamera.transform;
 
@@ -88,6 +100,7 @@ public class luckAndUnluck : MonoBehaviour
 
     public void destruirPrefab()
     {
+       
         Destroy(prefabInstanciado);
         estado = true;
 
