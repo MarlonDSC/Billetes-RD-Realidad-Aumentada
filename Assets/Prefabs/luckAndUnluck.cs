@@ -8,11 +8,8 @@ public class luckAndUnluck : MonoBehaviour
     public GameObject arCamera;
     public GameObject emptyPadre;
     public Button botonLock, botonUnlock;
-
     public GameObject prefab;
-
     GameObject prefabInstanciado;
-
     private bool estado = true;
 
     private void Start()
