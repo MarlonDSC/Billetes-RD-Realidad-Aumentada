@@ -10,6 +10,7 @@ public class scrollToBillete : MonoBehaviour
     public ScrollRect scroll;
     public Image linea;
     public Scrollbar barraScroll;
+    public Text titulo;
     [SerializeField] private string scene;
     [SerializeField] private int numBillete;
 
@@ -17,6 +18,7 @@ public class scrollToBillete : MonoBehaviour
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(accion()));
     }
     IEnumerator accion(){
+        string txtTitulo = titulo.text;
         var sceneLoad = SceneManager.LoadSceneAsync(scene);
 		sceneLoad.allowSceneActivation = false;
         Transform padre = transform.parent;
@@ -45,10 +47,10 @@ public class scrollToBillete : MonoBehaviour
                 }
             }
             if(tiempo < 0.5f){
-               
+               titulo.text = txtTitulo.Substring(0, txtTitulo.Length - (int)((float)txtTitulo.Length * tiempo/0.5f));
                 linea.color += new Color(0f, 0f, 0f, -1f*Time.deltaTime*2f);
             }else{
-               
+                titulo.text = "";
                 linea.color = new Color(0f, 0f, 0f, 0f);
             }
             yield return null;
