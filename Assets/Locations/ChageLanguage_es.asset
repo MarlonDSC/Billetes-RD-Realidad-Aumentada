@@ -341,18 +341,18 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 3280446200721408
-    m_Localized: "Boton de escaneo presiona para abrir la c\xE1mara y escanear los
-      billetes en modelos 3D."
+    m_Localized: "Bot\xF3n de escaneo presiona para abrir la c\xE1mara y escanear
+      los billetes en modelos 3D."
     m_Metadata:
       m_Items: []
   - m_Id: 3280451544264704
-    m_Localized: Boton de retroceder, al presionar llevara a la pantalla anterior.
+    m_Localized: "Bot\xF3n de retroceder, al presionar llevara a la pantalla anterior."
     m_Metadata:
       m_Items: []
   - m_Id: 3280736144568320
     m_Localized: "Para desplazarse por el men\xFA principal, solo toca la pantalla
-      y mueve tu dedo horinzontalmente, en otras pantallas tambien puedes utilizar
-      la barra de esplazamiento."
+      y mueve tu dedo horizontalmente, en otras pantallas tambi\xE9n puedes utilizar
+      la barra de desplazamiento."
     m_Metadata:
       m_Items: []
   - m_Id: 3280883003928576

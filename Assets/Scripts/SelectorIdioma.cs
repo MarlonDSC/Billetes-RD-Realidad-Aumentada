@@ -28,6 +28,8 @@ public class SelectorIdioma : MonoBehaviour
     void Start()
     {
         Loadlanguage();
+        changeTitleLanguages();
+
     }
 
     public void LocaleSelected(int index)
@@ -64,26 +66,29 @@ public class SelectorIdioma : MonoBehaviour
         {
             case 0:
                 {
-                    TmpMessage.text = "Lenguaje Cambiado";
+                    
                     EsTogle.isOn = true;
                     EnTogle.isOn = false;
                     FrTogle.isOn = false;
+                    TmpMessage.text = "Lenguaje Modificado";
                 }
                 break;
             case 1:
                 {
-                    TmpMessage.text = "Changed Language";
+                    
                     EsTogle.isOn = false;
                     EnTogle.isOn = true;
                     FrTogle.isOn = false;
+                    TmpMessage.text = "Changed Language";
                 }
                 break;
             case 2:
                 {
-                    TmpMessage.text = "LLangue modifiée";
+                    
                     EsTogle.isOn = false;
                     EnTogle.isOn = false;
                     FrTogle.isOn = true;
+                    TmpMessage.text = "LLangue modifiée";
                 }
                 break;
         }
@@ -119,5 +124,30 @@ public class SelectorIdioma : MonoBehaviour
         yield return new WaitForSeconds(1);
        
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[ActiveLanguajeindex];
+    }
+
+    public void changeTitleLanguages()
+    {
+        switch (ActiveLanguajeindex)
+        {
+            case 0:
+                {
+                    Savelanguage(0);
+                    TmpMessage.text = "IDIOMAS";
+                }
+                break;
+            case 1:
+                {
+                    Savelanguage(1);
+                    TmpMessage.text = "LANGUAGES";
+                }
+                break;
+            case 2:
+                {
+                    Savelanguage(2);
+                    TmpMessage.text = "LANGUES";
+                }
+                break;
+        }
     }
 }
