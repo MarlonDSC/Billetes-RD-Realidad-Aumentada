@@ -19,9 +19,9 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 321380134912
-    m_Localized: "The Cathedral Basilica of Our Lady of Altagracia is a Catholic
-      sanctuary in Salvale\xF3n de Hig\xFCey. It is one of the busiest sanctuaries
-      in the Caribbean."
+    m_Localized: "The cathedral basilica Nuestra Se\xF1ora de la Altagracia is a
+      Catholic sanctuary in Salvale\xF3n de Hig\xFCey, Dominican Republic. It is
+      one of the busiest sanctuaries in the Caribbean."
     m_Metadata:
       m_Items: []
   - m_Id: 250836135936
@@ -38,8 +38,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399556529336320
-    m_Localized: In the 5th family of banknotes (2002-2013) these symbols were included
-      to make it easier for blind people to identify the banknotes.
+    m_Localized: In the 5th family of banknotes (2002-2013) the symbols were included
+      to make it easier for blind people to identify the banknotes
     m_Metadata:
       m_Items: []
   - m_Id: 399594802360320
@@ -55,7 +55,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399683486724096
-    m_Localized: Security signature present on each ticket. They correspond to the
+    m_Localized: Security signatures present on each bill. They correspond to the
       Minister of Finance and the Governor of the Central Bank in force in the year
       of issuance of said note.
     m_Metadata:
@@ -67,25 +67,26 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399755200933888
-    m_Localized: "It is a cathedral and minor basilica dedicated to Santa Maria de
-      la Encarnaci\xF3n. It is located in the Colonial City of Santo Domingo."
+    m_Localized: "It is a cathedral and minor basilica dedicated to Santa Mar\xEDa
+      de la Encarnaci\xF3n that is located in the Colonial City of Santo Domingo,
+      Dominican Republic."
     m_Metadata:
       m_Items: []
   - m_Id: 400968634052608
-    m_Localized: It is a place with a symbolic meaning for our history, being the
-      place where Mella fired the trabucazo and the national flag was hoisted for
-      the first time, acts that began Dominican independence.
+    m_Localized: It is a place with a symbolic meaning, since it was where Mella
+      fired the trabucazo and the National Flag was hoisted for the first time, acts
+      that began the Dominican Independence.
     m_Metadata:
       m_Items: []
   - m_Id: 401145629487104
     m_Localized: Silhouette of the front part of the Central Bank, printed with iridescent
-      ink, printed on the sixth family of banknotes.
+      ink, present on the sixth family of banknotes.
     m_Metadata:
       m_Items: []
   - m_Id: 401277401935872
-    m_Localized: Dominican professor, soldier, politician and liberal activist. He
-      stands out for having been the president and founder of the La Trinitaria Society.
-      He is the main figure of Dominican patriotism.
+    m_Localized: "It is a cathedral and minor basilica dedicated to Santa Mar\xEDa
+      de la Encarnaci\xF3n that is located in the Colonial City of Santo Domingo,
+      Dominican Republic."
     m_Metadata:
       m_Items: []
   - m_Id: 401292199440384
@@ -109,13 +110,13 @@ MonoBehaviour:
   - m_Id: 403052859207680
     m_Localized: She was a Dominican typist and activist, known for her efforts in
       the fight against the dictatorship in which the country was subjected, always
-      supporting her sister Minerva in that cause.
+      mainly supporting her sister Minerva in said cause.
     m_Metadata:
       m_Items: []
   - m_Id: 403257197309952
     m_Localized: Dominican artist and activist who had an outstanding participation
-      in the meetings that gave rise to the June 14 Revolutionary Movement, with
-      which they wanted to put an end to the Trujillo dictatorship.
+      in the meetings that gave rise to the Revolutionary Movement June 14, with
+      which they wanted to end the dictatorship of Trujillo.
     m_Metadata:
       m_Items: []
   - m_Id: 403394434936832
@@ -126,12 +127,12 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 403727198433280
     m_Localized: Main financial institution of the Dominican Republic, which is constituted
-      as a decentralized and autonomous entity. It acts as the issuing and executing
-      entity of monetary and exchange policy.
+      as a decentralized and autonomous entity; It acts as the issuer and executor
+      of monetary and exchange policy.
     m_Metadata:
       m_Items: []
   - m_Id: 404039338536960
-    m_Localized: Dominican writer, educator and poet who managed to draw the attention
+    m_Localized: Dominican writer, educator and poet who managed to attract the attention
       of much of Latin America with her works; she was also an innovator in education
       for women in her country.
     m_Metadata:
@@ -150,20 +151,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 444558894673920
-    m_Localized: "The Alc\xE1zar de Col\xF3n or Viceregal Palace of Don Diego Col\xF3n
+    m_Localized: "The Alcazar de Col\xF3n or Viceregal Palace of Don Diego Col\xF3n
       is a palace from the beginning of the 16th century, located in the Plaza de
       Espa\xF1a in the Colonial City of Santo Domingo."
     m_Metadata:
       m_Items: []
   - m_Id: 447947707756544
-    m_Localized: The National Palace is the workplace of the President of the Republic
-      and the seat of the Executive Power of the country. It is one of the most emblematic
-      works where the offices of the Vice President of the Dominican Republic are
-      also located.
+    m_Localized: The National Palace of the Dominican Republic is the workplace of
+      the President of the Republic and the seat of the Executive Power of the country.
+      It is one of the most emblematic works where the offices of the Vice President
+      of the Republic are also located.
     m_Metadata:
       m_Items: []
   - m_Id: 448334871375872
-    m_Localized: Printed stripe on the bill with iridescent material, which works
+    m_Localized: Strip printed on the bill with iridescent material, which works
       as a security element.
     m_Metadata:
       m_Items: []
@@ -295,7 +296,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: Learn the security methods used by Dominican bills to prevent counterfeiting
+    m_Localized: The security methods used by Dominican banknotes to prevent counterfeiting
       and to verify their legitimacy.
     m_Metadata:
       m_Items: []
@@ -304,8 +305,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830136102400000
-    m_Localized: Find out the story behind each of your daily bills and why their
-      symbols, letters and textures are like.
+    m_Localized: From the story behind each of your daily-use banknotes and the reason
+      for their symbols, letters and textures.
     m_Metadata:
       m_Items: []
   - m_Id: 830366508101632
@@ -313,8 +314,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830461278400512
-    m_Localized: Visit the history of each banknote of the Dominican Republic to
-      learn the story behind each of these important elements of our culture.
+    m_Localized: The history of each bill from the Dominican Republic to find out
+      what is behind each bill.
     m_Metadata:
       m_Items: []
   - m_Id: 832370001293312
@@ -328,6 +329,32 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 832703112916992
     m_Localized: Nope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275569579929600
+    m_Localized: LANGUAGES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280086925029376
+    m_Localized: Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280446200721408
+    m_Localized: Scan button presses to open the camera and scan the banknotes into
+      3D models.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280451544264704
+    m_Localized: Back button, pressing will take you to the previous screen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280736144568320
+    m_Localized: To scroll through the main menu, just touch the screen and move
+      your finger horizontally, on other screens you can also use the scroll bar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280883003928576
+    m_Localized: Button to change between the faces of the banknotes.
     m_Metadata:
       m_Items: []
   references:

@@ -27,7 +27,8 @@ public class instanciarPrefab : MonoBehaviour
     public GameObject[] imageTargets;
     public GameObject imageTarget;
 
-
+    //Prefabs vacío
+    GameObject prefabVacio;
 
     //prueba
     private bool estado = true;
@@ -41,24 +42,35 @@ public class instanciarPrefab : MonoBehaviour
 
     public void crearInstanciaPrefab(GameObject prefabParaInstanciar)
     {
+        if (prefabParaInstanciar.activeSelf)
+        {
+        prefabInstanciado = prefabVacio;
         prefabInstanciado = Instantiate(prefabParaInstanciar);
         prefabInstanciado.transform.parent = emptyPadre.transform;
 
         emptyPadre.transform.position = imageTarget.transform.position;
         emptyPadre.transform.rotation = imageTarget.transform.rotation;
 
-        Debug.Log("AAAAAAAAAAAAAAAAAAAAA");
+  
         emptyPadre.transform.parent = arCamera.transform;
-        Debug.Log("AAAAAAAAAAAAAAAAAAAAA");
+
+        }
+        else
+        {
+            return;
+        }
+ 
     }
 
     public void destruirInstanciaPrefab()
     {
+       
         Destroy(prefabInstanciado);
         estado = true;
         emptyPadre.transform.parent = emptyContenedor.transform;
         emptyPadre.transform.position = new Vector3(0, 0, 0);
         emptyPadre.transform.rotation = new Quaternion(0, 0, 0,0);
+        Destroy(prefabInstanciado);
 
         
     }

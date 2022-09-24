@@ -275,6 +275,30 @@ MonoBehaviour:
     m_Key: no
     m_Metadata:
       m_Items: []
+  - m_Id: 3275569579929600
+    m_Key: Title(Lenguajes)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280086925029376
+    m_Key: Title(Ayuda)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280446200721408
+    m_Key: Bton_Escaneo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280451544264704
+    m_Key: Btn_Retroceder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280736144568320
+    m_Key: Desplazamiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280883003928576
+    m_Key: Btn_Rotar
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

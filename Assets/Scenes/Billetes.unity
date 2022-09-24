@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6750,6 +6750,164 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &679207149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 679207150}
+  - component: {fileID: 679207155}
+  - component: {fileID: 679207154}
+  - component: {fileID: 679207153}
+  - component: {fileID: 679207152}
+  - component: {fileID: 679207151}
+  m_Layer: 5
+  m_Name: Inicio (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &679207150
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679207149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1839483693}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 167.12, y: 146.54999}
+  m_SizeDelta: {x: 127.75, y: 88.92999}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &679207151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679207149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97e2c5e49dff2984c906a56a4a8a5d62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreEscena: Scroll_Snap
+  btnRotacion: {fileID: 1719293331}
+  titulo: {fileID: 938982675}
+--- !u!95 &679207152
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679207149}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77f01855811b09b40980930a5fae7684, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &679207153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679207149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 679207154}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &679207154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679207149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4e2d8cabf24dd504e8199d2b7240b4e8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &679207155
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679207149}
+  m_CullTransparentMesh: 1
 --- !u!1 &680800705
 GameObject:
   m_ObjectHideFlags: 0
@@ -6770,7 +6928,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &680800706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24872,6 +25030,7 @@ RectTransform:
   - {fileID: 2054947030}
   - {fileID: 1491458328}
   - {fileID: 1719293330}
+  - {fileID: 679207150}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -37744,7 +37903,6 @@ MonoBehaviour:
   imagen: {fileID: -216970650, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098153077205
 MonoBehaviour:
@@ -37765,7 +37923,6 @@ MonoBehaviour:
   imagen: {fileID: 1900308369, guid: 608f24d80e6b93a4db2bcb2890cf4b1f, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098206867298
 MonoBehaviour:
@@ -37786,7 +37943,6 @@ MonoBehaviour:
   imagen: {fileID: 2102717376, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098210425442
 MonoBehaviour:
@@ -37807,7 +37963,6 @@ MonoBehaviour:
   imagen: {fileID: -815475213, guid: ca3d0c36cbd849e41a3c73f44c833b79, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098295954793
 MonoBehaviour:
@@ -37828,7 +37983,6 @@ MonoBehaviour:
   imagen: {fileID: 2131821561, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098298005670
 MonoBehaviour:
@@ -37849,7 +38003,6 @@ MonoBehaviour:
   imagen: {fileID: 1613313703, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098300650330
 MonoBehaviour:
@@ -37870,7 +38023,6 @@ MonoBehaviour:
   imagen: {fileID: -1958398653, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098320504726
 MonoBehaviour:
@@ -37891,7 +38043,6 @@ MonoBehaviour:
   imagen: {fileID: -1598915768, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098324364890
 MonoBehaviour:
@@ -37912,7 +38063,6 @@ MonoBehaviour:
   imagen: {fileID: 618614655, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098328695934
 MonoBehaviour:
@@ -37933,7 +38083,6 @@ MonoBehaviour:
   imagen: {fileID: -312943638, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098346364635
 MonoBehaviour:
@@ -37954,7 +38103,6 @@ MonoBehaviour:
   imagen: {fileID: -1527610133, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098371289679
 MonoBehaviour:
@@ -37975,7 +38123,6 @@ MonoBehaviour:
   imagen: {fileID: 1309997823, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098388284170
 MonoBehaviour:
@@ -37996,7 +38143,6 @@ MonoBehaviour:
   imagen: {fileID: 426977858, guid: ca3d0c36cbd849e41a3c73f44c833b79, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098425533210
 MonoBehaviour:
@@ -38017,7 +38163,6 @@ MonoBehaviour:
   imagen: {fileID: -1299189428, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098490848436
 MonoBehaviour:
@@ -38038,7 +38183,6 @@ MonoBehaviour:
   imagen: {fileID: -2143128462, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098579963352
 MonoBehaviour:
@@ -38059,7 +38203,6 @@ MonoBehaviour:
   imagen: {fileID: 1221669076, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098656184458
 MonoBehaviour:
@@ -38080,7 +38223,6 @@ MonoBehaviour:
   imagen: {fileID: 181846897, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098662723572
 MonoBehaviour:
@@ -38101,7 +38243,6 @@ MonoBehaviour:
   imagen: {fileID: -1711566253, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098734407626
 MonoBehaviour:
@@ -38122,7 +38263,6 @@ MonoBehaviour:
   imagen: {fileID: -101392510, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098788320303
 MonoBehaviour:
@@ -38143,7 +38283,6 @@ MonoBehaviour:
   imagen: {fileID: 1954189860, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098802996949
 MonoBehaviour:
@@ -38164,7 +38303,6 @@ MonoBehaviour:
   imagen: {fileID: -1047927851, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098830376854
 MonoBehaviour:
@@ -38185,7 +38323,6 @@ MonoBehaviour:
   imagen: {fileID: 2119379649, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098843134261
 MonoBehaviour:
@@ -38206,7 +38343,6 @@ MonoBehaviour:
   imagen: {fileID: -454556489, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098876939191
 MonoBehaviour:
@@ -38227,7 +38363,6 @@ MonoBehaviour:
   imagen: {fileID: 890219375, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098896586580
 MonoBehaviour:
@@ -38248,7 +38383,6 @@ MonoBehaviour:
   imagen: {fileID: -1782996812, guid: 608f24d80e6b93a4db2bcb2890cf4b1f, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098921779420
 MonoBehaviour:
@@ -38269,7 +38403,6 @@ MonoBehaviour:
   imagen: {fileID: -1841369119, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098952731016
 MonoBehaviour:
@@ -38290,7 +38423,6 @@ MonoBehaviour:
   imagen: {fileID: 651451152, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098962865708
 MonoBehaviour:
@@ -38311,7 +38443,6 @@ MonoBehaviour:
   imagen: {fileID: -1617306102, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342098991738923
 MonoBehaviour:
@@ -38332,7 +38463,6 @@ MonoBehaviour:
   imagen: {fileID: -228609877, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099002296366
 MonoBehaviour:
@@ -38353,7 +38483,6 @@ MonoBehaviour:
   imagen: {fileID: 1932410216, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099004738583
 MonoBehaviour:
@@ -38374,7 +38503,6 @@ MonoBehaviour:
   imagen: {fileID: -900519728, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099026523131
 MonoBehaviour:
@@ -38395,7 +38523,6 @@ MonoBehaviour:
   imagen: {fileID: -1875229536, guid: 2d8541c25d6e91442b4d4c14c54cbd63, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099038585028
 MonoBehaviour:
@@ -38416,7 +38543,6 @@ MonoBehaviour:
   imagen: {fileID: -1472615836, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099059275656
 MonoBehaviour:
@@ -38437,7 +38563,6 @@ MonoBehaviour:
   imagen: {fileID: -159545870, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099126838505
 MonoBehaviour:
@@ -38458,7 +38583,6 @@ MonoBehaviour:
   imagen: {fileID: 72978655, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099153262732
 MonoBehaviour:
@@ -38479,7 +38603,6 @@ MonoBehaviour:
   imagen: {fileID: 1488141302, guid: c7e148892a8511148872f454f9d04c53, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099219152432
 MonoBehaviour:
@@ -38500,7 +38623,6 @@ MonoBehaviour:
   imagen: {fileID: 618312056, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099225016945
 MonoBehaviour:
@@ -38521,7 +38643,6 @@ MonoBehaviour:
   imagen: {fileID: -641907174, guid: 184e39e909b466e4098d25fa628cf482, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099291207518
 MonoBehaviour:
@@ -38542,7 +38663,6 @@ MonoBehaviour:
   imagen: {fileID: -1080357413, guid: c7e148892a8511148872f454f9d04c53, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099319638719
 MonoBehaviour:
@@ -38563,7 +38683,6 @@ MonoBehaviour:
   imagen: {fileID: -1744014903, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099365296171
 MonoBehaviour:
@@ -38584,7 +38703,6 @@ MonoBehaviour:
   imagen: {fileID: -1824762421, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099370742836
 MonoBehaviour:
@@ -38605,7 +38723,6 @@ MonoBehaviour:
   imagen: {fileID: 1556053109, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099380022585
 MonoBehaviour:
@@ -38626,7 +38743,6 @@ MonoBehaviour:
   imagen: {fileID: -361276815, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099386965583
 MonoBehaviour:
@@ -38647,7 +38763,6 @@ MonoBehaviour:
   imagen: {fileID: 669196060, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099392860780
 MonoBehaviour:
@@ -38668,7 +38783,6 @@ MonoBehaviour:
   imagen: {fileID: 221698485, guid: 2d8541c25d6e91442b4d4c14c54cbd63, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099406399340
 MonoBehaviour:
@@ -38689,7 +38803,6 @@ MonoBehaviour:
   imagen: {fileID: 1644621002, guid: 59c51c8d60819fb4dab5d5cc2195c9e1, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099437737853
 MonoBehaviour:
@@ -38710,7 +38823,6 @@ MonoBehaviour:
   imagen: {fileID: 1466880688, guid: 59c51c8d60819fb4dab5d5cc2195c9e1, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099491888453
 MonoBehaviour:
@@ -38731,7 +38843,6 @@ MonoBehaviour:
   imagen: {fileID: -1740188532, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099494257086
 MonoBehaviour:
@@ -38752,7 +38863,6 @@ MonoBehaviour:
   imagen: {fileID: 902034909, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099520467575
 MonoBehaviour:
@@ -38773,7 +38883,6 @@ MonoBehaviour:
   imagen: {fileID: 1672459625, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099544083411
 MonoBehaviour:
@@ -38794,7 +38903,6 @@ MonoBehaviour:
   imagen: {fileID: -1677670048, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099581632474
 MonoBehaviour:
@@ -38815,7 +38923,6 @@ MonoBehaviour:
   imagen: {fileID: 1189846921, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099593551504
 MonoBehaviour:
@@ -38836,7 +38943,6 @@ MonoBehaviour:
   imagen: {fileID: 815594313, guid: 608f24d80e6b93a4db2bcb2890cf4b1f, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099610842111
 MonoBehaviour:
@@ -38857,7 +38963,6 @@ MonoBehaviour:
   imagen: {fileID: 591042181, guid: 184e39e909b466e4098d25fa628cf482, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099625942029
 MonoBehaviour:
@@ -38878,7 +38983,6 @@ MonoBehaviour:
   imagen: {fileID: 1480651137, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099676037599
 MonoBehaviour:
@@ -38899,7 +39003,6 @@ MonoBehaviour:
   imagen: {fileID: 1205385347, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099680282462
 MonoBehaviour:
@@ -38920,7 +39023,6 @@ MonoBehaviour:
   imagen: {fileID: -756532395, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099733701688
 MonoBehaviour:
@@ -38941,7 +39043,6 @@ MonoBehaviour:
   imagen: {fileID: 2078555196, guid: 184e39e909b466e4098d25fa628cf482, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099752991286
 MonoBehaviour:
@@ -38962,7 +39063,6 @@ MonoBehaviour:
   imagen: {fileID: -1294820811, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099786036951
 MonoBehaviour:
@@ -38983,7 +39083,6 @@ MonoBehaviour:
   imagen: {fileID: 609168602, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099789120084
 MonoBehaviour:
@@ -39004,7 +39103,6 @@ MonoBehaviour:
   imagen: {fileID: -673829666, guid: c7e148892a8511148872f454f9d04c53, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099826300755
 MonoBehaviour:
@@ -39025,7 +39123,6 @@ MonoBehaviour:
   imagen: {fileID: 1408207708, guid: 0000c78218764f74594434d9c93db666, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099829652151
 MonoBehaviour:
@@ -39046,7 +39143,6 @@ MonoBehaviour:
   imagen: {fileID: 1924412650, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099903665387
 MonoBehaviour:
@@ -39067,7 +39163,6 @@ MonoBehaviour:
   imagen: {fileID: -1354721017, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342099949135616
 MonoBehaviour:
@@ -39088,7 +39183,6 @@ MonoBehaviour:
   imagen: {fileID: -821370402, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342100092196753
 MonoBehaviour:
@@ -39110,7 +39204,6 @@ MonoBehaviour:
   imagen: {fileID: 224492692, guid: 59c51c8d60819fb4dab5d5cc2195c9e1, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342100168105743
 MonoBehaviour:
@@ -39131,7 +39224,6 @@ MonoBehaviour:
   imagen: {fileID: -1249634182, guid: ca3d0c36cbd849e41a3c73f44c833b79, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342100171525851
 MonoBehaviour:
@@ -39153,7 +39245,6 @@ MonoBehaviour:
   imagen: {fileID: 1687493354, guid: 2d8541c25d6e91442b4d4c14c54cbd63, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342100174465514
 MonoBehaviour:
@@ -39174,7 +39265,6 @@ MonoBehaviour:
   imagen: {fileID: -1549988905, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8622342100216832107
 MonoBehaviour:
@@ -39195,7 +39285,6 @@ MonoBehaviour:
   imagen: {fileID: 779120463, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
-  titulo2: {fileID: 8670611127418645078}
   btnAR: {fileID: 680800711}
 --- !u!114 &8670611127418645076
 MonoBehaviour:

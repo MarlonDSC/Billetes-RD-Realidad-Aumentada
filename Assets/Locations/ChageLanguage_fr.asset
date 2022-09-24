@@ -19,9 +19,9 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 321380134912
-    m_Localized: "La basilique cath\xE9drale Notre-Dame d'Altagracia est un sanctuaire
-      catholique \xE0 Salvale\xF3n de Hig\xFCey. C'est l'un des sanctuaires les plus
-      fr\xE9quent\xE9s des Cara\xEFbes."
+    m_Localized: "La basilique cath\xE9drale Nuestra Se\xF1ora de la Altagracia est
+      un sanctuaire catholique \xE0 Salvale\xF3n de Hig\xFCey, en R\xE9publique dominicaine.
+      C'est l'un des sanctuaires les plus fr\xE9quent\xE9s des Cara\xEFbes."
     m_Metadata:
       m_Items: []
   - m_Id: 250836135936
@@ -39,8 +39,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399556529336320
-    m_Localized: "Dans la 5e famille de billets (2002-2013), ces symboles ont \xE9t\xE9
-      inclus pour faciliter l'identification des billets par les personnes aveugles."
+    m_Localized: "Dans la 5e famille de billets (2002-2013), les symboles ont \xE9t\xE9
+      inclus pour faciliter l'identification des billets par les personnes aveugles"
     m_Metadata:
       m_Items: []
   - m_Id: 399594802360320
@@ -57,7 +57,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399683486724096
-    m_Localized: "Signature de s\xE9curit\xE9 pr\xE9sente sur chaque ticket. Ils
+    m_Localized: "Signatures de s\xE9curit\xE9 pr\xE9sentes sur chaque facture. Ils
       correspondent au Ministre des Finances et au Gouverneur de la Banque Centrale
       en vigueur l'ann\xE9e d'\xE9mission dudit billet."
     m_Metadata:
@@ -69,33 +69,33 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399755200933888
-    m_Localized: "C'est une cath\xE9drale et une basilique mineure d\xE9di\xE9e \xE0
-      Santa Maria de la Encarnaci\xF3n. Il est situ\xE9 dans la ville coloniale de
-      Saint-Domingue."
+    m_Localized: "Il s'agit d'une cath\xE9drale et d'une basilique mineure d\xE9di\xE9e
+      \xE0 Santa Mar\xEDa de la Encarnaci\xF3n situ\xE9e dans la ville coloniale
+      de Saint-Domingue, en R\xE9publique dominicaine."
     m_Metadata:
       m_Items: []
   - m_Id: 400968634052608
-    m_Localized: "C'est un lieu avec une signification symbolique pour notre histoire,
-      \xE9tant le lieu o\xF9 Mella a tir\xE9 le trabucazo et o\xF9 le drapeau national
-      a \xE9t\xE9 hiss\xE9 pour la premi\xE8re fois, actes qui ont commenc\xE9 l'ind\xE9pendance
+    m_Localized: "C'est un lieu avec une signification symbolique, puisque c'est
+      l\xE0 que Mella a tir\xE9 le trabucazo et que le drapeau national a \xE9t\xE9
+      hiss\xE9 pour la premi\xE8re fois, actes qui ont commenc\xE9 l'ind\xE9pendance
       dominicaine."
     m_Metadata:
       m_Items: []
   - m_Id: 401145629487104
-    m_Localized: "Silhouette de la partie recto de la Banque Centrale, imprim\xE9e
-      \xE0 l'encre iris\xE9e, imprim\xE9e sur la sixi\xE8me famille de billets."
+    m_Localized: "Silhouette du recto de la Banque Centrale, imprim\xE9e \xE0 l'encre
+      iris\xE9e, pr\xE9sente sur la sixi\xE8me famille de billets."
     m_Metadata:
       m_Items: []
   - m_Id: 401277401935872
-    m_Localized: "Professeur dominicain, militaire, homme politique et militant lib\xE9ral.
-      Il se distingue pour avoir \xE9t\xE9 le pr\xE9sident et fondateur de la Soci\xE9t\xE9
-      La Trinitaria. Il est la principale figure du patriotisme dominicain."
+    m_Localized: "Il s'agit d'une cath\xE9drale et d'une basilique mineure d\xE9di\xE9e
+      \xE0 Santa Mar\xEDa de la Encarnaci\xF3n situ\xE9e dans la ville coloniale
+      de Saint-Domingue, en R\xE9publique dominicaine."
     m_Metadata:
       m_Items: []
   - m_Id: 401292199440384
     m_Localized: "Avocat, homme politique, militant et \xE9galement strat\xE8ge de
       la guerre dominicaine, prenant le commandement du combat apr\xE8s l'absence
-      de Duarte. Ind\xE9pendance proclam\xE9e le 27 f\xE9vrier 1844."
+      de Duarte. Elle proclama son ind\xE9pendance le 27 f\xE9vrier 1844."
     m_Metadata:
       m_Items: []
   - m_Id: 401311384186880
@@ -113,13 +113,14 @@ MonoBehaviour:
   - m_Id: 403052859207680
     m_Localized: "Elle \xE9tait une dactylographe et militante dominicaine, connue
       pour ses efforts dans la lutte contre la dictature \xE0 laquelle le pays \xE9tait
-      soumis, soutenant toujours sa s\u0153ur Minerva dans cette cause."
+      soumis, soutenant toujours principalement sa s\u0153ur Minerva dans ladite
+      cause."
     m_Metadata:
       m_Items: []
   - m_Id: 403257197309952
     m_Localized: "Artiste et militant dominicain qui a eu une participation remarquable
       aux r\xE9unions qui ont donn\xE9 naissance au Mouvement r\xE9volutionnaire
-      du 14 juin, avec lequel ils ont voulu mettre fin \xE0 la dictature de Trujillo."
+      du 14 juin, avec lequel ils voulaient mettre fin \xE0 la dictature de Trujillo."
     m_Metadata:
       m_Items: []
   - m_Id: 403394434936832
@@ -131,13 +132,13 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 403727198433280
     m_Localized: "Principale institution financi\xE8re de la R\xE9publique dominicaine,
-      qui est constitu\xE9e comme une entit\xE9 d\xE9centralis\xE9e et autonome.
-      Il agit en tant qu'entit\xE9 d'\xE9mission et d'ex\xE9cution de la politique
-      mon\xE9taire et de change."
+      qui est constitu\xE9e comme une entit\xE9 d\xE9centralis\xE9e et autonome\_;
+      Il agit en tant qu'\xE9metteur et ex\xE9cuteur de la politique mon\xE9taire
+      et de change."
     m_Metadata:
       m_Items: []
   - m_Id: 404039338536960
-    m_Localized: "\xC9crivain, \xE9ducatrice et po\xE8te dominicaine qui a r\xE9ussi
+    m_Localized: "\xC9crivain dominicain, \xE9ducateur et po\xE8te qui a r\xE9ussi
       \xE0 attirer l'attention d'une grande partie de l'Am\xE9rique latine avec ses
       \u0153uvres; elle \xE9tait aussi une innovatrice dans l'\xE9ducation des femmes
       de son pays."
@@ -163,15 +164,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 447947707756544
-    m_Localized: "Le Palais National est le lieu de travail du Pr\xE9sident de la
-      R\xE9publique et le si\xE8ge du Pouvoir Ex\xE9cutif du pays. C'est l'une des
-      \u0153uvres les plus embl\xE9matiques o\xF9 se trouvent \xE9galement les bureaux
-      du vice-pr\xE9sident de la R\xE9publique dominicaine."
+    m_Localized: "Le Palais National de la R\xE9publique Dominicaine est le lieu
+      de travail du Pr\xE9sident de la R\xE9publique et le si\xE8ge du Pouvoir Ex\xE9cutif
+      du pays. C'est l'un des ouvrages les plus embl\xE9matiques o\xF9 se trouvent
+      \xE9galement les bureaux du vice-pr\xE9sident de la R\xE9publique."
     m_Metadata:
       m_Items: []
   - m_Id: 448334871375872
-    m_Localized: "Bande imprim\xE9e sur la visi\xE8re avec un mat\xE9riau iris\xE9,
-      qui fonctionne comme un \xE9l\xE9ment de s\xE9curit\xE9."
+    m_Localized: "Bande imprim\xE9e sur le billet avec un mat\xE9riau iris\xE9, qui
+      fonctionne comme un \xE9l\xE9ment de s\xE9curit\xE9."
     m_Metadata:
       m_Items: []
   - m_Id: 448613163446272
@@ -302,9 +303,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: "Apprenez les m\xE9thodes de s\xE9curit\xE9 utilis\xE9es par les
-      billets dominicains pour pr\xE9venir la contrefa\xE7on et v\xE9rifier leur
-      l\xE9gitimit\xE9."
+    m_Localized: "Les m\xE9thodes de s\xE9curit\xE9 utilis\xE9es par les billets
+      dominicains pour pr\xE9venir la contrefa\xE7on et v\xE9rifier leur l\xE9gitimit\xE9."
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
@@ -312,8 +312,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830136102400000
-    m_Localized: "D\xE9couvrez l'histoire derri\xE8re chacune de vos factures quotidiennes
-      et pourquoi leurs symboles, lettres et textures sont similaires."
+    m_Localized: "De l'histoire derri\xE8re chacun de vos billets de banque \xE0
+      usage quotidien et la raison de leurs symboles, lettres et textures."
     m_Metadata:
       m_Items: []
   - m_Id: 830366508101632
@@ -321,9 +321,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830461278400512
-    m_Localized: "Visitez l'histoire de chaque billet de banque de la R\xE9publique
-      dominicaine pour d\xE9couvrir l'histoire derri\xE8re chacun de ces \xE9l\xE9ments
-      importants de notre culture."
+    m_Localized: "l'historique de chaque facture de la R\xE9publique dominicaine
+      pour d\xE9couvrir ce qui se cache derri\xE8re chaque facture."
     m_Metadata:
       m_Items: []
   - m_Id: 832370001293312
@@ -337,6 +336,33 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 832703112916992
     m_Localized: Non
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275569579929600
+    m_Localized: LANGUES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280086925029376
+    m_Localized: Aide
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280446200721408
+    m_Localized: "Appuyez sur le bouton de num\xE9risation pour ouvrir l'appareil
+      photo et num\xE9riser les billets en mod\xE8les 3D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280451544264704
+    m_Localized: "Bouton Retour, appuyez sur pour revenir \xE0 l'\xE9cran pr\xE9c\xE9dent."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280736144568320
+    m_Localized: "Pour faire d\xE9filer le menu principal, il vous suffit de toucher
+      l'\xE9cran et de d\xE9placer votre doigt horizontalement. Sur les autres \xE9crans,
+      vous pouvez \xE9galement utiliser la barre de d\xE9filement."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280883003928576
+    m_Localized: Bouton pour changer entre les faces des billets.
     m_Metadata:
       m_Items: []
   references:

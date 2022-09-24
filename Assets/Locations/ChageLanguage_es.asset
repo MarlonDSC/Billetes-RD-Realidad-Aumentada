@@ -19,9 +19,9 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 321380134912
-    m_Localized: "La Bas\xEDlica Catedral de Nuestra Se\xF1ora de la Altagracia es
-      un santuario cat\xF3lico de Salvale\xF3n de Hig\xFCey. Es uno de los santuarios
-      m\xE1s concurridos del Caribe."
+    m_Localized: "La bas\xEDlica catedral Nuestra Se\xF1ora de la Altagracia es un
+      santuario cat\xF3lico de Salvale\xF3n de Hig\xFCey, Rep\xFAblica Dominicana.
+      Es uno de los santuarios m\xE1s concurridos del Caribe."
     m_Metadata:
       m_Items: []
   - m_Id: 250836135936
@@ -39,9 +39,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399556529336320
-    m_Localized: "En la 5\xB0 familia de billetes (2002-2013) se incluyeron estos
-      s\xEDmbolos para facilitar la identificaci\xF3n de los billetes a las personas
-      no videntes."
+    m_Localized: "En la 5\xBA familia de billetes (2002-2013) se incluyeron los s\xEDmbolos
+      para hacer m\xE1s f\xE1cil la tarea de identificar los billetes a las personas
+      no vidente"
     m_Metadata:
       m_Items: []
   - m_Id: 399594802360320
@@ -57,9 +57,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399683486724096
-    m_Localized: "Firma de seguridad presentes en cada billete. Corresponden al ministro
-      de hacienda y al gobernador del Banco Central vigentes en el a\xF1o de emisi\xF3n
-      de dicho billete."
+    m_Localized: "Firmas de seguridad presentes en cada billete. Corresponden al
+      Ministro de Hacienda y al gobernador del Banco Central vigentes en el a\xF1o
+      de emisi\xF3n de dicho billete."
     m_Metadata:
       m_Items: []
   - m_Id: 399712897183744
@@ -69,19 +69,20 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399755200933888
-    m_Localized: "Es una catedral y bas\xEDlica menor dedicada a Santa Maria de la
-      Encarnaci\xF3n. Se encuentra en la Ciudad Colonial de Santo Domingo."
+    m_Localized: "Es una catedral y bas\xEDlica menor dedicada a Santa Mar\xEDa de
+      la Encarnaci\xF3n que se encuentra en la Ciudad Colonial de Santo Domingo,
+      Rep\xFAblica Dominicana."
     m_Metadata:
       m_Items: []
   - m_Id: 400968634052608
-    m_Localized: "Es un lugar con un significado simb\xF3lico para nuestra historia,
-      siendo el lugar donde Mella dispar\xF3 el trabucazo y se iz\xF3 la bandera
-      nacional por primera vez, actos que dieron inicio a la independencia Dominicana."
+    m_Localized: "Es un lugar con un significado simb\xF3lico, ya que fue donde Mella
+      dispar\xF3 el trabucazo y se iz\xF3 la Bandera Nacional por primera vez, actos
+      que dieron inicio a la Independencia Dominicana."
     m_Metadata:
       m_Items: []
   - m_Id: 401145629487104
     m_Localized: Silueta de la parte delantera del Banco Central, impresa con tinta
-      irisdescente, prenseta en la sexta famila de billetes.
+      iridiscente, presente en la sexta familia de billetes.
     m_Metadata:
       m_Items: []
   - m_Id: 401277401935872
@@ -93,13 +94,13 @@ MonoBehaviour:
   - m_Id: 401292199440384
     m_Localized: "Abogado, pol\xEDtico, activista y tambi\xE9n un estratega de la
       guerra dominicana, tomando el mando de la lucha tras la ausencia de Duarte.
-      Proclam\xF3 la independencia del 27 de febrero de 1844."
+      Proclam\xF3 la independencia el 27 de febrero de 1844."
     m_Metadata:
       m_Items: []
   - m_Id: 401311384186880
     m_Localized: "Pol\xEDtico y militar dominicano, tambi\xE9n miembro del movimiento
-      independentista siendo conocido por haber disparado el trabucazo de la noche
-      del 27 de febrero de 1844 en la Puerta del Conde."
+      independentista siendo conocido por haber disparado el trabucazo la noche del
+      27 de febrero de 1844 en la Puerta del Conde."
     m_Metadata:
       m_Items: []
   - m_Id: 402922877726720
@@ -109,31 +110,31 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 403052859207680
-    m_Localized: "Fue una mecan\xF3grafa y activista Dominicana, conocida por sus
-      esfuerzos en la lucha contra la dictadura en la que estaba sometido al pa\xEDs,
-      siempre apoyando a su hermana Minerva en dicha causa."
+    m_Localized: "Fue una mecan\xF3grafa y activista dominicana, conocida por sus
+      esfuerzos en la lucha contra la dictadura en la que estaba sometido el pa\xEDs,
+      siempre apoyando principalmente a su hermana Minerva en dicha causa."
     m_Metadata:
       m_Items: []
   - m_Id: 403257197309952
-    m_Localized: "Artista y activista Dominicana que tuvo una destacada participaci\xF3n
-      en las reuniones que dieron origen al Movimiento Revolucionario 14 de Junio,
-      con el que se queria poner fin a la dictadura de Trujillo."
+    m_Localized: "Artista y activista dominicana que tuvo una destacada participaci\xF3n
+      en las reuniones que dieron origen al Movimiento Revolucionario 14 de junio,
+      con el que se quer\xEDa poner fin a la dictadura de Trujillo."
     m_Metadata:
       m_Items: []
   - m_Id: 403394434936832
-    m_Localized: "Agrimensora y activista Dominicana que estuvo en contra del r\xE9gimen
+    m_Localized: "Agrimensora y activista dominicana que estuvo en contra del r\xE9gimen
       trujillista. Fue apresada en varias ocasiones por su lucha y finalmente asesinada
       junto a sus dos hermanas por orden del dictador."
     m_Metadata:
       m_Items: []
   - m_Id: 403727198433280
     m_Localized: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
-      que se constituye como una entidad descentralizada y aut\xF3noma. Act\xFAa
+      que se constituye como una entidad descentralizada y aut\xF3noma; act\xFAa
       como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
     m_Metadata:
       m_Items: []
   - m_Id: 404039338536960
-    m_Localized: "Escritora, educadora y poetisa Dominicana que logr\xF3 llamar la
+    m_Localized: "Escritora, educadora y poetisa dominicana que logr\xF3 llamar la
       atenci\xF3n de gran parte de Latinoam\xE9rica con sus obras; tambi\xE9n fue
       una innovadora en la educaci\xF3n para las mujeres en su pa\xEDs."
     m_Metadata:
@@ -158,14 +159,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 447947707756544
-    m_Localized: "El Palacio Nacional es el lugar de trabajo del Presidente de la
-      Rep\xFAblica y sede del Poder Ejecutivo del pa\xEDs. Es una de las obras m\xE1s
-      emblem\xE1ticas donde se encuentran, adem\xE1s, las oficinas del Vicepresidente
-      de la Rep\xFAblica Dominicana."
+    m_Localized: "El Palacio Nacional de la Rep\xFAblica Dominicana es el lugar de
+      trabajo del Presidente de la Rep\xFAblica y sede del Poder Ejecutivo del pa\xEDs.
+      Es una de las obras m\xE1s emblem\xE1ticas donde se encuentran, adem\xE1s,
+      las oficinas del Vicepresidente de la Rep\xFAblica."
     m_Metadata:
       m_Items: []
   - m_Id: 448334871375872
-    m_Localized: Franja impresa en el billete con material irisdecente, que funcionan
+    m_Localized: Franja impresas en el billete con material iridiscente, que funcionan
       como un elemento de seguridad.
     m_Metadata:
       m_Items: []
@@ -297,17 +298,17 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: "Aprende los m\xE9todos de seguridad que emplean los billetes Dominicanos
+    m_Localized: "Los m\xE9todos de seguridad que emplean los billetes dominicanos
       para evitar falsificaciones y para verificar su legitimidad."
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
-    m_Localized: ENTERATE
+    m_Localized: "ENT\xC9RATE"
     m_Metadata:
       m_Items: []
   - m_Id: 830136102400000
-    m_Localized: "Ent\xE9rate de la historia detr\xE1s de cada uno de tus billetes
-      de uso diario y el porqu\xE9 de c\xF3mo son sus s\xEDmbolos, letras y texturas."
+    m_Localized: "De la historia detr\xE1s de cada uno de tus billetes de uso diario
+      y el porqu\xE9 de c\xF3mo son sus s\xEDmbolos, letras y texturas."
     m_Metadata:
       m_Items: []
   - m_Id: 830366508101632
@@ -315,9 +316,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830461278400512
-    m_Localized: "Visita la historia de cada billete de la rep\xFAblica dominicana
-      para Conocer la historia detr\xE1s de cada uno de estos elementos tan importantes
-      de nuestra cultura."
+    m_Localized: "La historia de cada billete de la Rep\xFAblica Dominicana para
+      as\xED conocer qu\xE9 es lo que hay detr\xE1s de cada billete."
     m_Metadata:
       m_Items: []
   - m_Id: 832370001293312
@@ -330,6 +330,33 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 832703112916992
     m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275569579929600
+    m_Localized: IDIOMAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280086925029376
+    m_Localized: Ayuda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280446200721408
+    m_Localized: "Boton de escaneo presiona para abrir la c\xE1mara y escanear los
+      billetes en modelos 3D."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280451544264704
+    m_Localized: Boton de retroceder, al presionar llevara a la pantalla anterior.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280736144568320
+    m_Localized: "Para desplazarse por el men\xFA principal, solo toca la pantalla
+      y mueve tu dedo horinzontalmente, en otras pantallas tambien puedes utilizar
+      la barra de esplazamiento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280883003928576
+    m_Localized: "Bot\xF3n para cambiar entre las caras de los billetes."
     m_Metadata:
       m_Items: []
   references:

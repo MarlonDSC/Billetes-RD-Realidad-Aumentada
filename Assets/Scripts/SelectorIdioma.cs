@@ -21,10 +21,10 @@ public class SelectorIdioma : MonoBehaviour
     [Tooltip("Mensagge alerta")]
     public Text TmpMessage;
 
-    [Tooltip("Iconos de las banderas")]
-    public Sprite[] flags;
+    //[Tooltip("Iconos de las banderas")]
+    //public Sprite[] flags;
 
-    public int ActiveLanguajeindex;
+   public int ActiveLanguajeindex;
     void Start()
     {
         Loadlanguage();
@@ -100,12 +100,12 @@ public class SelectorIdioma : MonoBehaviour
             CavasMesagge.SetActive(false);
         }
     }
-
+    
     void Savelanguage(int data)
     {
         PlayerPrefs.SetInt("LanguajeIndex", data);
     }
-
+   
     void Loadlanguage()
     {
         ActiveLanguajeindex = PlayerPrefs.GetInt("LanguajeIndex", ActiveLanguajeindex);
@@ -115,9 +115,9 @@ public class SelectorIdioma : MonoBehaviour
 
     IEnumerator ChageLanguageStart()
     {
-        Debug.Log("Hello world!");
+        
         yield return new WaitForSeconds(1);
-        Debug.Log("bye world!");
+       
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[ActiveLanguajeindex];
     }
 }

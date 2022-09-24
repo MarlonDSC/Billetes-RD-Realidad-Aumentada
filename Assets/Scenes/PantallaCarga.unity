@@ -372,7 +372,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &541437789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,10 +392,6 @@ MonoBehaviour:
   Panelstade: 0
   CavasMesagge: {fileID: 1690581634}
   TmpMessage: {fileID: 486369729}
-  flags:
-  - {fileID: 21300000, guid: 6c28e31899be0f34c9ea283e98f6b271, type: 3}
-  - {fileID: 21300000, guid: c657a5ec48e72954e9686c102443a0e5, type: 3}
-  - {fileID: 21300000, guid: c9e3ba95038f2794dbd4c7a86a0f5c8f, type: 3}
   ActiveLanguajeindex: 0
 --- !u!4 &541437790
 Transform:
