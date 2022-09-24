@@ -24,11 +24,11 @@ public class instanciarPrefab : MonoBehaviour
     GameObject prefabInstanciado;
 
     //Image Targets
-    public GameObject[] imageTargets;
+    //public GameObject[] imageTargets;
     public GameObject imageTarget;
 
     //Prefabs vacío
-    GameObject prefabVacio;
+    public GameObject targets;
 
     //prueba
     private bool estado = true;
@@ -36,28 +36,47 @@ public class instanciarPrefab : MonoBehaviour
 
     private void Start()
     {
-        botonUnlock.onClick.AddListener(delegate { crearInstanciaPrefab(prefab);});
+        botonUnlock.onClick.AddListener(delegate { crearInstanciaPrefab(prefab); });
         botonLock.onClick.AddListener(destruirInstanciaPrefab);
+
+
+        //botonLock.onClick.AddListener(apagarTargets);
+        //botonUnlock .onClick.AddListener(apagarTargets);
+        //botonUnlock.onClick.AddListener(apagarEncenderImageTargets);
+        //botonLock.onClick.AddListener(apagarEncenderImageTargets);
     }
 
     public void crearInstanciaPrefab(GameObject prefabParaInstanciar)
     {
         if (prefabParaInstanciar.activeSelf)
         {
-        prefabInstanciado = prefabVacio;
+        
+        //Asignar el parámetro que recibimos en una variable
         prefabInstanciado = Instantiate(prefabParaInstanciar);
-        prefabInstanciado.transform.parent = emptyPadre.transform;
 
+        //Volvemos el objeto instanciado hijo del Empty padre
+        prefabInstanciado.transform.parent = emptyPadre.transform;
+        
+        //Asignamos valores de position y rotation para ubicarlo en el lugar exacto
         emptyPadre.transform.position = imageTarget.transform.position;
         emptyPadre.transform.rotation = imageTarget.transform.rotation;
 
-  
+        //Volvemos al emptyPadre hijo del arCamera para que quede estáticos
         emptyPadre.transform.parent = arCamera.transform;
 
+
+            //Apagamos el boton desactivar
+            botonUnlock.gameObject.SetActive(false);
+
+            //encendemos el boton activar
+            botonLock .gameObject.SetActive(true);
+
+            //apagamos targets
+            targets.SetActive(false);
         }
         else
         {
-            return;
+            
         }
  
     }
@@ -66,16 +85,24 @@ public class instanciarPrefab : MonoBehaviour
     {
        
         Destroy(prefabInstanciado);
-        estado = true;
         emptyPadre.transform.parent = emptyContenedor.transform;
         emptyPadre.transform.position = new Vector3(0, 0, 0);
         emptyPadre.transform.rotation = new Quaternion(0, 0, 0,0);
         Destroy(prefabInstanciado);
 
-        
+        //apagamos el botón
+
+        botonLock.gameObject.SetActive(false);
+
+        //Encendemos targets
+        targets.SetActive(true);
     }
 
-
+    
+    public void apagarTargets()
+    {
+        targets.SetActive(false);
+    }
 
 
 
