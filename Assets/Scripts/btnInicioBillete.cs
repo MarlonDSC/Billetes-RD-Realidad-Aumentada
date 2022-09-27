@@ -70,13 +70,12 @@ public class btnInicioBillete : MonoBehaviour
 		Vector2 sizeDiferencia = billeteUsar.size - caraDelantera.GetComponent<RectTransform>().sizeDelta;
 		Vector3 positionDiferencia = billeteUsar.position - caraDelantera.transform.position;
 
-		Animator[] animations = {btnRotacion.btnVolver, btnRotacion.btnAR, btnRotacion.GetComponent<Animator>()};
+		Animator[] animations = {btnRotacion.btnVolver, btnRotacion.GetComponent<Animator>()};
 		foreach(Animator animacion in animations){
 			animacion.Rebind();
 		}
 		btnRotacion.btnVolver.Play("btnAR");
         btnRotacion.GetComponent<Animator>().Play("btnAR");
-        btnRotacion.btnAR.Play("btnAR");
 
 		float tiempo = 0f;
 		while(tiempo < 0.5f){

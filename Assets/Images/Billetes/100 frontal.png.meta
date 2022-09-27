@@ -182,12 +182,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Firma
+      name: Firma Gobernador
       rect:
         serializedVersion: 2
-        x: 106
+        x: 117
         y: 137
-        width: 825
+        width: 457
         height: 205
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -370,6 +370,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Firma Ministro
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 137
+        width: 364
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc7274e1de893f458a34a269594a89d
+      internalID: 1775391594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -390,8 +411,9 @@ TextureImporter:
       Rayas: -900519728
       Conmemoracion: 1205385347
       Escudo: 902034909
-      Firma: 1672459625
+      Firma Gobernador: 1672459625
       Billete: 2055266030
+      Firma Ministro: 1775391594
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

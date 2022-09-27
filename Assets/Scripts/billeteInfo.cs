@@ -7,18 +7,14 @@ using TMPro;
 
 public class billeteInfo : MonoBehaviour
 {
-    public TMP_Text DescriptionTXT;
-    public TMP_Text TituloTXT;
-    [SerializeField] private string titulo;
-    [TextArea] [SerializeField] private string descripcion;
+    public TMP_Text Description;
+    public TMP_Text Titulo;
     [SerializeField] private Sprite imagen;
     private infoCarrier chest;
 
     public Animator btnVolver, btnRotar, btnAR;
     // Start is called before the first frame update
     void Start(){
-        descripcion = DescriptionTXT.text;
-        titulo = TituloTXT.text;
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(accion()));
         chest = GameObject.Find("infoCarrier").GetComponent<infoCarrier>();
     }
@@ -38,8 +34,8 @@ public class billeteInfo : MonoBehaviour
         }
         GetComponent<Image>().color *= new Color(1f, 1f, 1f, 0f);
 
-        chest.titulo = titulo;
-        chest.descripcion = descripcion;
+        chest.titulo =  Titulo.text;
+        chest.descripcion = Description.text;
         chest.imagen = imagen;
         chest.lastScene = gameObject.scene.name;
         chest.regreso = true;

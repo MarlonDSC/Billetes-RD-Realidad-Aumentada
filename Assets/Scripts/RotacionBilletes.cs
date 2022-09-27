@@ -11,7 +11,7 @@ public class RotacionBilletes : MonoBehaviour
 	private GameObject caraDelantera;
 	private GameObject caraTrasera;
 	[NonSerialized] public bool activarRotacion;
-	public Animator btnVolver, btnAR;
+	public Animator btnVolver;
 	public Text titulo;
 	private infoCarrier openChest;
 	// Start is called before the first frame update
@@ -40,25 +40,23 @@ public class RotacionBilletes : MonoBehaviour
 		billete[apagador].SetActive(false);
 
 		if(openChest.regreso){
-			Animator[] animations = {btnVolver, btnAR, GetComponent<Animator>()};
+			Animator[] animations = {btnVolver, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
 			btnVolver.Play("btnVolverback");
-			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, -90f, 0f);
 			StartCoroutine(regreso(activador));
 		}else{
-			Animator[] animations = {btnVolver, btnAR, GetComponent<Animator>()};
+			Animator[] animations = {btnVolver, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
 			btnVolver.Play("btnARback");
-			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, 0f, 0f);
@@ -125,7 +123,6 @@ public class RotacionBilletes : MonoBehaviour
 		GameObject[] billete = {caraDelantera, caraTrasera};
 		string txtTitulo = titulo.text;
 		titulo.text = "";
-		print("hello");
 		float segundos = 0f;
 		for(int i = 0; i < billete[lado].transform.childCount; i += 1){
 			billete[lado].transform.GetChild(i).GetComponent<Button>().interactable = false;
@@ -137,7 +134,6 @@ public class RotacionBilletes : MonoBehaviour
 				titulo.text = txtTitulo;
             }else{
 				titulo.text = txtTitulo.Substring(0, (int)((float)txtTitulo.Length * segundos/0.5f));
-				print(titulo.text);
                 billete[lado].transform.eulerAngles += new Vector3(0f, 90f*Time.deltaTime*2f, 0f);
             }
             yield return null;
