@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ChageLanguage Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: ChageLanguage
+  m_TableCollectionNameGuidString: 7589167eecf2cc94ca1075cce9dcab20
+  m_Entries:
+  - m_Id: 321380134912
+    m_Key: Basilica50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 250836135936
+    m_Key: ElementoSeguridad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 217524973568
+    m_Key: BCRD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387512367296512
+    m_Key: SelecBillete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399556529336320
+    m_Key: FormaCiegos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399594802360320
+    m_Key: Escudo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399629862547456
+    m_Key: FlorBayahibe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399683486724096
+    m_Key: firma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399712897183744
+    m_Key: NumeroSerie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399755200933888
+    m_Key: CatedralBisil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400968634052608
+    m_Key: PuertaConde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401145629487104
+    m_Key: Conmemoracion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401277401935872
+    m_Key: Duarte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401292199440384
+    m_Key: Sanchez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401311384186880
+    m_Key: Mella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402922877726720
+    m_Key: MuseoHermanas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403052859207680
+    m_Key: Patria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403257197309952
+    m_Key: Minerva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403394434936832
+    m_Key: Maria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403727198433280
+    m_Key: BancoCentral
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404039338536960
+    m_Key: Salome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404110662676480
+    m_Key: Pedro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444558894673920
+    m_Key: AlcazarColon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444594407845888
+    m_Key: TeatroNacional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447947707756544
+    m_Key: PalacioNacional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448334871375872
+    m_Key: Rayas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448583362916352
+    m_Key: EmilioP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448613163446272
+    m_Key: Jose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451454812794880
+    m_Key: SelectElemento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486453331079168
+    m_Key: title(Siglas)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486546507542528
+    m_Key: Title(Elementos de seguridad)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486643429519360
+    m_Key: "Title(Bas\xEDlica de Hig\xFCey)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486815559561216
+    m_Key: "Title(S\xEDmbolo para no videntes)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486882186080256
+    m_Key: Title(Escudo Nacional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486884216123392
+    m_Key: Title(Flor Nacional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486885520551936
+    m_Key: Title(Firma)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486886871117824
+    m_Key: "Title(Numeraci\xF3n)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486888204906496
+    m_Key: "Title(Catedral Primada de Am\xE9rica)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 486889748410368
+    m_Key: Title(Puerta del Conde)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487738574876672
+    m_Key: Title(Franjas Irisdescentes)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487895542509568
+    m_Key: "Title(L\xE1mina Frontal del BC)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487956691267584
+    m_Key: "Title(Juan Pablo Duarte y D\xEDez)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 487995564077056
+    m_Key: "Title(Francisco del Rosario S\xE1nchez)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488040946446336
+    m_Key: "Title(Ram\xF3n Mat\xEDas Mella Castillo)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488154196848640
+    m_Key: title(Monumento a las Hermanas Mirabal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488300829716480
+    m_Key: Title(Patria Mirabal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488335738908672
+    m_Key: Title(Minerva Mirabal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488375786123264
+    m_Key: Title(Maria Teresa Mirabal)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488561044336640
+    m_Key: Title(Banco Central)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488633182171136
+    m_Key: "Title(Salom\xE9 Ure\xF1a)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488729500168192
+    m_Key: "Title(Pedro Her\xEDquez Ure\xF1a)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488842008178688
+    m_Key: "Title(Alc\xE1zar de Col\xF3n)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 488943078322176
+    m_Key: Title(Palacio Nacional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489279847378944
+    m_Key: Title(Teatro Nacional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489409241657344
+    m_Key: Title(Emilio Prud'Homme)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 489449486004224
+    m_Key: "Title(Jos\xE9 Rufino Reyes Siancas)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829357220147200
+    m_Key: Title(Aprende)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829787631235072
+    m_Key: aprende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 829924160024576
+    m_Key: Title(Enterate)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830136102400000
+    m_Key: enterate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830366508101632
+    m_Key: Title(VISITA)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 830461278400512
+    m_Key: visita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832370001293312
+    m_Key: startInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832687862427648
+    m_Key: Si
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832703112916992
+    m_Key: no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3275569579929600
+    m_Key: Title(Lenguajes)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280086925029376
+    m_Key: Title(Ayuda)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280446200721408
+    m_Key: Bton_Escaneo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280451544264704
+    m_Key: Btn_Retroceder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280736144568320
+    m_Key: Desplazamiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3280883003928576
+    m_Key: Btn_Rotar
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1394858377912778778
+  references:
+    version: 2
+    RefIds:
+    - rid: 1394858377912778778
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1663181079834

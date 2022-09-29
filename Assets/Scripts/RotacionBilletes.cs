@@ -8,9 +8,11 @@ public class RotacionBilletes : MonoBehaviour
 {
 	public GameObject[] carasDelanteras;
 	public GameObject[] carasTraseras;
-	[NonSerialized] public GameObject caraDelantera, caraTrasera;
+	private GameObject caraDelantera;
+	private GameObject caraTrasera;
 	[NonSerialized] public bool activarRotacion;
-	public Animator btnVolver, titulo, btnAR;
+	public Animator btnVolver;
+	public Text titulo;
 	private infoCarrier openChest;
 	// Start is called before the first frame update
 	void Start(){
@@ -37,47 +39,36 @@ public class RotacionBilletes : MonoBehaviour
 		billete[activador].SetActive(true);
 		billete[apagador].SetActive(false);
 
-		if(openChest.regreso == 1){
-			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
+		if(openChest.regreso){
+			Animator[] animations = {btnVolver, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
 			btnVolver.Play("btnVolverback");
-			titulo.Play("titleback");
-			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, -90f, 0f);
 			StartCoroutine(regreso(activador));
-		}else if(openChest.regreso == 0){
-			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
+		}else{
+			Animator[] animations = {btnVolver, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
 			btnVolver.Play("btnARback");
-			titulo.Play("titleback");
-			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, 0f, 0f);
 			StartCoroutine(venida(activador, billeteUsar.size, billeteUsar.position));
-		}else if(openChest.regreso == 2){
-			Animator[] animations = {btnVolver, titulo, btnAR, GetComponent<Animator>()};
-			foreach(Animator animacion in animations){
-				animacion.Rebind();
-			}
-			btnVolver.Play("btnARback");
-			titulo.Play("titleback");
-			btnAR.Play("btnARback");
-			GetComponent<Animator>().Play("btnARback");
 		}
 
 		billete[apagador].transform.eulerAngles = new Vector3(0f, 180f, 0f);
 	}
 
 	IEnumerator venida(int lado, Vector2 size, Vector3 position){
+		string txtTitulo = titulo.text;
+		titulo.text = "";
 		GameObject[] billete = {caraDelantera, caraTrasera};
 		Vector2 trueSize = billete[lado].GetComponent<RectTransform>().sizeDelta;
 		Vector3 truePosition = billete[lado].transform.position;
@@ -100,7 +91,9 @@ public class RotacionBilletes : MonoBehaviour
 			if(tiempo < 0.5f){
 				billete[lado].GetComponent<RectTransform>().sizeDelta += sizeDiferencia*Time.deltaTime*2f;
 				billete[lado].transform.position += positionDiferencia*Time.deltaTime*2f;
+				titulo.text = txtTitulo.Substring(0, (int)((float)txtTitulo.Length * tiempo/0.5f));
 			}else{
+				titulo.text = txtTitulo;
 				billete[lado].GetComponent<RectTransform>().sizeDelta = trueSize;
 				billete[lado].transform.position = truePosition;
 			}
@@ -128,6 +121,8 @@ public class RotacionBilletes : MonoBehaviour
 
 	IEnumerator regreso(int lado){
 		GameObject[] billete = {caraDelantera, caraTrasera};
+		string txtTitulo = titulo.text;
+		titulo.text = "";
 		float segundos = 0f;
 		for(int i = 0; i < billete[lado].transform.childCount; i += 1){
 			billete[lado].transform.GetChild(i).GetComponent<Button>().interactable = false;
@@ -136,7 +131,9 @@ public class RotacionBilletes : MonoBehaviour
 			segundos += Time.deltaTime;
 			if(segundos >= 0.5f){
                 billete[lado].transform.eulerAngles = new Vector3(0f, 0f, 0f);
+				titulo.text = txtTitulo;
             }else{
+				titulo.text = txtTitulo.Substring(0, (int)((float)txtTitulo.Length * segundos/0.5f));
                 billete[lado].transform.eulerAngles += new Vector3(0f, 90f*Time.deltaTime*2f, 0f);
             }
             yield return null;

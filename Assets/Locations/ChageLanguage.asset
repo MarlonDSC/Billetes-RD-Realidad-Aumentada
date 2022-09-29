@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: ChageLanguage
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 7589167eecf2cc94ca1075cce9dcab20, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: c5398874b2f722249b8278f1401cc055, type: 2}
+  - {fileID: 11400000, guid: ec6f4b12a9320b84fb1b3336d6fd82fd, type: 2}
+  - {fileID: 11400000, guid: 735d81afc4ac9794c89bb0a6c41be3f3, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

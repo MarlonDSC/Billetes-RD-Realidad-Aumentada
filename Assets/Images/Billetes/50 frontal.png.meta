@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -212,12 +224,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Firma
+      name: Firma Gobernador
       rect:
         serializedVersion: 2
         x: 72
         y: 131
-        width: 843
+        width: 475
         height: 208
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -295,6 +307,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Firma Ministro
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 131
+        width: 361
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8592cf991995648973c9c35a250f6e
+      internalID: 843404640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -310,10 +343,11 @@ TextureImporter:
       Flor de Bayahibe: -1527610133
       "Conmemoraci\xF3n": 1610628486
       Escudo: -1294820811
-      Firma: 1309997823
+      Firma Gobernador: 1309997823
       Billete: 48322237
       Ciegos: -1549988905
       Catedral: -1354721017
+      Firma Ministro: 843404640
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

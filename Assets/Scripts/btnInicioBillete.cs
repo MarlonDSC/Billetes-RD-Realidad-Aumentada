@@ -7,17 +7,31 @@ public class btnInicioBillete : MonoBehaviour
 {
 	[SerializeField] private string NombreEscena;
 	public RotacionBilletes btnRotacion;
+	public Text titulo;
 
 	void Start(){
 		GetComponent<Button>().onClick.AddListener(() => StartCoroutine(cargarEscena()));
 	}
     
 	IEnumerator cargarEscena(){
+		string txtTitulo = titulo.text;
 		var scene = SceneManager.LoadSceneAsync(NombreEscena);
 		scene.allowSceneActivation = false;
 		billeteActual billeteUsar = GameObject.Find("billeteActual").GetComponent<billeteActual>();
-		GameObject caraDelantera = btnRotacion.caraDelantera;
-		GameObject caraTrasera = btnRotacion.caraTrasera;
+		GameObject caraDelantera = null;
+		GameObject caraTrasera = null;
+		foreach(GameObject cara in btnRotacion.carasDelanteras){
+			if(cara != null){
+				caraDelantera = cara;
+				break;
+			}
+		}
+		foreach(GameObject cara in btnRotacion.carasTraseras){
+			if(cara != null){
+				caraTrasera = cara;
+				break;
+			}
+		}
 
 		GameObject[] billete = {caraDelantera, caraTrasera};
 		foreach(GameObject lado in billete){
@@ -56,14 +70,12 @@ public class btnInicioBillete : MonoBehaviour
 		Vector2 sizeDiferencia = billeteUsar.size - caraDelantera.GetComponent<RectTransform>().sizeDelta;
 		Vector3 positionDiferencia = billeteUsar.position - caraDelantera.transform.position;
 
-		Animator[] animations = {btnRotacion.btnVolver, btnRotacion.titulo, btnRotacion.btnAR, btnRotacion.GetComponent<Animator>()};
+		Animator[] animations = {btnRotacion.btnVolver, btnRotacion.GetComponent<Animator>()};
 		foreach(Animator animacion in animations){
 			animacion.Rebind();
 		}
 		btnRotacion.btnVolver.Play("btnAR");
         btnRotacion.GetComponent<Animator>().Play("btnAR");
-        btnRotacion.titulo.Play("title");
-        btnRotacion.btnAR.Play("btnAR");
 
 		float tiempo = 0f;
 		while(tiempo < 0.5f){
@@ -71,7 +83,9 @@ public class btnInicioBillete : MonoBehaviour
 			if(tiempo < 0.5f){
 				caraDelantera.GetComponent<RectTransform>().sizeDelta += sizeDiferencia*Time.deltaTime*2f;
 				caraDelantera.transform.position += positionDiferencia*Time.deltaTime*2f;
+				titulo.text = txtTitulo.Substring(0, txtTitulo.Length - (int)((float)txtTitulo.Length * tiempo/0.5f));
 			}else{
+				titulo.text = "";
 				caraDelantera.GetComponent<RectTransform>().sizeDelta = billeteUsar.size;
 				caraDelantera.transform.position = billeteUsar.position;
 			}

@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -118,6 +118,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -296,12 +308,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Firma
+      name: Firma Gobernador
       rect:
         serializedVersion: 2
-        x: 92
+        x: 97
         y: 106
-        width: 857
+        width: 454
         height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -337,6 +349,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Firma Ministro
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 106
+        width: 362
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfa9b62a5740a041bca56a36663e00b
+      internalID: 1187836267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -356,8 +389,9 @@ TextureImporter:
       "Salom\xE9": 2102717376
       Conmemoracion: 1954189860
       Escudo: 1556053109
-      Firma: -1677670048
+      Firma Gobernador: -1677670048
       Billete: 500054833
+      Firma Ministro: 1187836267
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

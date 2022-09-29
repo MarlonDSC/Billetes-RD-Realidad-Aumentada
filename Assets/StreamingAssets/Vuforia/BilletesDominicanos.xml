@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="anverso-200-pesos" size="0.155000 0.064906" />
+    <ImageTarget name="billete-2000-anverso" size="0.150000 0.064857" />
+    <ImageTarget name="billete-2000-reverso" size="0.150000 0.064571" />
+    <ImageTarget name="billete-1000-reverso" size="0.150000 0.064886" />
+    <ImageTarget name="billete-1000-anverso" size="0.150000 0.063641" />
+    <ImageTarget name="anverso-200-pesos" size="0.155000 0.065000" />
     <ImageTarget name="reverso-50-pesos" size="0.155000 0.065374" />
     <ImageTarget name="anverso-50-pesos" size="0.155000 0.063774" />
     <ImageTarget name="billete-100-reverso" size="0.155000 0.065825" />

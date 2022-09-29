@@ -7,15 +7,15 @@ using DanielLochner.Assets.SimpleScrollSnap;
 public class scrollValue : MonoBehaviour
 {
     public GameObject btnNext, btnBack;
-    public Image titulo, linea;
+    public Image linea;
     public SimpleScrollSnap scrolSnap;
     public Transform billetesContainer;
+    public Text titulo;
     void Start(){
         billeteActual regreso = GameObject.Find("billeteActual").GetComponent<billeteActual>();
         if(regreso.billete > -1){
             btnNext.SetActive(false);
             btnBack.SetActive(false);
-            titulo.color = Color.clear;
             linea.color = Color.clear;
             scrolSnap.startingPanel = regreso.billete;
             for(int i = 0; i < billetesContainer.childCount; i += 1){
@@ -27,6 +27,8 @@ public class scrollValue : MonoBehaviour
         }
     }
     IEnumerator accion(billeteActual regreso){
+        string txtTitulo = titulo.text;
+        titulo.text = "";
         yield return new WaitForEndOfFrame();
         GetComponent<Scrollbar>().value = regreso.scrollBar;
 
@@ -34,10 +36,10 @@ public class scrollValue : MonoBehaviour
         while(tiempo < 0.5f){
             tiempo += Time.deltaTime;
             if(tiempo < 0.5f){
-                titulo.color += Color.white * (Time.deltaTime/0.5f);
+                titulo.text = txtTitulo.Substring(0, (int)((float)txtTitulo.Length * tiempo/0.5f));
                 linea.color += Color.white * (Time.deltaTime/0.5f);
             }else{
-                titulo.color = Color.white;
+                titulo.text = txtTitulo;
                 linea.color = Color.white;
             }
             for(int i = 0; i < billetesContainer.childCount; i += 1){

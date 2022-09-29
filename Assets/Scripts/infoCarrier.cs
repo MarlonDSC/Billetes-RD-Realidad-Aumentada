@@ -10,8 +10,7 @@ public class infoCarrier : MonoBehaviour{
     [NonSerialized] public Sprite imagen;
     [NonSerialized] public string lastScene;
     [NonSerialized] public bool billeteFace = true;
-    [NonSerialized] public int regreso = 0;
-    [NonSerialized] public Vector3 position;
+    [NonSerialized] public bool regreso = false;
     // Start is called before the first frame update
     void Start(){
         if(existoInfoCarrier == null){
