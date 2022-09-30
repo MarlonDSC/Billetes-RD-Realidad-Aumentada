@@ -8,10 +8,10 @@ public class RotacionBilletes : MonoBehaviour
 {
 	public GameObject[] carasDelanteras;
 	public GameObject[] carasTraseras;
-	private GameObject caraDelantera;
-	private GameObject caraTrasera;
+	[NonSerialized] public GameObject caraDelantera;
+	[NonSerialized] public GameObject caraTrasera;
 	[NonSerialized] public bool activarRotacion;
-	public Animator btnVolver;
+	public Animator btnVolver, btnAR;
 	public Text titulo;
 	private infoCarrier openChest;
 	// Start is called before the first frame update
@@ -39,31 +39,56 @@ public class RotacionBilletes : MonoBehaviour
 		billete[activador].SetActive(true);
 		billete[apagador].SetActive(false);
 
-		if(openChest.regreso){
-			Animator[] animations = {btnVolver, GetComponent<Animator>()};
+		if(openChest.regreso == 1){
+			Animator[] animations = {btnVolver, btnAR, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
 			btnVolver.Play("btnVolverback");
+			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, -90f, 0f);
 			StartCoroutine(regreso(activador));
-		}else{
-			Animator[] animations = {btnVolver, GetComponent<Animator>()};
+		}else if(openChest.regreso == 0){
+			Animator[] animations = {btnVolver, btnAR, GetComponent<Animator>()};
 			foreach(Animator animacion in animations){
 				animacion.Rebind();
 			}
 
 			btnVolver.Play("btnARback");
+			btnAR.Play("btnARback");
 			GetComponent<Animator>().Play("btnARback");
 
 			billete[activador].transform.eulerAngles = new Vector3(0f, 0f, 0f);
 			StartCoroutine(venida(activador, billeteUsar.size, billeteUsar.position));
+		}else if(openChest.regreso == 2){
+			Animator[] animations = {btnVolver, btnAR, GetComponent<Animator>()};
+			foreach(Animator animacion in animations){
+				animacion.Rebind();
+			}
+			btnVolver.Play("btnARback");
+			btnAR.Play("btnARback");
+			GetComponent<Animator>().Play("btnARback");
+			StartCoroutine(textoAnimacion());
 		}
 
 		billete[apagador].transform.eulerAngles = new Vector3(0f, 180f, 0f);
+	}
+	IEnumerator textoAnimacion(){
+		string txtTitulo = titulo.text;
+		titulo.text = "";
+		float tiempo = 0f;
+		while(tiempo < 0.5f){
+			tiempo += Time.deltaTime;
+			if(tiempo < 0.5f){
+				titulo.text = txtTitulo.Substring(0, (int)((float)txtTitulo.Length * tiempo/0.5f));
+			}else{
+				titulo.text = txtTitulo;
+			}
+			yield return null;
+		}
 	}
 
 	IEnumerator venida(int lado, Vector2 size, Vector3 position){
