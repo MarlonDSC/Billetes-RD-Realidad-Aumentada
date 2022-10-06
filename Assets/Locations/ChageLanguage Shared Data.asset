@@ -299,6 +299,22 @@ MonoBehaviour:
     m_Key: Btn_Rotar
     m_Metadata:
       m_Items: []
+  - m_Id: 7913400906526720
+    m_Key: title(MinistroDonald)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7913442199449600
+    m_Key: title(GobernadorHector)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7913569312026624
+    m_Key: Hector_Valdez_Albizu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7913636555108352
+    m_Key: Donald Guerrero
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

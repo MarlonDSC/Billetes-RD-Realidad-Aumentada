@@ -1925,7 +1925,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:7589167eecf2cc94ca1075cce9dcab20
     m_TableEntryReference:
-      m_KeyId: 399683486724096
+      m_KeyId: 7913636555108352
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -1969,10 +1969,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ministro de Hacienda\u200B de la Rep\xFAblica Dominicana desde 2016 hasta
-    2020, reconocido como el mejor de su ocupaci\xF3n en el a\xF1o 2018 por la revista
-    The Banker. Es un empresario, catedr\xE1tico y economista dominicano, fundador
-    tambi\xE9n del Axis Automotive Group."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2648,7 +2645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &467194889
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3086,7 +3083,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:7589167eecf2cc94ca1075cce9dcab20
     m_TableEntryReference:
-      m_KeyId: 486885520551936
+      m_KeyId: 7913442199449600
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -5075,10 +5072,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "H\xE9ctor Manuel Valdez Albizu es el gobernador actual del Banco Central
-    de la Rep\xFAblica Dominicana y tambi\xE9n es el que ha durado m\xE1s a\xF1os
-    ocupando esta posici\xF3n; es un economista dominicano y autor de numerosas obras
-    relacionadas con la econom\xEDa"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5171,7 +5165,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:7589167eecf2cc94ca1075cce9dcab20
     m_TableEntryReference:
-      m_KeyId: 399683486724096
+      m_KeyId: 7913569312026624
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -8981,7 +8975,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:7589167eecf2cc94ca1075cce9dcab20
     m_TableEntryReference:
-      m_KeyId: 486885520551936
+      m_KeyId: 7913400906526720
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -13222,7 +13216,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 88.2, y: 73.5}
+  m_AnchoredPosition: {x: 88.20001, y: 73.5}
   m_SizeDelta: {x: 127.75, y: 88.92999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004403100

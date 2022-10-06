@@ -361,6 +361,28 @@ MonoBehaviour:
     m_Localized: "Bot\xF3n para cambiar entre las caras de los billetes."
     m_Metadata:
       m_Items: []
+  - m_Id: 7913442199449600
+    m_Localized: "H\xE9ctor Valdez Albizu"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7913569312026624
+    m_Localized: "H\xE9ctor Manuel Valdez Albizu es el gobernador actual del Banco
+      Central de la Rep\xFAblica Dominicana y tambi\xE9n es el que ha durado m\xE1s
+      a\xF1os ocupando esta posici\xF3n; es un economista dominicano y autor de numerosas
+      obras relacionadas con la econom\xEDa"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7913400906526720
+    m_Localized: Donald Guerrero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7913636555108352
+    m_Localized: "Ministro de Hacienda\u200B de la Rep\xFAblica Dominicana desde
+      2016 hasta 2020, reconocido como el mejor de su ocupaci\xF3n en el a\xF1o 2018
+      por la revista The Banker. Es un empresario, catedr\xE1tico y economista dominicano,
+      fundador tambi\xE9n del Axis Automotive Group."
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
