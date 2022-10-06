@@ -19,9 +19,10 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 321380134912
-    m_Localized: "La basilique cath\xE9drale Nuestra Se\xF1ora de la Altagracia est
-      un sanctuaire catholique \xE0 Salvale\xF3n de Hig\xFCey, en R\xE9publique dominicaine.
-      C'est l'un des sanctuaires les plus fr\xE9quent\xE9s des Cara\xEFbes."
+    m_Localized: "C'est un temple catholique situ\xE9 \xE0 Salvale\xF3n de Hig\xFCey,
+      en R\xE9publique dominicaine. Consid\xE9r\xE9e comme la cath\xE9drale du dioc\xE8se
+      de Nuestra Se\xF1ora de la Altagracia, c'est l'un des sanctuaires les plus
+      fr\xE9quent\xE9s des Cara\xEFbes."
     m_Metadata:
       m_Items: []
   - m_Id: 250836135936
@@ -30,8 +31,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 217524973568
-    m_Localized: "Les initiales qui abr\xE8gent le nom de la Banque centrale de la
-      R\xE9publique dominicaine."
+    m_Localized: "Sigles repr\xE9sentatifs de la Banque centrale de la R\xE9publique
+      dominicaine."
     m_Metadata:
       m_Items: []
   - m_Id: 387512367296512
@@ -69,58 +70,62 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399755200933888
-    m_Localized: "Il s'agit d'une cath\xE9drale et d'une basilique mineure d\xE9di\xE9e
-      \xE0 Santa Mar\xEDa de la Encarnaci\xF3n situ\xE9e dans la ville coloniale
-      de Saint-Domingue, en R\xE9publique dominicaine."
+    m_Localized: "C'est un sanctuaire catholique situ\xE9 dans la ville coloniale
+      de Saint-Domingue, et est consid\xE9r\xE9 comme une basilique mineure d\xE9di\xE9e
+      \xE0 Santa Mar\xEDa de la Encarnaci\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 400968634052608
-    m_Localized: "C'est un lieu avec une signification symbolique, puisque c'est
-      l\xE0 que Mella a tir\xE9 le trabucazo et que le drapeau national a \xE9t\xE9
-      hiss\xE9 pour la premi\xE8re fois, actes qui ont commenc\xE9 l'ind\xE9pendance
-      dominicaine."
+    m_Localized: "\xC0 l'origine \"Bastion de San Genaro\", c'est un b\xE2timent
+      militaire \xE0 haute valeur symbolique en raison des \xE9v\xE9nements du 27
+      f\xE9vrier 1844, o\xF9 Mella a tir\xE9 le tromblon qui a d\xE9clench\xE9 la
+      guerre d'ind\xE9pendance et o\xF9 le drapeau national a \xE9t\xE9 hiss\xE9
+      pour la premi\xE8re fois."
     m_Metadata:
       m_Items: []
   - m_Id: 401145629487104
-    m_Localized: "Silhouette du recto de la Banque Centrale, imprim\xE9e \xE0 l'encre
-      iris\xE9e, pr\xE9sente sur la sixi\xE8me famille de billets."
+    m_Localized: "Ic\xF4ne repr\xE9sentative de la fa\xE7ade de la Banque centrale,
+      imprim\xE9e \xE0 l'encre iris\xE9e, pr\xE9sente de la sixi\xE8me famille de
+      billets."
     m_Metadata:
       m_Items: []
   - m_Id: 401277401935872
-    m_Localized: "Il s'agit d'une cath\xE9drale et d'une basilique mineure d\xE9di\xE9e
-      \xE0 Santa Mar\xEDa de la Encarnaci\xF3n situ\xE9e dans la ville coloniale
-      de Saint-Domingue, en R\xE9publique dominicaine."
+    m_Localized: "Enseignant dominicain, militaire, homme politique et militant lib\xE9ral.
+      Il s'est d\xE9marqu\xE9 pour avoir \xE9t\xE9 le pr\xE9sident et fondateur de
+      la Soci\xE9t\xE9 La Trinitaria. Il est la principale figure du patriotisme
+      dominicain."
     m_Metadata:
       m_Items: []
   - m_Id: 401292199440384
-    m_Localized: "Avocat, homme politique, militant et \xE9galement strat\xE8ge de
-      la guerre dominicaine, prenant le commandement du combat apr\xE8s l'absence
-      de Duarte. Elle proclama son ind\xE9pendance le 27 f\xE9vrier 1844."
+    m_Localized: "Avocat, homme politique, militant et strat\xE8ge de la guerre d'ind\xE9pendance
+      dominicaine. Il vint prendre le commandement de la lutte pour la libert\xE9
+      dominicaine et proclama l'ind\xE9pendance le 27 f\xE9vrier 1844."
     m_Metadata:
       m_Items: []
   - m_Id: 401311384186880
     m_Localized: "Homme politique et militaire dominicain, \xE9galement membre du
-      mouvement ind\xE9pendantiste, connu pour avoir tir\xE9 le trabucazo dans la
-      nuit du 27 f\xE9vrier 1844 \xE0 la Puerta del Conde."
+      mouvement ind\xE9pendantiste connu pour avoir tir\xE9 le \"trabucazo\" qui
+      a d\xE9clench\xE9 la guerre dans la nuit du 27 f\xE9vrier 1844 \xE0 la Puerta
+      del Conde."
     m_Metadata:
       m_Items: []
   - m_Id: 402922877726720
     m_Localized: "Lieu de r\xE9sidence des s\u0153urs Mirabal dans leurs 10 derniers
-      mois de vie. Situ\xE9 dans la province de Salcedo, dans un gigantesque jardin.
-      Gardez une histoire et un h\xE9ritage de ces femmes."
+      mois de vie et situ\xE9 dans la province de Salcedo, dans un gigantesque jardin.
+      Ce site conserve l'histoire et l'h\xE9ritage des trois femmes."
     m_Metadata:
       m_Items: []
   - m_Id: 403052859207680
-    m_Localized: "Elle \xE9tait une dactylographe et militante dominicaine, connue
-      pour ses efforts dans la lutte contre la dictature \xE0 laquelle le pays \xE9tait
-      soumis, soutenant toujours principalement sa s\u0153ur Minerva dans ladite
-      cause."
+    m_Localized: "Elle \xE9tait une dactylographe dominicaine et une militante connue
+      pour ses efforts dans la lutte contre la dictature de Trujillo, en particulier
+      pour soutenir sa s\u0153ur Minerva dans cette cause."
     m_Metadata:
       m_Items: []
   - m_Id: 403257197309952
     m_Localized: "Artiste et militant dominicain qui a eu une participation remarquable
-      aux r\xE9unions qui ont donn\xE9 naissance au Mouvement r\xE9volutionnaire
-      du 14 juin, avec lequel ils voulaient mettre fin \xE0 la dictature de Trujillo."
+      aux r\xE9unions qui, en 1959, ont donn\xE9 naissance au Mouvement r\xE9volutionnaire
+      du 14 juin, avec lequel il \xE9tait pr\xE9vu de mettre fin \xE0 la dictature
+      de Trujillo."
     m_Metadata:
       m_Items: []
   - m_Id: 403394434936832
@@ -131,35 +136,34 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 403727198433280
-    m_Localized: "Principale institution financi\xE8re de la R\xE9publique dominicaine,
-      qui est constitu\xE9e comme une entit\xE9 d\xE9centralis\xE9e et autonome\_;
-      Il agit en tant qu'\xE9metteur et ex\xE9cuteur de la politique mon\xE9taire
-      et de change."
+    m_Localized: "Principale institution financi\xE8re de la R\xE9publique dominicaine
+      constitu\xE9e en entit\xE9 d\xE9centralis\xE9e et autonome\_; Il agit en tant
+      qu'\xE9metteur et ex\xE9cuteur de la politique mon\xE9taire et de change."
     m_Metadata:
       m_Items: []
   - m_Id: 404039338536960
-    m_Localized: "\xC9crivain dominicain, \xE9ducateur et po\xE8te qui a r\xE9ussi
-      \xE0 attirer l'attention d'une grande partie de l'Am\xE9rique latine avec ses
-      \u0153uvres; elle \xE9tait aussi une innovatrice dans l'\xE9ducation des femmes
-      de son pays."
+    m_Localized: "\xC9crivain, \xE9ducateur et po\xE8te dominicain dont le travail
+      a \xE9t\xE9 lou\xE9 et reconnu dans toute l'Am\xE9rique latine; Elle a \xE9galement
+      \xE9t\xE9 une pionni\xE8re dans la recherche d'une \xE9ducation \xE9gale pour
+      les femmes dominicaines."
     m_Metadata:
       m_Items: []
   - m_Id: 404110662676480
-    m_Localized: "C'\xE9tait un grand \xE9rudit de la litt\xE9rature de notre langue.
-      Consid\xE9r\xE9 comme une figure cl\xE9 dans la reconnaissance et l'\xE9tablissement
-      du champ de la critique litt\xE9raire latino-am\xE9ricaine."
+    m_Localized: "Intellectuel et essayiste dominicain qui figure comme un personnage
+      cl\xE9 dans la reconnaissance et l'implantation dans le domaine de la critique
+      litt\xE9raire latino-am\xE9ricaine."
     m_Metadata:
       m_Items: []
   - m_Id: 444594407845888
     m_Localized: "Le Th\xE9\xE2tre National Eduardo Brito fait partie du complexe
-      Plaza de la Cultura, situ\xE9 \xE0 Saint-Domingue. Le th\xE9\xE2tre a ouvert
+      \"Plaza de la Cultura\", situ\xE9 \xE0 Saint-Domingue. Le th\xE9\xE2tre a ouvert
       ses portes le 16 ao\xFBt 1973 et est la pi\xE8ce ma\xEEtresse du complexe.
       Il est entour\xE9 de divers mus\xE9es et institutions culturelles."
     m_Metadata:
       m_Items: []
   - m_Id: 444558894673920
     m_Localized: "L'Alc\xE1zar de Col\xF3n ou palais vice-royal de Don Diego Col\xF3n
-      est un palais du d\xE9but du XVIe si\xE8cle, situ\xE9 sur la Plaza de Espa\xF1a
+      est un palais du d\xE9but du XVIe si\xE8cle situ\xE9 sur la Plaza de Espa\xF1a
       dans la ville coloniale de Saint-Domingue."
     m_Metadata:
       m_Items: []
@@ -171,19 +175,22 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 448334871375872
-    m_Localized: "Bande imprim\xE9e sur le billet avec un mat\xE9riau iris\xE9, qui
-      fonctionne comme un \xE9l\xE9ment de s\xE9curit\xE9."
+    m_Localized: "Rayures imprim\xE9es sur la visi\xE8re avec mati\xE8re iris\xE9e.
+      Ils fonctionnent comme des \xE9l\xE9ments de s\xE9curit\xE9."
     m_Metadata:
       m_Items: []
   - m_Id: 448613163446272
-    m_Localized: "Jos\xE9 Rufino Reyes y Siancas \xE9tait un musicien et compositeur
-      dominicain connu pour avoir \xE9crit la musique de l'hymne national dominicain.
-      Il a \xE9galement \xE9crit des bons, des marches et de la musique religieuse."
+    m_Localized: "Jos\xE9 Rufino Reyes \xE9tait un musicien et compositeur dominicain
+      connu pour avoir mis en musique l'hymne national dominicain en 1883, cr\xE9\xE9
+      le 16 ao\xFBt de la m\xEAme ann\xE9e \xE0 l'occasion du 20e anniversaire de
+      la Restauration."
     m_Metadata:
       m_Items: []
   - m_Id: 448583362916352
-    m_Localized: "Emilio Prud'Homme y Maduro \xE9tait un avocat dominicain. Il \xE9tait
-      l'auteur et le compositeur des paroles de l'hymne national dominicain."
+    m_Localized: "Emilio Prud'Homme y Maduro \xE9tait un avocat et auteur dominicain.
+      Il a exalt\xE9 les valeurs patriotiques dans son \u0153uvre, \xE9tant le plus
+      important de tous les po\xE8mes de l'hymne national dominicain, \xE9crit en
+      1883."
     m_Metadata:
       m_Items: []
   - m_Id: 451454812794880
@@ -303,8 +310,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: "Les m\xE9thodes de s\xE9curit\xE9 utilis\xE9es par les billets
-      dominicains pour pr\xE9venir la contrefa\xE7on et v\xE9rifier leur l\xE9gitimit\xE9."
+    m_Localized: "Apprenez les m\xE9thodes de s\xE9curit\xE9 utilis\xE9es dans le
+      papier-monnaie dominicain pour pr\xE9venir la contrefa\xE7on et v\xE9rifier
+      sa l\xE9gitimit\xE9."
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
@@ -321,8 +329,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830461278400512
-    m_Localized: "l'historique de chaque facture de la R\xE9publique dominicaine
-      pour d\xE9couvrir ce qui se cache derri\xE8re chaque facture."
+    m_Localized: "Visitez l'histoire de chaque billet de banque en R\xE9publique
+      dominicaine et d\xE9couvrez ce qui se cache derri\xE8re son design embl\xE9matique."
     m_Metadata:
       m_Items: []
   - m_Id: 832370001293312

@@ -19,9 +19,9 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 321380134912
-    m_Localized: "The cathedral basilica Nuestra Se\xF1ora de la Altagracia is a
-      Catholic sanctuary in Salvale\xF3n de Hig\xFCey, Dominican Republic. It is
-      one of the busiest sanctuaries in the Caribbean."
+    m_Localized: "It is a Catholic temple located in Salvale\xF3n de Hig\xFCey, Dominican
+      Republic. Considered the cathedral of the diocese of Nuestra Se\xF1ora de la
+      Altagracia, it is one of the busiest sanctuaries in the Caribbean."
     m_Metadata:
       m_Items: []
   - m_Id: 250836135936
@@ -29,8 +29,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 217524973568
-    m_Localized: The initials that abbreviate the name of the Central Bank of the
-      Dominican Republic.
+    m_Localized: Representative acronyms of the Central Bank of the Dominican Republic.
     m_Metadata:
       m_Items: []
   - m_Id: 387512367296512
@@ -67,56 +66,57 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 399755200933888
-    m_Localized: "It is a cathedral and minor basilica dedicated to Santa Mar\xEDa
-      de la Encarnaci\xF3n that is located in the Colonial City of Santo Domingo,
-      Dominican Republic."
+    m_Localized: "It is a Catholic sanctuary located in the Colonial City of Santo
+      Domingo, and is considered a minor basilica dedicated to Santa Mar\xEDa de
+      la Encarnaci\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 400968634052608
-    m_Localized: It is a place with a symbolic meaning, since it was where Mella
-      fired the trabucazo and the National Flag was hoisted for the first time, acts
-      that began the Dominican Independence.
+    m_Localized: Originally "Bastion of San Genaro", it is a military building with
+      high symbolic value due to the events of February 27, 1844, where Mella fired
+      the blunderbuss that started the war of independence and the National Flag
+      was raised for the first time.
     m_Metadata:
       m_Items: []
   - m_Id: 401145629487104
-    m_Localized: Silhouette of the front part of the Central Bank, printed with iridescent
-      ink, present on the sixth family of banknotes.
+    m_Localized: Representative icon of the facade of the Central Bank, printed with
+      iridescent ink, present from the sixth family of banknotes.
     m_Metadata:
       m_Items: []
   - m_Id: 401277401935872
-    m_Localized: "It is a cathedral and minor basilica dedicated to Santa Mar\xEDa
-      de la Encarnaci\xF3n that is located in the Colonial City of Santo Domingo,
-      Dominican Republic."
+    m_Localized: Dominican teacher, soldier, politician and liberal activist. He
+      stood out for having been the president and founder of the La Trinitaria Society.
+      He is the main figure of Dominican patriotism.
     m_Metadata:
       m_Items: []
   - m_Id: 401292199440384
-    m_Localized: Lawyer, politician, activist and also a strategist of the Dominican
-      war, taking command of the fight after the absence of Duarte. He proclaimed
-      independence on February 27, 1844.
+    m_Localized: Lawyer, politician, activist and strategist in the Dominican War
+      of Independence. He came to take command of the Dominican freedom struggle
+      and proclaimed independence on February 27, 1844.
     m_Metadata:
       m_Items: []
   - m_Id: 401311384186880
     m_Localized: Dominican politician and military man, also a member of the independence
-      movement, being known for having fired the trabucazo on the night of February
-      27, 1844 at the Puerta del Conde.
+      movement known for having fired the "trabucazo" that started the war on the
+      night of February 27, 1844 at Puerta del Conde.
     m_Metadata:
       m_Items: []
   - m_Id: 402922877726720
     m_Localized: Place of residence of the Mirabal sisters in their last 10 months
-      of life. Located in the Salcedo province, in a gigantic garden. Keep a history
-      and a legacy of these women.
+      of life and located in the Salcedo province, in a gigantic garden. This site
+      keeps the history and legacy of the three women.
     m_Metadata:
       m_Items: []
   - m_Id: 403052859207680
-    m_Localized: She was a Dominican typist and activist, known for her efforts in
-      the fight against the dictatorship in which the country was subjected, always
-      mainly supporting her sister Minerva in said cause.
+    m_Localized: She was a Dominican typist and activist known for her efforts in
+      the fight against the Trujillo dictatorship, especially in supporting her sister
+      Minerva in that cause.
     m_Metadata:
       m_Items: []
   - m_Id: 403257197309952
     m_Localized: Dominican artist and activist who had an outstanding participation
-      in the meetings that gave rise to the Revolutionary Movement June 14, with
-      which they wanted to end the dictatorship of Trujillo.
+      in the meetings that in 1959 gave rise to the Revolutionary Movement June 14,
+      with which it was intended to put an end to the Trujillo dictatorship.
     m_Metadata:
       m_Items: []
   - m_Id: 403394434936832
@@ -126,33 +126,32 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 403727198433280
-    m_Localized: Main financial institution of the Dominican Republic, which is constituted
+    m_Localized: Main financial institution of the Dominican Republic that is constituted
       as a decentralized and autonomous entity; It acts as the issuer and executor
       of monetary and exchange policy.
     m_Metadata:
       m_Items: []
   - m_Id: 404039338536960
-    m_Localized: Dominican writer, educator and poet who managed to attract the attention
-      of much of Latin America with her works; she was also an innovator in education
-      for women in her country.
+    m_Localized: Dominican writer, educator and poet whose work has been praised
+      and recognized throughout Latin America; She was also a pioneer in the search
+      for equal education for Dominican women.
     m_Metadata:
       m_Items: []
   - m_Id: 404110662676480
-    m_Localized: He was a great scholar of the literature of our language. He considered
-      as a key figure in the recognition and settlement of the field of Latin American
-      literary criticism.
+    m_Localized: Dominican intellectual and essayist who figures as a key character
+      in the recognition and settlement in the field of Latin American literary criticism.
     m_Metadata:
       m_Items: []
   - m_Id: 444594407845888
-    m_Localized: The Eduardo Brito National Theater is part of the Plaza de la Cultura
+    m_Localized: The Eduardo Brito National Theater is part of the "Plaza de la Cultura"
       complex, located in Santo Domingo. The theater opened its doors on August 16,
       1973 and is the centerpiece of the complex. It is surrounded by various museums
       and cultural institutions.
     m_Metadata:
       m_Items: []
   - m_Id: 444558894673920
-    m_Localized: "The Alcazar de Col\xF3n or Viceregal Palace of Don Diego Col\xF3n
-      is a palace from the beginning of the 16th century, located in the Plaza de
+    m_Localized: "The Alc\xE1zar de Col\xF3n or Viceregal Palace of Don Diego Col\xF3n
+      is a palace from the beginning of the 16th century located in the Plaza de
       Espa\xF1a in the Colonial City of Santo Domingo."
     m_Metadata:
       m_Items: []
@@ -164,19 +163,21 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 448334871375872
-    m_Localized: Strip printed on the bill with iridescent material, which works
-      as a security element.
+    m_Localized: Stripes printed on the bill with iridescent material. They function
+      as security elements.
     m_Metadata:
       m_Items: []
   - m_Id: 448613163446272
-    m_Localized: "Jos\xE9 Rufino Reyes y Siancas was a Dominican musician and composer
-      known for writing the music for the Dominican National Anthem. He also wrote
-      vouchers, marches, and religious music."
+    m_Localized: "Jos\xE9 Rufino Reyes was a Dominican musician and composer known
+      for having set the Dominican National Anthem to music in 1883, premiered on
+      August 16 of that same year on the occasion of the 20th anniversary of the
+      Restoration."
     m_Metadata:
       m_Items: []
   - m_Id: 448583362916352
-    m_Localized: Emilio Prud'Homme y Maduro was a Dominican lawyer. He was the author
-      and composer of the lyrics of the Dominican National Anthem.
+    m_Localized: Emilio Prud'Homme y Maduro was a Dominican lawyer and author. He
+      exalted the patriotic values in his work, the most important of all being the
+      poem of the Dominican National Anthem, written in 1883.
     m_Metadata:
       m_Items: []
   - m_Id: 451454812794880
@@ -296,8 +297,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: The security methods used by Dominican banknotes to prevent counterfeiting
-      and to verify their legitimacy.
+    m_Localized: Learn the security methods used in Dominican paper money to prevent
+      counterfeiting and verify its legitimacy.
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
@@ -305,8 +306,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830136102400000
-    m_Localized: From the story behind each of your daily-use banknotes and the reason
-      for their symbols, letters and textures.
+    m_Localized: Find out the story behind each of your daily-use banknotes and the
+      reason for their symbols, fonts and textures.
     m_Metadata:
       m_Items: []
   - m_Id: 830366508101632
@@ -314,8 +315,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830461278400512
-    m_Localized: The history of each bill from the Dominican Republic to find out
-      what is behind each bill.
+    m_Localized: Visit the history of each banknote in the Dominican Republic and
+      learn what lies behind its emblematic design.
     m_Metadata:
       m_Items: []
   - m_Id: 832370001293312

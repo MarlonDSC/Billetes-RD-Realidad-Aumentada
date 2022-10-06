@@ -19,9 +19,10 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 321380134912
-    m_Localized: "La bas\xEDlica catedral Nuestra Se\xF1ora de la Altagracia es un
-      santuario cat\xF3lico de Salvale\xF3n de Hig\xFCey, Rep\xFAblica Dominicana.
-      Es uno de los santuarios m\xE1s concurridos del Caribe."
+    m_Localized: "Es un templo cat\xF3lico ubicado en Salvale\xF3n de Hig\xFCey,
+      Rep\xFAblica Dominicana. Considerada como catedral de la di\xF3cesis de Nuestra
+      Se\xF1ora de la Altagracia, es uno de los santuarios m\xE1s concurridos del
+      Caribe."
     m_Metadata:
       m_Items: []
   - m_Id: 250836135936
@@ -30,8 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 217524973568
-    m_Localized: "Las siglas que abrevian el nombre del Banco Central de la Rep\xFAblica
-      Dominicana."
+    m_Localized: "Siglas representativas del Banco Central de la Rep\xFAblica Dominicana.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 387512367296512
@@ -64,61 +64,62 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 399712897183744
     m_Localized: "El n\xFAmero de identificaci\xF3n de cada billete se dispone de
-      forma horizontal en el lado izquierdo superior, al lado de la marca para no
-      videntes, y en vertical en el extremo derecho del billete."
+      forma horizontal en el lado izquierdo superior, junto a la marca para no videntes,
+      y en vertical en el extremo derecho del billete."
     m_Metadata:
       m_Items: []
   - m_Id: 399755200933888
-    m_Localized: "Es una catedral y bas\xEDlica menor dedicada a Santa Mar\xEDa de
-      la Encarnaci\xF3n que se encuentra en la Ciudad Colonial de Santo Domingo,
-      Rep\xFAblica Dominicana."
+    m_Localized: "Es un santuario cat\xF3lico ubicado en la Ciudad Colonial de Santo
+      Domingo, y se considera una bas\xEDlica menor dedicada a Santa Mar\xEDa de
+      la Encarnaci\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 400968634052608
-    m_Localized: "Es un lugar con un significado simb\xF3lico, ya que fue donde Mella
-      dispar\xF3 el trabucazo y se iz\xF3 la Bandera Nacional por primera vez, actos
-      que dieron inicio a la Independencia Dominicana."
+    m_Localized: "Originalmente \u201CBasti\xF3n de San Genaro\u201D, es un edificio
+      militar con alto valor simb\xF3lico debido a los eventos del 27 de febrero
+      de 1844, donde Mella dispar\xF3 el trabucazo que dio inicio a la guerra de
+      independencia y se iz\xF3 la Bandera Nacional por primera vez."
     m_Metadata:
       m_Items: []
   - m_Id: 401145629487104
-    m_Localized: Silueta de la parte delantera del Banco Central, impresa con tinta
-      iridiscente, presente en la sexta familia de billetes.
+    m_Localized: "\xCDcono representativo de la fachada del Banco Central, impresa
+      con tinta iridiscente, presente a partir de la sexta familia de billetes."
     m_Metadata:
       m_Items: []
   - m_Id: 401277401935872
-    m_Localized: "Profesor, militar, pol\xEDtico y activista liberal dominicano.
-      Se destac\xF3 por haber sido el presidente y fundador de la Sociedad La Trinitaria.
+    m_Localized: "Maestro, militar, pol\xEDtico y activista liberal dominicano. Se
+      destac\xF3 por haber sido el presidente y fundador de la Sociedad La Trinitaria.
       Es la principal figura del patriotismo dominicano."
     m_Metadata:
       m_Items: []
   - m_Id: 401292199440384
-    m_Localized: "Abogado, pol\xEDtico, activista y tambi\xE9n un estratega de la
-      guerra dominicana, tomando el mando de la lucha tras la ausencia de Duarte.
-      Proclam\xF3 la independencia el 27 de febrero de 1844."
+    m_Localized: "Abogado, pol\xEDtico, activista y estratega en la guerra de Independencia
+      Dominicana. Lleg\xF3 a tomar el mando de la lucha por la libertad dominicana
+      y proclam\xF3 la independencia el 27 de febrero de 1844."
     m_Metadata:
       m_Items: []
   - m_Id: 401311384186880
     m_Localized: "Pol\xEDtico y militar dominicano, tambi\xE9n miembro del movimiento
-      independentista siendo conocido por haber disparado el trabucazo la noche del
-      27 de febrero de 1844 en la Puerta del Conde."
+      independentista conocido por haber disparado el \u201Ctrabucazo\u201D que dio
+      inicio a la guerra la noche del 27 de febrero de 1844 en la Puerta del Conde."
     m_Metadata:
       m_Items: []
   - m_Id: 402922877726720
     m_Localized: "Lugar de residencia de las hermanas Mirabal en sus \xFAltimos 10
-      meses de vida. Ubicado en la provincia Salcedo, en un gigantesco jard\xEDn.
-      Guarda una historia y un legado de estas mujeres."
+      meses de vida y ubicado en la provincia Salcedo, en un gigantesco jard\xEDn.
+      Este sitio guarda la historia y el legado de las tres mujeres."
     m_Metadata:
       m_Items: []
   - m_Id: 403052859207680
-    m_Localized: "Fue una mecan\xF3grafa y activista dominicana, conocida por sus
-      esfuerzos en la lucha contra la dictadura en la que estaba sometido el pa\xEDs,
-      siempre apoyando principalmente a su hermana Minerva en dicha causa."
+    m_Localized: "Fue una mecan\xF3grafa y activista dominicana conocida por sus
+      esfuerzos en la lucha contra la dictadura Trujillista, especialmente en el
+      apoyo a su hermana Minerva en dicha causa."
     m_Metadata:
       m_Items: []
   - m_Id: 403257197309952
     m_Localized: "Artista y activista dominicana que tuvo una destacada participaci\xF3n
-      en las reuniones que dieron origen al Movimiento Revolucionario 14 de junio,
-      con el que se quer\xEDa poner fin a la dictadura de Trujillo."
+      en las reuniones que en 1959 dieron origen al Movimiento Revolucionario 14
+      de Junio, con el que se pretendi\xF3 poner fin a la dictadura de Trujillo."
     m_Metadata:
       m_Items: []
   - m_Id: 403394434936832
@@ -128,33 +129,33 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 403727198433280
-    m_Localized: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana,
+    m_Localized: "Principal instituci\xF3n financiera de la Rep\xFAblica Dominicana
       que se constituye como una entidad descentralizada y aut\xF3noma; act\xFAa
       como ente emisor y ejecutor de la pol\xEDtica monetaria y cambiaria."
     m_Metadata:
       m_Items: []
   - m_Id: 404039338536960
-    m_Localized: "Escritora, educadora y poetisa dominicana que logr\xF3 llamar la
-      atenci\xF3n de gran parte de Latinoam\xE9rica con sus obras; tambi\xE9n fue
-      una innovadora en la educaci\xF3n para las mujeres en su pa\xEDs."
+    m_Localized: "Escritora, educadora y poetisa dominicana cuya obra ha sido elogiada
+      y reconocida a lo largo de Latinoam\xE9rica; fue tambi\xE9n pionera en la b\xFAsqueda
+      de la educaci\xF3n igualitaria de la mujer dominicana.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 404110662676480
-    m_Localized: "Fue un gran estudioso de la literatura de nuestra lengua. Considerado
-      como una figura clave en el reconocimiento y asentamiento del campo de la cr\xEDtica
-      literaria latinoamericana."
+    m_Localized: "Intelectual y ensayista dominicano quien figura como personaje
+      clave en el reconocimiento y asentamiento en el \xE1mbito de la cr\xEDtica
+      literaria latinoamericana.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 444594407845888
-    m_Localized: "El Teatro Nacional Eduardo Brito es parte del complejo Plaza de
-      la Cultura, ubicado en Santo Domingo. El teatro abri\xF3 sus puertas el 16
-      de agosto de 1973 y es la pieza central del complejo. Est\xE1 rodeado de varios
-      museos e instituciones culturales."
+    m_Localized: "El Teatro Nacional Eduardo Brito es parte del complejo \u201CPlaza
+      de la Cultura\u201D, ubicado en Santo Domingo. El teatro abri\xF3 sus puertas
+      el 16 de agosto de 1973 y es la pieza central del complejo. Est\xE1 rodeado
+      de varios museos e instituciones culturales.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 444558894673920
     m_Localized: "El Alc\xE1zar de Col\xF3n o Palacio Virreinal de Don Diego Col\xF3n
-      es un palacio de inicios del siglo XVI, ubicado en la Plaza de Espa\xF1a en
+      es un palacio de inicios del siglo XVI ubicado en la Plaza de Espa\xF1a en
       la Ciudad Colonial de Santo Domingo."
     m_Metadata:
       m_Items: []
@@ -162,23 +163,24 @@ MonoBehaviour:
     m_Localized: "El Palacio Nacional de la Rep\xFAblica Dominicana es el lugar de
       trabajo del Presidente de la Rep\xFAblica y sede del Poder Ejecutivo del pa\xEDs.
       Es una de las obras m\xE1s emblem\xE1ticas donde se encuentran, adem\xE1s,
-      las oficinas del Vicepresidente de la Rep\xFAblica."
+      las oficinas del Vicepresidente de la Rep\xFAblica.\r\n"
     m_Metadata:
       m_Items: []
   - m_Id: 448334871375872
-    m_Localized: Franja impresas en el billete con material iridiscente, que funcionan
-      como un elemento de seguridad.
+    m_Localized: Franjas impresas en el billete con material iridiscente. Funcionan
+      como elementos de seguridad.
     m_Metadata:
       m_Items: []
   - m_Id: 448613163446272
-    m_Localized: "Jos\xE9 Rufino Reyes y Siancas fue un m\xFAsico y compositor Dominicano
-      conocido por escribir la m\xFAsica del Himno Nacional Dominicano. Tambi\xE9n
-      escribi\xF3 vales, marchas y m\xFAsica religiosa."
+    m_Localized: "Jos\xE9 Rufino Reyes fue un m\xFAsico y compositor Dominicano conocido
+      por haber musicalizado el Himno Nacional Dominicano en 1883, estrenado en agosto
+      16 de ese mismo a\xF1o con motivo del 20\xB0 aniversario de la Restauraci\xF3n."
     m_Metadata:
       m_Items: []
   - m_Id: 448583362916352
-    m_Localized: Emilio Prud'Homme y Maduro fue un abogado Dominicano. Fue el autor
-      y compositor de las letras del Himno Nacional Dominicano.
+    m_Localized: "Emilio Prud'Homme y Maduro fue un abogado y autor dominicano. Exalt\xF3
+      los valores patrios en su obra, siendo la m\xE1s importante de todas el poema
+      del Himno Nacional Dominicano, escrito en 1883."
     m_Metadata:
       m_Items: []
   - m_Id: 451454812794880
@@ -298,8 +300,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: "Los m\xE9todos de seguridad que emplean los billetes dominicanos
-      para evitar falsificaciones y para verificar su legitimidad."
+    m_Localized: "Aprende los m\xE9todos de seguridad empleados en el papel moneda
+      dominicano para evitar falsificaciones y verificar su legitimidad."
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
@@ -307,8 +309,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830136102400000
-    m_Localized: "De la historia detr\xE1s de cada uno de tus billetes de uso diario
-      y el porqu\xE9 de c\xF3mo son sus s\xEDmbolos, letras y texturas."
+    m_Localized: "Ent\xE9rate de la historia detr\xE1s de cada uno de tus billetes
+      de uso diario y el porqu\xE9 de sus s\xEDmbolos, tipograf\xEDas y texturas."
     m_Metadata:
       m_Items: []
   - m_Id: 830366508101632
@@ -316,8 +318,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 830461278400512
-    m_Localized: "La historia de cada billete de la Rep\xFAblica Dominicana para
-      as\xED conocer qu\xE9 es lo que hay detr\xE1s de cada billete."
+    m_Localized: "Visita la historia de cada billete en la Rep\xFAblica Dominicana
+      y conoce qu\xE9 hay detr\xE1s de su emblem\xE1tico dise\xF1o."
     m_Metadata:
       m_Items: []
   - m_Id: 832370001293312
