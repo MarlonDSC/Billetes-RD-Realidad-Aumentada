@@ -12,7 +12,7 @@ public class billeteInfo : MonoBehaviour
     [SerializeField] private Sprite imagen;
     private infoCarrier chest;
 
-    public Animator btnVolver, btnRotar/*, btnAR*/;
+    public Animator btnVolver, btnRotar;
     // Start is called before the first frame update
     void Start(){
         GetComponent<Button>().onClick.AddListener(() => StartCoroutine(accion()));
@@ -40,13 +40,12 @@ public class billeteInfo : MonoBehaviour
         chest.lastScene = gameObject.scene.name;
         chest.regreso = true;
 
-        Animator[] animations = {btnVolver, btnRotar, /*btnAR*/};
+        Animator[] animations = {btnVolver, btnRotar};
         foreach(Animator animacion in animations){
             animacion.Rebind();
         }
         btnVolver.Play("btnVolver");
-        //btnRotar.Play("btnAR");
-    //btnAR.Play("btnAR");
+        btnRotar.Play("btnAR");
 
         float segundos = 0f;
         while(segundos < 0.5f){
