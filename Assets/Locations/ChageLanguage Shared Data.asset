@@ -315,6 +315,18 @@ MonoBehaviour:
     m_Key: Donald Guerrero
     m_Metadata:
       m_Items: []
+  - m_Id: 9019273133404160
+    m_Key: scanerTXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019299750457344
+    m_Key: enfocarTxt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019343065034752
+    m_Key: MasInfo
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

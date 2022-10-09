@@ -310,9 +310,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: "Apprenez les m\xE9thodes de s\xE9curit\xE9 utilis\xE9es dans le
-      papier-monnaie dominicain pour pr\xE9venir la contrefa\xE7on et v\xE9rifier
-      sa l\xE9gitimit\xE9."
+    m_Localized: "D\xE9couvrez les m\xE9thodes et les \xE9l\xE9ments de s\xE9curit\xE9
+      pr\xE9sents dans la conception du papier-monnaie dominicain."
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
@@ -393,6 +392,19 @@ MonoBehaviour:
       2020, reconnu comme le meilleur de sa profession en 2018 par le magazine The
       Banker. C'est un homme d'affaires, professeur et \xE9conomiste dominicain,
       \xE9galement fondateur du groupe Axis Automotive."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019343065034752
+    m_Localized: "Pour en savoir plus sur les informations utilis\xE9es dans cette
+      application, cliquez sur l'ic\xF4ne \xE0 gauche."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019299750457344
+    m_Localized: "Mettez le billet devant la cam\xE9ra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019273133404160
+    m_Localized: Analyse
     m_Metadata:
       m_Items: []
   references:

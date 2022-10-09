@@ -300,8 +300,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 829787631235072
-    m_Localized: "Aprende los m\xE9todos de seguridad empleados en el papel moneda
-      dominicano para evitar falsificaciones y verificar su legitimidad."
+    m_Localized: "Aprende sobre los m\xE9todos y elementos de seguridad presentes
+      en el dise\xF1o del papel moneda dominicano."
     m_Metadata:
       m_Items: []
   - m_Id: 829924160024576
@@ -381,6 +381,19 @@ MonoBehaviour:
       2016 hasta 2020, reconocido como el mejor de su ocupaci\xF3n en el a\xF1o 2018
       por la revista The Banker. Es un empresario, catedr\xE1tico y economista dominicano,
       fundador tambi\xE9n del Axis Automotive Group."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019343065034752
+    m_Localized: "Para conocer con m\xE1s detalles las informaciones empleadas en
+      esta aplicaci\xF3n, pulsa en el \xEDcono de la izquierda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019299750457344
+    m_Localized: "Coloca el billete frente a la c\xE1mara."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9019273133404160
+    m_Localized: Escanear
     m_Metadata:
       m_Items: []
   references:
