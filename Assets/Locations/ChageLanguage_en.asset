@@ -363,10 +363,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7913569312026624
-    m_Localized: "H\xE9ctor Manuel Valdez Albizu is the current governor of the Central
-      Bank of the Dominican Republic and is also the one who has held this position
-      for the longest time; he is a Dominican economist and author of numerous works
-      related to economics"
+    m_Localized: He is a Dominican economist and author who serves as the current
+      Governor of the Central Bank of the Dominican Republic. He is also the one
+      who has held this position for the longest time, from 2004 to the present.
     m_Metadata:
       m_Items: []
   - m_Id: 7913400906526720
@@ -374,10 +373,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 7913636555108352
-    m_Localized: Minister of Finance of the Dominican Republic from 2016 to 2020,
-      recognized as the best of his occupation in 2018 by The Banker magazine. He
-      is a Dominican businessman, professor and economist, also founder of the Axis
-      Automotive Group.
+    m_Localized: He is a Dominican businessman, professor and economist, who was
+      Minister of Finance of the Dominican Republic from 2016 to 2020, being recognized
+      as the best in his occupation in 2018 by The Banker magazine.
     m_Metadata:
       m_Items: []
   - m_Id: 9019343065034752
