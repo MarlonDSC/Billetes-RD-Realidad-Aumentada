@@ -3127,7 +3127,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "H\xE9ctor Valdez Albizu"
+  m_text: "H\xE9ctor Vald\xE9z Albizu"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -22510,7 +22510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Description: {fileID: 1163519358}
   Titulo: {fileID: 1931658113}
-  imagen: {fileID: -216970650, guid: 2a0d693bf4ada4b4392cfe758b5e5972, type: 3}
+  imagen: {fileID: 21300000, guid: 920176238e44adf4c89733cafbb4cb69, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
 --- !u!114 &8622342098153077205
@@ -22663,7 +22663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Description: {fileID: 1163519358}
   Titulo: {fileID: 1931658113}
-  imagen: {fileID: -312943638, guid: 0000c78218764f74594434d9c93db666, type: 3}
+  imagen: {fileID: 21300000, guid: 8c9f3ef9d29b31241a6fc98e65ae218c, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
 --- !u!114 &8622342098346364635
@@ -22765,7 +22765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Description: {fileID: 1163519358}
   Titulo: {fileID: 1931658113}
-  imagen: {fileID: 1221669076, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
+  imagen: {fileID: 21300000, guid: c64d7ba7478e5b64fa5943ab67e549e9, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
 --- !u!114 &8622342098656184458
@@ -22986,7 +22986,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Description: {fileID: 1163519358}
   Titulo: {fileID: 1931658113}
-  imagen: {fileID: -228609877, guid: 688cc6097ebf4b44fa355f728b0ac744, type: 3}
+  imagen: {fileID: 21300000, guid: 158259ac529360742b4e026646aeea35, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
 --- !u!114 &8622342099002296366
@@ -23122,7 +23122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Description: {fileID: 1163519358}
   Titulo: {fileID: 1931658113}
-  imagen: {fileID: 618312056, guid: 3c8ac43a80b2d5c4aa122efad9db0f01, type: 3}
+  imagen: {fileID: 21300000, guid: cfa58134115fec64c81fe550aeb3abce, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
 --- !u!114 &8622342099225016945
@@ -23683,7 +23683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Description: {fileID: 1163519358}
   Titulo: {fileID: 1931658113}
-  imagen: {fileID: 779120463, guid: 177b5d37aeb33dc4e8a516b936f834fe, type: 3}
+  imagen: {fileID: 21300000, guid: 33213da2675e30c42bce27238ea79ad7, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
 --- !u!114 &8670611127418645076
