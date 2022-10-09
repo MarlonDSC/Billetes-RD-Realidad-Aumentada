@@ -708,9 +708,9 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: 
+    functionName: iniciarSonido
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: 3ce3098c21f3aaf43bc4139bee986c30, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
