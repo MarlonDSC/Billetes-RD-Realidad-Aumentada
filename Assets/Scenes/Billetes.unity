@@ -23460,8 +23460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7851c64d21df1854e8078208b9a3a09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Description: {fileID: 491682659}
-  Titulo: {fileID: 1536271935}
+  Description: {fileID: 1536271935}
+  Titulo: {fileID: 491682659}
   imagen: {fileID: -756532395, guid: 4a53b51e15c00594cacdf0171e45d526, type: 3}
   btnVolver: {fileID: 2004403104}
   btnRotar: {fileID: 1719293332}
