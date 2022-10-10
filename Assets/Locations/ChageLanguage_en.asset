@@ -391,6 +391,16 @@ MonoBehaviour:
     m_Localized: Scan
     m_Metadata:
       m_Items: []
+  - m_Id: 9368706601693184
+    m_Localized: By activating this option, the scanned model remains active even
+      if the camera loses focus on the banknote.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9368807453732864
+    m_Localized: By selecting one of the flags you can switch between the different
+      languages available.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

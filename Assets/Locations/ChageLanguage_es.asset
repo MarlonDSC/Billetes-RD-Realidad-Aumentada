@@ -395,6 +395,16 @@ MonoBehaviour:
     m_Localized: Escanear
     m_Metadata:
       m_Items: []
+  - m_Id: 9368706601693184
+    m_Localized: Al activar esta opcion, el modelo escaneado permanece activo aunque
+      la camara pierda el enfoque de el billete.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9368807453732864
+    m_Localized: Seleccionando una de las banderas podra cambiar entre los diferentes
+      idiomas disponibles.
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
