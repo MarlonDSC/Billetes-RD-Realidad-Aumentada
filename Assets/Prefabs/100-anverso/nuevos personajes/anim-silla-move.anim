@@ -198,7 +198,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 60.6
+    m_StopTime: 84
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -714,10 +714,24 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 60.6
-    functionName: 
+  - time: 3.24
+    functionName: funcionandoAnim
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: f887ffa50dc1b4641a1ff6fd5ecad061, type: 3}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 27.52
+    functionName: iniciarSonido
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: 3ce3098c21f3aaf43bc4139bee986c30, type: 3}
+    floatParameter: 0
+    intParameter: 1
+    messageOptions: 0
+  - time: 84
+    functionName: funcionandoAnim
+    data: 
+    objectReferenceParameter: {fileID: 11500000, guid: f887ffa50dc1b4641a1ff6fd5ecad061, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0

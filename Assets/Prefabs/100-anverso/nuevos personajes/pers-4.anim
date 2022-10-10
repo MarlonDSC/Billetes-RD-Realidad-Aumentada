@@ -6710,7 +6710,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 60
+    m_StopTime: 84
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -47319,10 +47319,10 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 60
-    functionName: 
+  - time: 84
+    functionName: funcionandoAnim
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: f887ffa50dc1b4641a1ff6fd5ecad061, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
