@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scroll_Snap.unity
     guid: dae5ea06633c45e4f9bffa6afa98c239
+  - enabled: 1
+    path: Assets/Scenes/Temas.unity
+    guid: bda58ca3a1224d44eadd6d2da38a56a9
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: cfb860e8c92b5ed419c1513d731c1f85, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: fb1a6457fcc52e540b5e6665cec3b125, type: 2}

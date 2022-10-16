@@ -788,14 +788,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
+  scene: Temas
   numBillete: 3
+  billetes_temas: 0
 --- !u!1 &6854118232099968072
 GameObject:
   m_ObjectHideFlags: 0
@@ -943,14 +938,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
+  scene: Temas
   numBillete: 1
+  billetes_temas: 0
 --- !u!1 &6854118232275267550
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,14 +1088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
+  scene: Temas
   numBillete: 2
+  billetes_temas: 0
 --- !u!1 &6854118232945532866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,14 +1238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
+  scene: Temas
   numBillete: 4
+  billetes_temas: 0
 --- !u!1 &6854118233166059699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,14 +1388,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
+  scene: Temas
   numBillete: 0
+  billetes_temas: 0
 --- !u!1 &6854118233399844425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1607,14 +1582,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
+  scene: Temas
   numBillete: 5
+  billetes_temas: 0
 --- !u!1 &7685295282464743965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,14 +1732,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
-  numBillete: 5
+  scene: Temas
+  numBillete: 7
+  billetes_temas: 0
 --- !u!1 &8837774192466612911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,11 +1882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ccb6ef7e34092f468055fce92ae693c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnNext: {fileID: 0}
-  btnBack: {fileID: 0}
-  scroll: {fileID: 0}
-  linea: {fileID: 0}
-  barraScroll: {fileID: 0}
-  titulo: {fileID: 0}
-  scene: Billetes
-  numBillete: 5
+  scene: Temas
+  numBillete: 6
+  billetes_temas: 0
