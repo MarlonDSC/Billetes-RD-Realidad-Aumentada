@@ -32,7 +32,14 @@ public class scrollToBillete : MonoBehaviour
         string txtTitulo = titulo.text;
         Transform padre = transform.parent;
 
-        chest.billete = numBillete;
+        if(billetes_temas){
+            chest.billete = numBillete;
+        }else{
+            chest.topico = numBillete;
+            chest.titulo = transform.GetChild(0).GetComponent<Text>().text;
+            chest.descripcion = transform.GetChild(1).GetComponent<Text>().text;
+        }
+
         chest.size = GetComponent<RectTransform>().sizeDelta;
         chest.position = transform.position;
         chest.billetes_temas = billetes_temas;

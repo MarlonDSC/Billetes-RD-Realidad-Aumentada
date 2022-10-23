@@ -12,7 +12,7 @@ public class scrollChanger : MonoBehaviour
     public Button AR;
     public TMP_Dropdown menu;
     private bool cambiar = false;
-    public GameObject Billetes, Historias;
+    public GameObject Billetes, Temas;
     private billeteActual regreso;
     public Image linea;
     public Text titulo;
@@ -43,7 +43,8 @@ public class scrollChanger : MonoBehaviour
                 StartCoroutine(animRegrasar(scrollSnap.GetChild(0).GetChild(0), regreso.billete));
             }
         }else{
-            Instantiate(Billetes, fondo);
+            cambiar = true;
+            Instantiate(Temas, fondo);
             reUbicarScrollSnap();
 
             if(regreso.topico > -1){
@@ -142,7 +143,7 @@ public class scrollChanger : MonoBehaviour
 
         }else{
             regreso.billete = index;
-            Instantiate(Historias, fondo);
+            Instantiate(Temas, fondo);
             cambiar = true;
 
             if(regreso.topico > -1){

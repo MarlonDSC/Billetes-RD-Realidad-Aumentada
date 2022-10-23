@@ -3270,7 +3270,7 @@ MonoBehaviour:
   AR: {fileID: 237414154}
   menu: {fileID: 882152503}
   Billetes: {fileID: 5762768163380393803, guid: 5606edbc9cb1df248a767fb41c4b3967, type: 3}
-  Historias: {fileID: 265505436331023432, guid: fccfeec9d81b70b45a56bfa21b689bc7, type: 3}
+  Temas: {fileID: 265505436331023432, guid: fccfeec9d81b70b45a56bfa21b689bc7, type: 3}
   linea: {fileID: 1609108164}
   titulo: {fileID: 428314403}
 --- !u!1 &924534787

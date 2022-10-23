@@ -10,6 +10,8 @@ public class billeteActual : MonoBehaviour
     [NonSerialized] public Vector3 position;
     [NonSerialized] public static billeteActual existoBilleteActual;
     [NonSerialized] public bool billetes_temas = true;
+    [NonSerialized] public string titulo;
+    [NonSerialized] public string descripcion;
     void Start(){
         if(existoBilleteActual == null){
             existoBilleteActual = this;
