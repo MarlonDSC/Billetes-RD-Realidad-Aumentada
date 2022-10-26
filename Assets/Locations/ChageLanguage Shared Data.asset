@@ -335,6 +335,70 @@ MonoBehaviour:
     m_Key: Language_HELP
     m_Metadata:
       m_Items: []
+  - m_Id: 15158291734704128
+    m_Key: 0-Historioa(Title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158358378000384
+    m_Key: 0-Historioa(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158443795001344
+    m_Key: 1-Familia(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158446068314112
+    m_Key: 1-Familia(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158448001888256
+    m_Key: 2-Familia(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158449767690240
+    m_Key: 2-Familia(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158451579629568
+    m_Key: 3-Familia(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158453425123328
+    m_Key: 3-Familia(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158455157370880
+    m_Key: 4-Familia(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158668056047616
+    m_Key: 4-Familia(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158691640619008
+    m_Key: 5-Familia(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158693351895040
+    m_Key: 5-Familia(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158710523375616
+    m_Key: 6-Familia(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158711827804160
+    m_Key: 6-Familia(D)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158732996456448
+    m_Key: 0-Comemo(title)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15158734837755904
+    m_Key: 0-Comemo(D)
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

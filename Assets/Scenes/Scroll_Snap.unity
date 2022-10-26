@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311992, g: 0.38074034, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3169,7 +3169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 141.47508, y: 113.0159}
+  m_AnchoredPosition: {x: 141.4751, y: 113.0159}
   m_SizeDelta: {x: 160, y: 115.04001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907621792
@@ -3270,7 +3270,7 @@ MonoBehaviour:
   AR: {fileID: 237414154}
   menu: {fileID: 882152503}
   Billetes: {fileID: 5762768163380393803, guid: 5606edbc9cb1df248a767fb41c4b3967, type: 3}
-  Temas: {fileID: 265505436331023432, guid: fccfeec9d81b70b45a56bfa21b689bc7, type: 3}
+  Temas: {fileID: 8817273228136998947, guid: c4fe596e8123b4549863c960de4bc093, type: 3}
   linea: {fileID: 1609108164}
   titulo: {fileID: 428314403}
 --- !u!1 &924534787
