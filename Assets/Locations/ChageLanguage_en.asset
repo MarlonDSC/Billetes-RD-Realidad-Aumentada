@@ -412,33 +412,33 @@ MonoBehaviour:
       entity, this being the only body empowered to issue banknotes and coins in
       the Dominican territory.
 
-      
 
-      From its creation to date, it has
-      launched six families of banknotes, which have evolved according to technological
-      advances in banknotes, according to the different periods in which they were
-      issued.
 
-      
+      From its creation to date, it has launched
+      six families of banknotes, which have evolved according to technological advances
+      in banknotes, according to the different periods in which they were issued.
 
-      
 
-      Before the creation of the Central Bank of
-      the Dominican Republic and during the first North American intervention, the
-      monetary circulation was made up of banknotes and gold denomination coins from
-      the United States and other countries, the remains of some fiduciary currencies
-      from the last century, sugar mills and municipal bills, a situation that was
-      maintained until the beginning of the government administration of Rafael L.
-      Trujillo Molina.
 
-      
 
-      On February 21, 1937, Law No. 1259 was enacted,
-      considered the creator of the national currency, and in which a series of regulations
-      are contemplated to govern the minting of coins of all denominations, taking
-      into consideration that the They had to be minted under equal conditions to
-      the American currency in terms of fineness, weight, shape, dimensions and scale
-      of units. This model was in force until 1975.'
+
+      Before
+      the creation of the Central Bank of the Dominican Republic and during the first
+      North American intervention, the monetary circulation was made up of banknotes
+      and gold denomination coins from the United States and other countries, the
+      remains of some fiduciary currencies from the last century, sugar mills and
+      municipal bills, a situation that was maintained until the beginning of the
+      government administration of Rafael L. Trujillo Molina.
+
+
+
+      On February
+      21, 1937, Law No. 1259 was enacted, considered the creator of the national
+      currency, and in which a series of regulations are contemplated to govern the
+      minting of coins of all denominations, taking into consideration that the They
+      had to be minted under equal conditions to the American currency in terms of
+      fineness, weight, shape, dimensions and scale of units. This model was in force
+      until 1975.'
     m_Metadata:
       m_Items: []
   - m_Id: 15158443795001344
@@ -537,9 +537,9 @@ MonoBehaviour:
       design similar to the RD$20 cotton bill, with security measures adapted to
       the new substrate.
 
-      Additionally, in 2011, the name of the national
-      monetary unit "Golden Pesos" was replaced by "Dominican Pesos", in compliance
-      with the provisions of Article 229 of the Constitution of the Republic, promulgated
+      Additionally, in 2011, the name of the national monetary
+      unit "Golden Pesos" was replaced by "Dominican Pesos", in compliance with the
+      provisions of Article 229 of the Constitution of the Republic, promulgated
       on 26 January 2010, when the Central Bank introduced changes to the substrate
       of low-denomination banknotes and included a new security element called SPARK
       in high-denomination banknotes. Currently, seven bill denominations are in
@@ -597,6 +597,38 @@ MonoBehaviour:
       bill, being the only one designed entirely by Dominicans. Other bills of RD$1000,
       RD$500 and RD$20 were then issued, but only with the inscriptions alluding
       to said commemoration.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19930900494004224
+    m_Localized: History of the Central Bank of the Dominican Republic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19930946841063424
+    m_Localized: commemorative banknotes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931014344192000
+    m_Localized: Sixth family of banknotes 2014-Present
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931084506509312
+    m_Localized: Fifth family of banknotes 2000-2013
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931146666094592
+    m_Localized: Fourth family of banknotes 1977-1998
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931137870639104
+    m_Localized: Third family of banknotes 1964-1978
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931143092547584
+    m_Localized: Second family of banknotes 1962-1964
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931150407413760
+    m_Localized: First family of banknotes 1947 -1961
     m_Metadata:
       m_Items: []
   references:
