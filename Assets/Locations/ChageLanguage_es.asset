@@ -584,6 +584,38 @@ MonoBehaviour:
       pero s\xF3lo con las inscripciones alusivas a dicha conmemoraci\xF3n."
     m_Metadata:
       m_Items: []
+  - m_Id: 19930900494004224
+    m_Localized: "Historia del Banco Central de la Rep\xFAblica Dominicana"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19930946841063424
+    m_Localized: Billetes conmemorativos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931014344192000
+    m_Localized: Sexta familia de billetes 2014-Actualidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931084506509312
+    m_Localized: Quinta familia de billetes 2000-2013
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931146666094592
+    m_Localized: Cuarta familia de billetes 1977-1998
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931137870639104
+    m_Localized: Tercera familia de billetes 1964-1978
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931143092547584
+    m_Localized: Segunda familia de billetes 1962-1964
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19931150407413760
+    m_Localized: Primera familia de billetes 1947 -1961
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

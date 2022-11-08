@@ -3169,7 +3169,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 90.71, y: 76.71}
+  m_AnchoredPosition: {x: 90.70999, y: 76.70999}
   m_SizeDelta: {x: 107.01, y: 107.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &907621792
@@ -3270,7 +3270,7 @@ MonoBehaviour:
   AR: {fileID: 237414154}
   menu: {fileID: 882152503}
   Billetes: {fileID: 5762768163380393803, guid: 5606edbc9cb1df248a767fb41c4b3967, type: 3}
-  Temas: {fileID: 8817273228136998947, guid: c4fe596e8123b4549863c960de4bc093, type: 3}
+  Temas: {fileID: 3326738214654073124, guid: e3323bad999611e4e8c4caefc03e58bd, type: 3}
   linea: {fileID: 1609108164}
   titulo: {fileID: 428314403}
 --- !u!1 &924534787
